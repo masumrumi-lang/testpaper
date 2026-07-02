@@ -28,7 +28,10 @@ const DataLoader = (() => {
   function _loadManifest() {
     if (_manifestPromise) return _manifestPromise;
 
-    _manifestPromise = fetch('static-data/manifest.json')
+    // Use absolute path from repository root for GitHub Pages compatibility
+    const manifestPath = '/testpaper/static-data/manifest.json';
+    
+    _manifestPromise = fetch(manifestPath)
       .then(function (res) {
         if (!res.ok) {
           throw new Error(
