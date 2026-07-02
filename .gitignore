@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.python-version
+
+# Node / JS
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.orig
+
+# Notebook checkpoints
+.ipynb_checkpoints/
