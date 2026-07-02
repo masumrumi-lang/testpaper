@@ -1,0 +1,21 @@
+HSC MCQ Bank Audit Discrepancy Report
+=====================================
+
+Summary:
+Total Rows Scanned (Excluding Ch 1/8): 1510
+Perfect Rows: 1499
+Problematic Rows: 11
+
+Detailed Discrepancies:
+-----------------------
+Row 108: Duplicate of Row 10
+Row 411: Duplicate of Row 370
+Row 413: Duplicate of Row 362
+Row 536: Stimulus/Table mentioned but no text table found
+Row 733: Duplicate of Row 716
+Row 850: Duplicate of Row 849
+Row 882: Duplicate of Row 862
+Row 1110: Duplicate of Row 1085
+Row 1213: Duplicate of Row 1072
+Row 1272: Duplicate of Row 1246
+Row 1430: Duplicate of Row 1279

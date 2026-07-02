@@ -1,0 +1,135 @@
+{
+  "subjects": {
+    "acc1": {
+      "name": "Accounting 1st Paper",
+      "chapters": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "file": "static-data/acc1.json"
+    },
+    "fin1": {
+      "name": "Finance 1st Paper",
+      "chapters": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "file": "static-data/fin1.json"
+    },
+    "fin2": {
+      "name": "Finance 2nd Paper",
+      "chapters": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "file": "static-data/fin2.json"
+    },
+    "agr1": {
+      "name": "Agriculture 1st Paper",
+      "chapters": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "file": "static-data/agr1.json"
+    },
+    "agr2": {
+      "name": "Agriculture 2nd Paper",
+      "chapters": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "file": "static-data/agr2.json"
+    },
+    "acc2": {
+      "name": "Accounting 2nd Paper",
+      "chapters": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "file": "static-data/acc2.json"
+    },
+    "ict": {
+      "name": "ICT",
+      "chapters": [
+        "1"
+      ],
+      "file": "static-data/ict.json"
+    },
+    "bus2": {
+      "name": "Business Organization & Management 2nd Paper",
+      "chapters": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "file": "static-data/bus2.json"
+    },
+    "bus1": {
+      "name": "Business Organization and Management",
+      "chapters": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "file": "static-data/bus1.json"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+        "id": "28",
+        "stem": "<p>A diagram representing the Management Cycle with one missing function indicated by a question mark (?). (Planning $$\\rightarrow$$ Organizing $$\\rightarrow$$ Staffing $$\\rightarrow$$ Directing $$\\rightarrow$$? $$\\rightarrow$$ Coordinating $$\\rightarrow$$ Controlling.)</p>",
+        "meta": "Jessore Board · 2023",
+        "type": "board",
+        "questions": [
+            {
+                "label": "a",
+                "text": "What is the Industrial Revolution? (1)",
+                "answer": "<p>The Industrial Revolution refers to the period between 1760 and 1840 characterized by the transition from manual labor to machine-based manufacturing. This era gave birth to modern management to handle large-scale production.</p>"
+            },
+            {
+                "label": "b",
+                "text": "What is the necessity of the \"Unity of Command\" principle? (2)",
+                "answer": "<p>Unity of Command is necessary to ensure that an employee receives orders from only one superior. This prevents confusion, avoids conflicting instructions, ensures accountability, and maintains organizational discipline.</p>"
+            },
+            {
+                "label": "c",
+                "text": "Which management function is missing in the diagram? Explain. (3)",
+                "answer": "<p>The missing function indicated by the \"?\" is Motivating (প্রেষণা).\n* Definition: It is the process of inspiring and encouraging employees to perform their duties with maximum enthusiasm and sincerity.\n* Placement: In the management cycle, it typically follows Directing and leads to Coordinating.\n* Importance: Without motivation, employees may lack the drive to achieve the targets set in the planning stage.</p>"
+            },
+            {
+                "label": "d",
+                "text": "Why is management called a continuous process? Explain in light of the diagram. (4)",
+                "answer": "<p>Management is called a continuous (or ongoing) process because its functions are interrelated and repeat in a circular sequence.\n* The Cycle: As shown in the diagram image_125912.png, management starts with Planning, followed by organizing, staffing, directing, motivating, and coordinating, ending with Controlling.\n* Repetition: Once a goal is achieved or a deviation is found during control, it leads back to a new plan.\n*Sustainability: As long as an organization exists, this cycle must keep running to handle new challenges and maintain growth.</p>"
+            }
+        ]
+    }

@@ -1,0 +1,95 @@
+/* Global Responsive Styles */
+
+/* 1. Fluid Widths & Box Sizing */
+html {
+    font-size: 16px; /* Base for rem units */
+}
+
+body {
+    overflow-x: hidden; /* Prevent horizontal scroll on body */
+}
+
+/* 2. Image & Media Scaling */
+img, video, canvas, svg:not([width]) {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 3. Universal Table Handling */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+/* Ensure table headers stay legible */
+table th {
+    white-space: nowrap !important;
+    min-width: 40px;
+}
+
+table td {
+    min-width: 30px;
+}
+
+/* 4. Button Optimization for Mobile */
+@media (max-width: 767px) {
+    .btn-mobile-full {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        padding-top: 0.75rem !important;
+        padding-bottom: 0.75rem !important;
+        min-height: 44px;
+    }
+    
+    /* Increase touch target size for links */
+    nav a, .nav-link {
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* 5. Typography & Spacing (Reduced on Mobile) */
+@media (max-width: 640px) {
+    .container-mobile-tight {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    
+    h1 { font-size: 1.5rem !important; }
+    h2 { font-size: 1.25rem !important; }
+    h3 { font-size: 1.1rem !important; }
+    
+    .section-spacing {
+        margin-top: 1.5rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+}
+
+/* 6. Mobile Sidebar / Hamburger Menu */
+#mobileSidebar {
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+}
+
+#mobileSidebar.active {
+    transform: translateX(0);
+}
+
+#mobileOverlay {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 40;
+}
+
+#mobileOverlay.active {
+    display: block;
+}
+
+/* 7. Utilities */
+.no-wrap { white-space: nowrap; }
+.overflow-touch { -webkit-overflow-scrolling: touch; }

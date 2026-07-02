@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="900" height="900" role="img" aria-label="Conceptual Diagram">
+  <defs>
+    <style>
+      .stroke { stroke: #000; stroke-width:6; fill: none }
+      .thin { stroke-width:3 }
+      .label { font-family: Arial, Helvetica, sans-serif; font-size:28px; text-anchor:middle; fill:#000 }
+    </style>
+  </defs>
+  <!-- Outer ring -->
+  <g transform="translate(500,500)">
+    <circle r="380" class="stroke"/>
+    <!-- inner wheel -->
+    <circle r="260" class="thin stroke"/>
+    <!-- central hub -->
+    <circle r="20" fill="#fff" class="stroke"/>
+
+    <!-- spokes (7) evenly around -->
+    <!-- use rotation to place spokes -->
+    <g>
+      <g transform="rotate(0)"><line x1="0" y1="0" x2="260" y2="0" class="thin stroke"/></g>
+      <g transform="rotate(51.4286)"><line x1="0" y1="0" x2="260" y2="0" class="thin stroke"/></g>
+      <g transform="rotate(102.8571)"><line x1="0" y1="0" x2="260" y2="0" class="thin stroke"/></g>
+      <g transform="rotate(154.2857)"><line x1="0" y1="0" x2="260" y2="0" class="thin stroke"/></g>
+      <g transform="rotate(205.7143)"><line x1="0" y1="0" x2="260" y2="0" class="thin stroke"/></g>
+      <g transform="rotate(257.1429)"><line x1="0" y1="0" x2="260" y2="0" class="thin stroke"/></g>
+      <g transform="rotate(308.5714)"><line x1="0" y1="0" x2="260" y2="0" class="thin stroke"/></g>
+    </g>
+
+    <!-- labels placed near outer edge, rotated appropriately -->
+    <text x="360" y="-10" class="label">Planning</text>
+    <text x="210" y="170" class="label">Organizing</text>
+    <text x="30" y="330" class="label">Staffing</text>
+    <text x="-180" y="320" class="label">Directing</text>
+    <text x="-320" y="150" class="label">Motivation</text>
+    <text x="-360" y="10" class="label">Coordination</text>
+    <text x="-140" y="-290" class="label">Controlling</text>
+
+    <!-- three circular arrows around outer ring -->
+    <path d="M380,-30 A380,380 0 0,1 120,352" class="stroke"/>
+    <path d="M-120,352 A380,380 0 0,1 -380,-30" class="stroke"/>
+    <path d="M-380,-30 A380,380 0 0,1 -120,-412" class="stroke"/>
+
+    <!-- arrowheads -->
+    <polygon points="420,-10 450,20 430,40" fill="#000" transform="rotate(0,420,-10)"/>
+    <polygon points="-420,10 -450,-20 -430,-40" fill="#000" transform="rotate(180,-420,10)"/>
+    <polygon points="0,-420 20,-450 -20,-430" fill="#000" transform="rotate(60,0,-420)"/>
+  </g>
+</svg>

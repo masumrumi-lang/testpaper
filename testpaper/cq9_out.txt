@@ -1,0 +1,11 @@
+{
+        "id": "09",
+        "stem": "<p>Reference: image_20031b.png. Diagram of the management cycle: Planning $$\\rightarrow$$ 'ক' $$\\rightarrow$$ Staffing $$\\rightarrow$$ Directing $$\\rightarrow$$ Motivating $$\\rightarrow$$ 'খ' $$\\rightarrow$$ Controlling.</p>",
+        "meta": "Chittagong Board · 2025",
+        "type": "board",
+        "questions": [
+            {
+                "label": "a",
+                "text": "(a) What is motivation? (1)",
+                "answer": "<p>Motivation is the process of inspiring and encouraging employees to work with interest and dedication to achieve organizational goals.</p>"
+            }

@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="icon" href="/favicon.ico?v=2">
+<title>Etestpaper | MCQ Practice</title>
+<style>@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,400&display=swap); @import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap);</style>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            poppins: ['Poppins', 'sans-serif']
+          }
+        }
+      }
+    }
+</script>
+<link rel="stylesheet" href="global.css">
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
+  },
+  options: {
+    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  },
+  startup: {
+    pageReady: () => {
+      return MathJax.startup.defaultPageReady().then(() => {
+        console.log('MathJax is ready');
+      });
+    }
+  }
+};
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body class="bg-gray-50 dark:bg-slate-900 transition-colors duration-300 font-sans">
+<div id="__next">
+<main class="min-h-screen">
+  
+<!-- Mobile Sidebar Overlay -->
+<div id="mobileOverlay" class="fixed inset-0 z-40 hidden transition-opacity duration-300"></div>
+
+<!-- Mobile Sidebar -->
+<aside id="mobileSidebar" class="fixed inset-y-0 left-0 z-50 w-72 bg-white dark:bg-gray-900 border-r border-gray-100 dark:border-gray-800 shadow-2xl lg:hidden">
+    <div class="flex flex-col h-full">
+        <div class="flex items-center justify-between p-4 border-b border-gray-100 dark:border-gray-800">
+            <div class="h-[28px] relative text-blue-600 font-bold text-xl poppins">etest<span class="text-sky-500">paper</span></div>
+            <button id="closeMobileMenuBtn" class="p-2 rounded-xl text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+            </button>
+        </div>
+        <nav class="flex-1 overflow-y-auto p-4 space-y-1">
+            <p class="px-3 pb-2 text-[10px] font-bold text-gray-400 uppercase tracking-widest poppins">Menu</p>
+            <a class="noto flex items-center gap-3 px-4 py-3 rounded-xl text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800/50" href="index.html">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z"/></svg>
+                <span>Dashboard</span>
+            </a>
+            <a class="noto flex items-center gap-3 px-4 py-3 rounded-xl bg-sky-50 dark:bg-sky-900/20 text-sky-700 dark:text-sky-300 font-medium" href="subjects.html">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/></svg>
+                <span>Chapter Preparation</span>
+            </a>
+        </nav>
+    </div>
+</aside>
+
+  <!-- Sidebar -->
+  <aside class="hidden lg:flex fixed inset-y-0 left-0 z-30 flex-col bg-white dark:bg-gray-900 border-r border-gray-100 dark:border-gray-800 transition-all duration-300 w-64">
+    <div class="shrink-0 border-b border-gray-100 dark:border-gray-800 transition-all duration-300 px-4 py-4">
+      <div class="flex items-center justify-between">
+        <a href="index.html">
+          <div class="h-[28px] w-[62px] relative">
+            <h1 class="text-xl font-bold text-sky-600 tracking-tight">eTestPaper</h1>
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    <nav class="flex-1 overflow-y-auto py-3 px-2">
+      <p class="px-3 pb-2 pt-1 text-[10px] font-bold text-gray-400 dark:text-gray-500 uppercase tracking-widest poppins">Menu</p>
+      <div class="grid gap-0.5">
+        <a class="flex items-center rounded-xl text-[13px] font-medium transition-all duration-200 gap-3 px-3 py-2.5 text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800/50" href="index.html">
+          <span class="shrink-0 "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z"></path></svg></span>
+          <span class="mt-0.5">Dashboard</span>
+        </a>
+        <a class="flex items-center rounded-xl text-[13px] font-medium transition-all duration-200 gap-3 px-3 py-2.5 bg-sky-50 dark:bg-sky-900/20 text-sky-700 dark:text-sky-300" href="subjects.html">
+          <span class="shrink-0 text-sky-500"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"></path></svg></span>
+          <span class="mt-0.5">Chapter Preparation</span>
+        </a>
+      </div>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <div class="transition-all duration-300 lg:ml-64">
+    <!-- Header -->
+    <header class="w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl border-b border-gray-200/60 dark:border-gray-700/40 sticky top-0 z-30">
+      <div class="flex items-center gap-3">
+    <div class="lg:hidden flex items-center gap-3">
+        <button id="mobileMenuBtn" type="button" class="p-1.5 -ml-1.5 rounded-xl text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path></svg>
+        </button>
+        <div class="h-[28px] relative text-blue-600 font-bold text-xl poppins">etest<span class="text-sky-500">paper</span></div>
+    </div>
+    <div class="hidden gap-1.5 xl:gap-2 items-center lg:flex">
+          <a class="text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 duration-200 h-9 px-4 items-center text-sm font-medium flex rounded-full transition-all" href="index.html">
+            <span class="inline-block align-middle mt-0.5">Home</span>
+          </a>
+        </div>
+        <div class="flex items-center gap-3">
+          <button id="themeToggleBtn" aria-label="Toggle dark mode" class="w-14 h-8 bg-gradient-to-r from-blue-100 to-purple-100 dark:from-gray-700 dark:to-gray-800 rounded-full p-1 transition-all duration-500 shadow-inner">
+            <div class="relative h-6 w-6 rounded-full bg-white dark:bg-gray-900 shadow-md flex items-center justify-center transition-transform duration-500" id="themeToggleThumb">
+              <span class="text-xs">☀️</span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <nav class="max-w-screen-2xl mx-auto w-full px-4 py-3 border-b border-gray-100 dark:border-gray-800">
+      <ol class="flex flex-wrap items-center gap-2 text-sm">
+        <li class="flex items-center"><a class="text-gray-500 hover:text-sky-500 transition-colors" href="index.html">Home</a></li>
+        <li class="flex items-center text-gray-400">/</li>
+        <li class="flex items-center"><a id="bc-subject" class="text-gray-500 hover:text-sky-500 transition-colors" href="subjects.html">Subject</a></li>
+        <li class="flex items-center text-gray-400">/</li>
+        <li class="flex items-center"><span id="bc-chapter" class="text-gray-900 dark:text-white font-medium">Chapter</span></li>
+        <li class="flex items-center text-gray-400">/</li>
+        <li class="flex items-center"><span class="text-sky-600 font-medium">MCQ Practice</span></li>
+      </ol>
+    </nav>
+
+    <!-- Filter Bar -->
+    <div class="max-w-screen-2xl w-full mx-auto px-4 pt-5">
+      <div class="flex flex-wrap items-center gap-3">
+        <div class="inline-flex rounded-full bg-gray-100 dark:bg-slate-800 p-1" id="filterBtnGroup">
+          <button id="filterAllBtn" class="px-4 py-1.5 rounded-full text-sm font-medium bg-white dark:bg-slate-600 text-gray-900 dark:text-white shadow-sm transition-colors">সকল</button>
+          <button id="filterCollegeBtn" class="px-4 py-1.5 rounded-full text-sm font-medium text-gray-500 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">কলেজ</button>
+          <button id="filterBoardBtn" class="px-4 py-1.5 rounded-full text-sm font-medium text-gray-500 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">বোর্ড</button>
+        </div>
+        <div class="relative">
+          <select id="topicFilter" class="appearance-none pl-4 pr-9 py-2 rounded-full text-sm font-medium border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-gray-700 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-sky-500 shadow-sm cursor-pointer">
+            <option value="all">All Topics</option>
+          </select>
+          <svg class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+        </div>
+        <div class="relative">
+          <select id="yearFilter" class="appearance-none pl-4 pr-9 py-2 rounded-full text-sm font-medium border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-gray-700 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-sky-500 shadow-sm cursor-pointer">
+            <option value="all">All Years</option>
+          </select>
+          <svg class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- MCQ Container -->
+    <div class="max-w-3xl mx-auto pb-6 px-2 mt-6">
+      
+      <!-- Top Title -->
+      <div class="flex justify-between w-full items-center mb-6">
+        <h2 class="text-lg lg:text-[24px] font-semibold items-center flex gap-4 text-gray-900 dark:text-white">
+          <svg class="hidden md:block" width="88" height="9" viewBox="0 0 88 9" fill="none"><rect width="88" height="9" rx="4.5" fill="#047FDB"></rect></svg>
+          <span>Practice MCQ</span>
+        </h2>
+        <div class="flex items-center gap-1 md:gap-3 px-4 md:px-0 py-4 justify-center">
+          <h2 class="font-semibold text-gray-500 text-md lg:text-sm">Show Ans:</h2>
+          <button id="globalShowAnsToggle" class="relative inline-flex items-center md:h-7 md:w-14 h-5 w-10 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out bg-gray-400 focus:outline-none">
+            <span class="inline-block md:h-6 md:w-6 w-4 h-4 rounded-full bg-white shadow-lg transform transition-transform duration-200 translate-x-0" id="globalShowAnsThumb"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Question List -->
+      <div class="grid gap-4" id="mcqListContainer">
+        <!-- Questions injected via script below -->
+      </div>
+      
+    </div>
+  </div>
+</main>
+</div>
+
+<!-- JS for Interactivity -->
+<script src="src/services/dataLoader.js"></script>
+<script>
+    // Parse URL parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const subjectId = urlParams.get('subject') || 'ict';
+    const chapterId = urlParams.get('chapter') || '1';
+
+    // Load data from DataLoader
+    let dbData = null;
+    let questionsData = [];
+
+    const mcqListContainer = document.getElementById('mcqListContainer');
+    let globalShowAns = false;
+    let currentFilter = 'all'; // can be 'all', 'college', 'board'
+    let currentYear = 'all';
+    let currentTopic = 'all';
+
+    // Load chapter asynchronously
+    DataLoader.loadChapter(subjectId, chapterId)
+        .then(function(chapterData) {
+            if (chapterData) {
+                dbData = chapterData;
+                questionsData = dbData.mcqData || [];
+                
+                // Update breadcrumbs
+                document.getElementById('bc-subject').innerText = dbData.subjectName || subjectId;
+                document.getElementById('bc-chapter').innerText = dbData.chapterName || ("Chapter " + chapterId);
+            } else {
+                document.getElementById('bc-subject').innerText = "Unknown Subject";
+                document.getElementById('bc-chapter').innerText = "Unknown Chapter";
+            }
+            // Initialize questions after data is loaded
+            initializeQuestions();
+        })
+        .catch(function(err) {
+            console.error("Failed to load chapter data:", err);
+            document.getElementById('bc-subject').innerText = "Error Loading";
+            document.getElementById('bc-chapter').innerText = "Please try again";
+            mcqListContainer.innerHTML = '<div class="p-6 text-center text-red-500 font-medium bg-red-50 dark:bg-red-950/20 rounded-2xl border border-red-100 dark:border-red-900/50">Error loading questions. Please check the console.</div>';
+        });
+    
+    function initializeQuestions() {
+        let html = '';
+        questionsData.forEach((q, index) => {
+            // Determine filter type - explicit type field takes priority, otherwise auto-detect
+            let filterType = 'college'; // default
+            if (q.type === 'board') {
+                filterType = 'board';
+            } else if (q.type === 'college') {
+                filterType = 'college';
+            } else {
+                // Auto-detect from meta
+                const metaLower = q.meta ? q.meta.toLowerCase() : '';
+                const boardKeywords = ['board', 'বোর্ড', 'dhaka', 'rajshahi', 'comilla', 'chittagong', 'sylhet', 'barisal', 'jessore', 'dinajpur', 'mymensingh', 'madrasa', 'technical'];
+                const isBoard = metaLower && boardKeywords.some(kw => metaLower.includes(kw));
+                const isCollege = metaLower && (metaLower.includes('college') || metaLower.includes('কলেজ') || metaLower.includes('school'));
+                filterType = isBoard ? 'board' : 'college';
+            }
+
+            const optionsHtml = q.options.map((opt, optIndex) => `
+                <button type="button" onclick="selectAnswer(${index}, ${optIndex})" id="opt-${index}-${optIndex}" class="group flex items-center gap-2.5 px-3 py-2.5 rounded-xl border transition-all duration-200 text-left bg-gray-50 dark:bg-gray-800 border-gray-200 dark:border-gray-700 hover:bg-sky-50 dark:hover:bg-sky-900/20 hover:border-sky-300 dark:hover:border-sky-600 w-full">
+                    <span id="opt-badge-${index}-${optIndex}" class="shrink-0 w-6 h-6 rounded-full border-2 flex items-center justify-center text-[11px] font-bold poppins transition-all duration-200 bg-white dark:bg-gray-900 text-gray-500 dark:text-gray-400 border-gray-300 dark:border-gray-600 group-hover:border-sky-400 group-hover:text-sky-500">
+                        ${String.fromCharCode(97 + optIndex)}
+                    </span>
+                    <span class="text-sm text-gray-700 dark:text-gray-300 flex-1">${opt}</span>
+                </button>
+            `).join('');
+
+            html += `
+            <div id="mcq-item-${index}" data-filter="${filterType}" class="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-sm overflow-hidden mb-4 hover:shadow-md transition-shadow">
+                <div class="px-4 sm:px-5 pt-4 sm:pt-5 pb-3">
+                    <div class="flex gap-3">
+                        <span class="shrink-0 w-8 h-8 rounded-lg bg-sky-100 dark:bg-sky-900/30 text-sky-600 dark:text-sky-400 flex items-center justify-center text-sm font-bold poppins">${index + 1}</span>
+                        <div class="flex-1 min-w-0">
+                            <div class="text-[15px] sm:text-base font-medium text-gray-800 dark:text-gray-200 leading-relaxed">
+                                ${q.text}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between mt-4 border-t border-gray-100 dark:border-gray-800 pt-3">
+                        <p class="poppins text-xs font-semibold text-gray-400 dark:text-gray-500">${q.meta}</p>
+                    </div>
+                </div>
+                <div class="px-4 sm:px-5 pb-2 grid grid-cols-1 gap-2" id="options-${index}">
+                    ${optionsHtml}
+                </div>
+                
+                <!-- Action Bar -->
+                <div class="px-4 sm:px-5 pb-4 flex justify-end">
+                    <button onclick="toggleExplanation(${index})" class="text-xs font-bold text-sky-600 dark:text-sky-400 hover:text-sky-700 dark:hover:text-sky-300 flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-50 dark:bg-sky-900/20 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-3.5 h-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" /></svg>
+                        <span>Show Explanation</span>
+                    </button>
+                </div>
+                
+                <!-- Explanation Box -->
+                <div id="explanation-${index}" class="hidden mx-4 mb-4 p-4 rounded-xl bg-sky-50 dark:bg-sky-900/10 border border-sky-100 dark:border-sky-800/50 transition-all duration-300">
+                    <div class="flex items-center gap-2 mb-2 text-sky-700 dark:text-sky-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                        </svg>
+                        <span class="font-bold text-sm">ব্যাখ্যা</span>
+                    </div>
+                    <div class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                        ${q.explanation || 'এই প্রশ্নের কোনো ব্যাখ্যা নেই।'}
+                    </div>
+                </div>
+            </div>
+            `;
+        });
+        mcqListContainer.innerHTML = html;
+        updateFilters(); // Populate dropdowns
+        filterQuestions(); // Apply initial filter
+    }
+
+    window.toggleExplanation = function(index) {
+        const expDiv = document.getElementById(`explanation-${index}`);
+        if (expDiv) {
+            expDiv.classList.toggle('hidden');
+            if (window.MathJax && !expDiv.classList.contains('hidden')) {
+                MathJax.typesetPromise([expDiv]);
+            }
+            const btn = event.currentTarget;
+            const span = btn.querySelector('span');
+            span.innerText = expDiv.classList.contains('hidden') ? 'Show Explanation' : 'Hide Explanation';
+        }
+    }
+
+    const topicKeywords = {
+        "Journal (জাবেদা)": ["journal", "জাবেদা"],
+        "Ledger (খতিয়ান)": ["ledger", "খতিয়ান", "টি-ছক", "চলমান জের"],
+        "Cash Book (নগদান বই)": ["cash book", "নগদান বই", "দুঘরা", "তিনঘরা"],
+        "Trial Balance (রেওয়ামিল)": ["trial balance", "রেওয়ামিল"],
+        "Straight Line Method (সরলরৈখিক)": ["straight line", "সরলরৈখিক", "স্থির কিস্তি"],
+        "Diminishing Balance (ক্রমহ্রাসমান)": ["diminishing balance", "ক্রমহ্রাসমান", "দ্বৈত"],
+        "Asset Disposal (বিক্রয়/নিষ্পত্তি)": ["disposal", "বিক্রয়", "লাভ-ক্ষতি", "অবচয় সঞ্চিতি"],
+        "Bank Reconciliation (ব্যাংক সমন্বয়)": ["bank reconciliation", "ব্যাংক বিবরণী", "ব্যাংক সমন্বয়"],
+        "Financial Statement (আর্থিক বিবরণী)": ["financial statement", "আর্থিক অবস্থার বিবরণী", "বিষদ আয় বিবরণী", "সম্পদ", "দায়"],
+        "Adjusting Entry (সমন্বয় দাখিলা)": ["adjusting", "সমন্বয় দাখিলা", "বকেয়া", "অগ্রিম"],
+        "Rectification (ভুল সংশোধন)": ["rectification", "ভুল সংশোধন"],
+        "Depreciation (অবচয়)": ["depreciation", "অবচয়"],
+        "Inventory (মজুদ পণ্য)": ["inventory", "মজুদ", "পণ্য"],
+        "Accounts Receivable (প্রাপ্য হিসাব)": ["receivable", "প্রাপ্য হিসাব", "অনাদায়ী পাওনা"],
+    };
+
+    function discoverTopics(data) {
+        const foundTopics = new Set();
+        data.forEach(q => {
+            const content = (q.text + " " + (q.meta || "")).toLowerCase();
+            for (const [topic, keywords] of Object.entries(topicKeywords)) {
+                if (keywords.some(kw => content.includes(kw.toLowerCase()))) {
+                    foundTopics.add(topic);
+                }
+            }
+        });
+        return Array.from(foundTopics).sort();
+    }
+
+    function updateFilters() {
+        const yearSet = new Set();
+        
+        questionsData.forEach(q => {
+            const yearMatch = (q.meta || "").match(/\d{4}/);
+            if (yearMatch) yearSet.add(yearMatch[0]);
+        });
+
+        const yearFilter = document.getElementById('yearFilter');
+        const topicFilter = document.getElementById('topicFilter');
+
+        // Populate Years
+        const sortedYears = Array.from(yearSet).sort((a, b) => b - a);
+        let yearHtml = '<option value="all">All Years</option>';
+        sortedYears.forEach(year => {
+            yearHtml += `<option value="${year}">${year}</option>`;
+        });
+        yearFilter.innerHTML = yearHtml;
+
+        // Discover and Populate Topics
+        const discoveredTopics = discoverTopics(questionsData);
+        let topicHtml = '<option value="all">All Topics</option>';
+        discoveredTopics.forEach(topic => {
+            topicHtml += `<option value="${topic}">${topic}</option>`;
+        });
+        topicFilter.innerHTML = topicHtml;
+    }
+
+    function filterQuestions() {
+        let visibleCount = 0;
+        questionsData.forEach((q, index) => {
+            const el = document.getElementById(`mcq-item-${index}`);
+            if (!el) return;
+            
+            const filterType = el.getAttribute('data-filter');
+            const meta = q.meta || "";
+            const yearMatch = meta.match(/\d{4}/);
+            const qYear = yearMatch ? yearMatch[0] : null;
+
+            let show = true;
+
+            // Type Filter
+            if (currentFilter !== 'all' && filterType !== currentFilter) show = false;
+            
+            // Year Filter
+            if (currentYear !== 'all' && qYear !== currentYear) show = false;
+            
+            // Topic Filter
+            if (currentTopic !== 'all') {
+                const keywords = topicKeywords[currentTopic];
+                const content = (q.text + " " + (q.meta || "")).toLowerCase();
+                if (!keywords || !keywords.some(kw => content.includes(kw.toLowerCase()))) {
+                    show = false;
+                }
+            }
+
+            if (show) {
+                visibleCount++;
+                el.style.display = 'block';
+                // Update the visible number badge
+                const badge = el.querySelector('.poppins.font-bold');
+                if (badge) badge.innerText = visibleCount;
+            } else {
+                el.style.display = 'none';
+            }
+        });
+    }
+
+    // State array to track answered questions
+    const answeredState = new Array(questionsData.length).fill(false);
+
+    window.selectAnswer = function(qIndex, optIndex) {
+        if(globalShowAns || answeredState[qIndex]) return; // locked if globally shown or already answered
+        
+        answeredState[qIndex] = true;
+        const q = questionsData[qIndex];
+        const selectedBtn = document.getElementById(`opt-${qIndex}-${optIndex}`);
+        const selectedBadge = document.getElementById(`opt-badge-${qIndex}-${optIndex}`);
+        
+        // Show explanation
+        const expDiv = document.getElementById(`explanation-${qIndex}`);
+        if (expDiv) {
+            expDiv.classList.remove('hidden');
+        }
+        
+        // Disable all options visually
+        for (let i = 0; i < 4; i++) {
+            const btn = document.getElementById(`opt-${qIndex}-${i}`);
+            btn.classList.add('opacity-70', 'cursor-not-allowed');
+        }
+        
+        // Highlight logic
+        if(optIndex === q.correctAnswer) {
+            // Correct
+            selectedBtn.classList.remove('bg-gray-50', 'dark:bg-gray-800', 'border-gray-200', 'dark:border-gray-700', 'opacity-70');
+            selectedBtn.classList.add('bg-emerald-50', 'border-emerald-500', 'dark:bg-emerald-900/20', 'dark:border-emerald-600', 'opacity-100');
+            selectedBadge.classList.remove('bg-white', 'dark:bg-gray-900', 'text-gray-500', 'border-gray-300');
+            selectedBadge.classList.add('bg-emerald-500', 'text-white', 'border-emerald-500');
+        } else {
+            // Incorrect
+            selectedBtn.classList.remove('bg-gray-50', 'dark:bg-gray-800', 'border-gray-200', 'dark:border-gray-700', 'opacity-70');
+            selectedBtn.classList.add('bg-red-50', 'border-red-500', 'dark:bg-red-900/20', 'dark:border-red-600', 'opacity-100');
+            selectedBadge.classList.remove('bg-white', 'dark:bg-gray-900', 'text-gray-500', 'border-gray-300');
+            selectedBadge.classList.add('bg-red-500', 'text-white', 'border-red-500');
+            
+            // Show correct answer
+            const correctBtn = document.getElementById(`opt-${qIndex}-${q.correctAnswer}`);
+            const correctBadge = document.getElementById(`opt-badge-${qIndex}-${q.correctAnswer}`);
+            correctBtn.classList.remove('bg-gray-50', 'dark:bg-gray-800', 'border-gray-200', 'dark:border-gray-700', 'opacity-70');
+            correctBtn.classList.add('bg-emerald-50', 'border-emerald-500', 'dark:bg-emerald-900/20', 'dark:border-emerald-600', 'opacity-100');
+            correctBadge.classList.remove('bg-white', 'dark:bg-gray-900', 'text-gray-500', 'border-gray-300');
+            correctBadge.classList.add('bg-emerald-500', 'text-white', 'border-emerald-500');
+        }
+    }
+
+    // Filter Logic
+    const filterAllBtn = document.getElementById('filterAllBtn');
+    const filterCollegeBtn = document.getElementById('filterCollegeBtn');
+    const filterBoardBtn = document.getElementById('filterBoardBtn');
+    
+    function updateFilterUI(activeBtn) {
+        [filterAllBtn, filterCollegeBtn, filterBoardBtn].forEach(btn => {
+            if(btn === activeBtn) {
+                btn.className = "px-4 py-1.5 rounded-full text-sm font-medium bg-white dark:bg-slate-600 text-gray-900 dark:text-white shadow-sm transition-colors";
+            } else {
+                btn.className = "px-4 py-1.5 rounded-full text-sm font-medium text-gray-500 hover:text-gray-700 dark:hover:text-gray-200 transition-colors";
+            }
+        });
+    }
+
+    filterAllBtn.addEventListener('click', () => {
+        currentFilter = 'all';
+        updateFilterUI(filterAllBtn);
+        filterQuestions();
+    });
+
+    filterCollegeBtn.addEventListener('click', () => {
+        currentFilter = 'college';
+        updateFilterUI(filterCollegeBtn);
+        filterQuestions();
+    });
+
+    filterBoardBtn.addEventListener('click', () => {
+        currentFilter = 'board';
+        updateFilterUI(filterBoardBtn);
+        filterQuestions();
+    });
+
+    // Dropdown Listeners
+    document.getElementById('yearFilter').addEventListener('change', (e) => {
+        currentYear = e.target.value;
+        filterQuestions();
+    });
+
+    document.getElementById('topicFilter').addEventListener('change', (e) => {
+        currentTopic = e.target.value;
+        filterQuestions();
+    });
+
+    // Global Show Ans Toggle
+    const globalToggleBtn = document.getElementById('globalShowAnsToggle');
+    const globalToggleThumb = document.getElementById('globalShowAnsThumb');
+
+    globalToggleBtn.addEventListener('click', () => {
+        globalShowAns = !globalShowAns;
+        
+        if (globalShowAns) {
+            globalToggleBtn.classList.replace('bg-gray-400', 'bg-sky-500');
+            globalToggleThumb.classList.add('translate-x-full');
+            // Show all correct answers and explanations
+            questionsData.forEach((q, index) => {
+                const expDiv = document.getElementById(`explanation-${index}`);
+                if (expDiv) expDiv.classList.remove('hidden');
+
+                if(!answeredState[index]) {
+                    const correctBtn = document.getElementById(`opt-${index}-${q.correctAnswer}`);
+                    const correctBadge = document.getElementById(`opt-badge-${index}-${q.correctAnswer}`);
+                    correctBtn.classList.remove('bg-gray-50', 'dark:bg-gray-800', 'border-gray-200', 'dark:border-gray-700');
+                    correctBtn.classList.add('bg-emerald-50', 'border-emerald-500', 'dark:bg-emerald-900/20', 'dark:border-emerald-600');
+                    correctBadge.classList.remove('bg-white', 'dark:bg-gray-900', 'text-gray-500', 'border-gray-300');
+                    correctBadge.classList.add('bg-emerald-500', 'text-white', 'border-emerald-500');
+                    
+                    // Disable all options visually
+                    for (let i = 0; i < 4; i++) {
+                        const btn = document.getElementById(`opt-${index}-${i}`);
+                        btn.classList.add('opacity-70', 'cursor-not-allowed');
+                    }
+                    correctBtn.classList.replace('opacity-70', 'opacity-100');
+                }
+            });
+        } else {
+            globalToggleBtn.classList.replace('bg-sky-500', 'bg-gray-400');
+            globalToggleThumb.classList.remove('translate-x-full');
+            // Reset all
+            initializeQuestions();
+            answeredState.fill(false);
+        }
+        if (window.MathJax) {
+            MathJax.typesetPromise();
+        }
+    });
+
+    // Dark mode toggle
+    const themeToggleBtn = document.getElementById('themeToggleBtn');
+    themeToggleBtn.addEventListener('click', () => {
+        document.documentElement.classList.toggle('dark');
+        const thumb = document.getElementById('themeToggleThumb');
+        if (document.documentElement.classList.contains('dark')) {
+            thumb.innerHTML = '<span class="text-xs">🌙</span>';
+        } else {
+            thumb.innerHTML = '<span class="text-xs">☀️</span>';
+        }
+    });
+
+    // Initial render
+    initializeQuestions();
+    if (window.MathJax) {
+        MathJax.typesetPromise();
+    }
+</script>
+
+<script src="global.js"></script>
+</body>
+</html>

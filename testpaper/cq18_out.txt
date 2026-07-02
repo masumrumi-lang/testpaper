@@ -1,0 +1,11 @@
+{
+        "id": "18",
+        "stem": "<p>Which level of management does Mr. Asad belong to? Explain.</p>",
+        "meta": "Who is the father of scientific management? · 2023",
+        "type": "why is management called a social process?",
+        "questions": [
+            {
+                "label": "a",
+                "text": "\"The institution is progressing due to the blend of managerial skills of Nahid and Asad\"—Do you agree? (1)",
+                "answer": "<p>Yes. 1. Nahid provides Conceptual Skill (Vision). 2. Asad provides Human Skill (Execution). 3. Success requires both policy and practice.</p>"
+            }

@@ -1,0 +1,11 @@
+{
+                "id": "02",
+                "stem": "<p>[Conceptual Diagram: Planning $$\\rightarrow$$ 'ক' $$\\rightarrow$$ Staffing $$\\rightarrow$$ Directing $$\\rightarrow$$ Motivating $$\\rightarrow$$ Coordinating $$\\rightarrow$$ 'খ']</p>",
+                "meta": "Dhaka Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) What is management? (1)",
+                        "answer": "<p>Management is the process of planning, organizing, leading, and controlling resources to achieve organizational goals effectively and efficiently.</p>"
+                    }

@@ -1,0 +1,473 @@
+Year,Subject,Chapter,Level,Category,Stem,Question_A,Question_B,Question_C,Question_D,Ans_A,Ans_B,Ans_C,Ans_D
+2019,Finance 1st,5,Dhaka Board,Board,"P Ltd. has an annual cash requirement of TK 4,80,000. The company maintains marketable securities. The required rate of return is 12%, and the transaction cost to convert these securities into cash is TK 150 per transaction. On the other hand, Q Ltd.'s average production period is 50 days, average collection period is 40 days, and average payment period is 30 days. Its annual cash requirement is TK 3,00,000.",What is Economic Order Quantity (EOQ)?,What is current asset management? Explain.,Calculate the optimal cash balance for P Ltd.,"Calculate the minimum operating cash for Q Ltd. If the minimum cash is fixed at TK 60,000, what will be the effect on cash turnover? Analyze.","EOQ is the ideal order quantity a company should purchase to minimize inventory costs such as holding costs, shortage costs, and order costs.","Current asset management involves managing a firm's short-term assets (cash, inventory, accounts receivable) to ensure the company has enough liquidity to meet its obligations and operate efficiently.","1. Data: $T = 4,80,000$; $b = 150$; $i = 12\%$ or 0.12.
+
+2. Formula (Baumol Model): $C = \sqrt{\frac{2 \times T \times b}{i}}$.
+
+3. Calculation: $C = \sqrt{\frac{2 \times 4,80,000 \times 150}{0.12}} = \sqrt{1,20,00,00,000} = 34,641$.","1. Operating Cycle: $50 + 40 = 90$ days. Cash Cycle: $90 - 30 = 60$ days.
+
+2. Cash Turnover: $360 / 60 = 6$ times.
+
+3. Minimum Cash: $3,00,000 / 6 = 50,000$.
+
+4. Effect: If minimum cash is TK 60,000, cash turnover decreases ($3,00,000 / 60,000 = 5$ times), indicating less efficiency in using cash."
+2019,Finance 1st,5,Rajshahi Board,Board,"Mr. Tajin purchased goods on credit from X Ltd. The maximum payment period is 60 days. According to the credit terms, a 3% discount is available if paid within 14 days. Mr. Tajin decided to take a bank loan at 17% interest to grab the discount. Later, the credit period was extended by 10 days.",What is trade credit?,Why is commercial paper used?,What is the cost of trade credit for Mr. Tajin?,"In light of the stem, if the payment period is increased by 10 days, analyze the logicality of taking a bank loan.",Trade credit is an agreement where a customer can purchase goods on account and pay the supplier at a later date.,"Commercial paper is used by large, highly-rated corporations to raise short-term funds for working capital needs at a lower interest rate than bank loans.","1. Data: $CD = 3\%$; $CP = 60$ days; $DP = 14$ days.
+
+2. Formula: $Ktc = \frac{CD}{100 - CD} \times \frac{360}{CP - DP} \times 100$.
+
+3. Calculation: $Ktc = \frac{3}{97} \times \frac{360}{46} \times 100 = 0.0309 \times 7.826 \times 100 = 24.18\%$.","1. New CP: $60 + 10 = 70$ days.
+
+2. New Cost: $Ktc = \frac{3}{97} \times \frac{360}{70 - 14} \times 100 = 19.88\%$.
+
+3. Comparison: Bank loan rate (17%) is lower than the cost of trade credit (19.88%).
+
+4. Conclusion: It is still logical to take the bank loan because the cost of giving up the discount (19.88%) is higher than the interest paid to the bank."
+2019,Finance 1st,5,Rajshahi Board,Board,"AB Company's annual demand is 2,00,000 packets. Ordering cost per order is TK 60. Carrying cost per unit is TK 2. Lead time is 4 days. The company decides to maintain 700 packets as safety stock. Due to special reasons, lead time increases to 6 days.",What is mid-term financing?,Why is inventory management important?,Calculate the EOQ for AB Company.,"Evaluate the logic of placing a re-order when 2,500 packets are remaining based on the stem.",Mid-term financing refers to loans or funding obtained for a period typically ranging from one to five years.,It is important because it prevents both overstocking (which ties up capital) and understocking (which leads to lost sales and production delays).,"1. Data: $A = 2,00,000$; $O = 60$; $C = 2$.
+
+2. Formula: $EOQ = \sqrt{\frac{2 \times A \times O}{C}}$.
+
+3. Calculation: $EOQ = \sqrt{\frac{2 \times 2,00,000 \times 60}{2}} = \sqrt{1,20,00,000} = 3,464$.","1. Daily Demand: $2,00,000 / 360 \approx 556$ packets.
+
+2. Re-order Level: (Daily demand $\times$ Lead time) + Safety Stock.
+
+3. Calculation (Old): $(556 \times 4) + 700 = 2,924$. Calculation (New): $(556 \times 6) + 700 = 4,036$.
+
+4. Conclusion: Re-ordering at 2,500 packets is illogical and risky because the re-order level should be at least 2,924 (normal) or 4,036 (extended lead time) to avoid stockouts."
+2019,Finance 1st,5,Comilla Board,Board,"Padma Company Ltd. is a consumer goods manufacturer. Recently, the company purchased raw materials on credit under the terms 2/10, net 30. The company's average inventory period is 10 days, and the average payment period is 15 days. It takes 20 days to collect receivables after a sale. Its competitor, Meghna Company, has a cash conversion cycle of 18 days.",What is commercial paper?,What is meant by a line of credit?,Calculate the cost of trade credit for Padma Company.,In which company's case will cash remain invested for a relatively shorter period? Give your opinion with logic.,"Commercial paper is an unsecured, short-term debt instrument issued by a corporation, typically for the financing of accounts receivable and inventories and meeting short-term liabilities.","A line of credit is a flexible loan from a bank or financial institution that allows a borrower to access funds up to a pre-approved limit at any time, paying interest only on the amount actually borrowed.","1. Data: $CD = 2\%$; $CP = 30$ days; $DP = 10$ days.
+
+2. Formula: $Ktc = \frac{CD}{100 - CD} \times \frac{360}{CP - DP} \times 100$.
+
+3. Calculation: $Ktc = \frac{2}{98} \times \frac{360}{20} \times 100 = 0.0204 \times 18 \times 100 = 36.73\%$.","1. Padma Co. CCC: Inventory Period + Collection Period - Payment Period.
+
+2. Calculation: $10 + 20 - 15 = 15$ days.
+
+3. Meghna Co. CCC: 18 days.
+
+4. Conclusion: Cash will remain invested for a shorter period in Padma Company (15 days) compared to Meghna Company (18 days). Thus, Padma Company is more efficient in managing its cash cycle."
+2019,Finance 1st,5,Comilla Board,Board,"Shapla Manufacturing Ltd. has an annual raw material demand of 1,00,000 units. Ordering cost per order is TK 40. The purchase cost per unit is TK 20, and the carrying cost is 20% of the purchase price. Lead time is 4 days. The company maintains a safety stock equal to 2 days of usage. The inventory manager places a re-order when the stock level reaches 2,500 units. The company operates 250 days a year.",What is working capital?,What is the effect on cash turnover if the cash conversion cycle changes?,Calculate the total inventory cost for Shapla Manufacturing Ltd.,Do you think the action taken by the inventory manager is logical? Give your opinion based on mathematical analysis.,"Working capital is the difference between a company's current assets (like cash, accounts receivable, and inventories) and its current liabilities (like accounts payable).","1. Cash turnover and the cash conversion cycle have an inverse relationship.
+
+2. If the cash conversion cycle decreases, cash turnover increases, meaning the company uses its cash more efficiently.","1. Data: $A = 1,00,000$; $O = 40$; $C = 20 \times 20\% = 4$.
+
+2. EOQ: $\sqrt{\frac{2 \times 1,00,000 \times 40}{4}} = \sqrt{20,00,000} = 1,414$ units.
+
+3. Total Cost: $(\frac{A}{EOQ} \times O) + (\frac{EOQ}{2} \times C)$.
+
+4. Calculation: $(\frac{1,00,000}{1,414} \times 40) + (\frac{1,414}{2} \times 4) = 2,828 + 2,828 = 5,656$ TK.","1. Daily Usage: $1,00,000 / 250 = 400$ units.
+
+2. Safety Stock: $400 \times 2 = 800$ units.
+
+3. Re-order Point (ROP): (Daily usage $\times$ Lead time) + Safety stock.
+
+4. Calculation: $(400 \times 4) + 800 = 2,400$ units.
+
+5. Conclusion: The manager's decision to re-order at 2,500 units is logical as it is slightly above the calculated ROP (2,400), providing an extra buffer against stockouts."
+2019,Finance 1st,5,Jessore Board,Board,"Sunmoon Computers can either accept trade credit under the terms 3/10, net 30 or take a short-term bank loan at a 2% monthly compound interest rate to finance its working capital.",What is mid-term financing?,What is meant by re-order level?,Calculate the cost of trade credit for Sunmoon Computers based on the stem.,Which loan option would be profitable for Sunmoon Computers? Analyze.,Mid-term financing refers to borrowing money for a period that typically ranges from one to five years.,The re-order level is the specific level of inventory at which a new order must be placed to replenish stock before it runs out during the lead time.,"1. Data: $CD = 3\%$; $CP = 30$ days; $DP = 10$ days.
+
+2. Formula: $Ktc = \frac{CD}{100 - CD} \times \frac{360}{CP - DP} \times 100$.
+
+3. Calculation: $Ktc = \frac{3}{97} \times \frac{360}{20} \times 100 = 0.0309 \times 18 \times 100 = 55.67\%$.","1. Option 1 (Trade Credit Cost): 55.67%.
+
+2. Option 2 (Bank Loan EIR): Monthly rate = 2%.
+
+3. Formula: $EIR = (1 + i)^m - 1 = (1 + 0.02)^{12} - 1 = 1.2682 - 1 = 26.82\%$.
+
+4. Conclusion: The bank loan is more profitable because its effective annual rate (26.82%) is much lower than the cost of giving up the trade credit discount (55.67%)."
+2019,Finance 1st,5,Jessore Board,Board,"Hossain and Hasan are poultry farmers with equal capital. Hossain farms broilers and often faces cash crises 15–20 days before sale. Hasan farms broilers, layers, and produces feed, but never faces a crisis.",What is capital rationing?,What is meant by mutually exclusive projects?,What is the cause of the financial crisis in Hossain’s farm?,"""Despite doing so much, Hasan never faced a financial crisis""—Why?",Capital rationing is the process of placing a limit on the amount of new projects or investments a company can undertake by setting a budget for capital expenditures.,"1. These are projects where the acceptance of one automatically results in the rejection of others.
+
+2. They compete for the same resource or solve the same problem, so only the best one is chosen.","1. Hossain suffers from a long Cash Conversion Cycle and high inventory period.
+
+2. Broilers require continuous investment (feed/medicine) without generating cash until they reach market weight.
+
+3. This creates a ""liquidity gap"" where cash outflows continue while inflows are delayed until the end of the term.","1. Hasan uses Product Diversification to ensure multiple, overlapping cash streams.
+
+2. Selling layers (eggs) and feed provides daily cash inflow, providing liquidity to the business.
+
+3. This steady daily income offsets the high maintenance costs of the broiler section.
+
+4. Consequently, his cash conversion cycle is effectively shorter, preventing any ""empty pocket"" periods."
+2019,Finance 1st,5,Chittagong Board,Board,"Shyamoli Co. sells 500 mobile sets monthly. Maintenance cost per mobile is TK 1, purchase price is TK 1,500, and ordering cost is TK 30.",What is safety stock?,"""There is a positive relationship between lead time and inventory cost.""—Explain.",Calculate the Economic Order Quantity (EOQ) for Shyamoli Company.,"If the manager buys 500 sets per order, evaluate the decision based on total cost.",Safety stock is an extra quantity of an item carried in inventory to prevent stockouts due to uncertainties in demand or supply.,"1. Longer lead time requires a higher re-order point and more safety stock to avoid stockouts.
+
+2. Higher safety stock increases the average inventory held, leading to higher carrying costs.","1. Data: Annual demand ($A$) = $500 \times 12 = 6,000$; $O = 30$; $C = 1$.
+
+2. Formula: $EOQ = \sqrt{\frac{2 \times A \times O}{C}}$.
+
+3. Calculation: $EOQ = \sqrt{\frac{2 \times 6000 \times 30}{1}} = 600$ units.","1. At EOQ (600): Total Cost = $(\frac{6000}{600} \times 30) + (\frac{600}{2} \times 1) = 600$ TK.
+
+2. At 500 units: Total Cost = $(\frac{6000}{500} \times 30) + (\frac{500}{2} \times 1) = 610$ TK.
+
+3. The decision to buy 500 units increases the total annual inventory cost by TK 10.
+
+4. Therefore, the manager's decision is not optimal compared to the EOQ of 600 units."
+2019,Finance 1st,5,Barisal Board,Board,"Mr. Kamal is concerned about liquidity and thinks of collecting working capital from long-term sources. He also wants adequate inventory for peak seasons, noting 50% of sales are on credit with 3-month collection.",What is short-term financing?,What are the advantages of short-term financing?,Mention the different sources of collecting current assets as per the stem.,How logical is the policy adopted by Mr. Kamal for collecting current assets?,Short-term financing refers to the collection of funds for a period of less than one year to meet daily operating expenses.,"1. It is typically less expensive than long-term financing and offers greater flexibility.
+
+2. It can be arranged quickly to meet seasonal demands or sudden cash needs.","1. Long-term sources (as explicitly mentioned in the stem).
+
+2. Trade credit (indicated by the 50% credit sales and 3-month collection).
+
+3. Accruals or spontaneous sources inherent in regular business operations.","1. Kamal is following the Conservative Policy by using long-term funds for current assets.
+
+2. This is highly logical for risk-aversion as it ensures the company never runs out of cash.
+
+3. However, it is less logical for profitability because long-term interest rates are generally higher.
+
+4. Overall, it is a ""low-risk, low-profit"" strategy suited for companies worried about liquidity."
+2019,Finance 1st,5,Barisal Board,Board,"Mr. Hamid works at a private firm that buys raw materials on credit. A supplier offered terms of 2/10, net 45. Hamid requested the owner to take the 2% discount. The owner argued, ""I have no cash. To take a 2% discount, I'd need a bank loan at 14% interest, which won't be profitable."" Hamid failed to convince him that giving up the discount costs more.",What is a revolving credit?,How is the cost of trade credit determined?,What is the annual cost of trade credit according to the terms in the stem?,"Between Hamid and his owner, whose decision was correct? Explain.","Revolving credit is a formal, legal commitment by a bank to lend up to a maximum amount to a firm for a specific period, where the firm pays a commitment fee on the unused portion.","1. The cost of trade credit is determined by calculating the annual interest rate ""lost"" by not taking the cash discount.
+
+2. It depends on the discount percentage, the discount period, and the final credit period.","1. Data: $CD = 2\%$; $CP = 45$ days; $DP = 10$ days.
+
+2. Formula: $Ktc = \frac{CD}{100 - CD} \times \frac{360}{CP - DP} \times 100$.
+
+3. Calculation: $Ktc = \frac{2}{98} \times \frac{360}{35} \times 100 = 20.99\%$.","1. Hamid's decision was correct.
+
+2. The annual cost of giving up the discount ($Ktc$) is 20.99%.
+
+3. The cost of the bank loan is only 14%.
+
+4. Since the bank loan is cheaper than the trade credit cost ($14\% < 20.99\%$), the company saves 6.99% by borrowing from the bank to pay the supplier early."
+2019,Finance 1st,5,Sylhet Board,Board,"Mr. Kalam is a retailer needing TK 1,00,000 in working capital. He can take trade credit at 2/10, net 40. Alternatively, Meghna Ltd. offers a loan at 12% interest, but he must maintain a 20% compensating balance (CB) in the bank.",What is trade credit?,What is meant by current asset management?,What is Mr. Kalam’s cost of trade credit?,Which loan is more suitable for Mr. Kalam? Analyze.,"Trade credit is a short-term financing source where a buyer purchases goods or services on account and pays the supplier at a later, agreed-upon date.","1. Current asset management refers to managing short-term assets like cash, inventory, and receivables to ensure liquidity.
+
+2. Its goal is to balance the trade-off between maintaining enough liquidity and maximizing profitability.","1. Data: $CD = 2\%$; $CP = 40$ days; $DP = 10$ days.
+
+2. Formula: $Ktc = \frac{CD}{100 - CD} \times \frac{360}{CP - DP} \times 100$.
+
+3. Calculation: $Ktc = \frac{2}{98} \times \frac{360}{30} \times 100 = 24.49\%$.","1. Trade Credit Cost: 24.49% (from C).
+
+2. Bank Loan Cost: $i = 12\%; CB = 20\%$.
+
+3. Formula (EAR): $\frac{i}{1 - CB} \times 100 = \frac{0.12}{1 - 0.20} \times 100 = 15\%$.
+
+4. Conclusion: The bank loan (15%) is more suitable as its effective cost is significantly lower than the cost of trade credit (24.49%)."
+2019,Finance 1st,5,Dinajpur Board,Board,"Mr. Azad is a small businessman needing TK 1,50,000 for working capital. Option 1: Credit purchase at 2/10, net 70. Option 2: Bank loan at 12% interest with a 20% compensating balance requirement.",What is Economic Order Quantity (EOQ)?,Is commercial paper sold at a premium? Explain.,What is Mr. Azad’s cost of trade credit?,From which source should Mr. Azad finance? Explain.,EOQ is the specific order size that minimizes the total annual cost of ordering and carrying inventory.,"1. No, commercial paper is not sold at a premium; it is typically sold at a discount from its face value.
+
+2. The difference between the discount price and the face value represents the interest earned by the investor.","1. Data: $CD = 2\%$; $CP = 70$ days; $DP = 10$ days.
+
+2. Formula: $Ktc = \frac{CD}{100 - CD} \times \frac{360}{CP - DP} \times 100$.
+
+3. Calculation: $Ktc = \frac{2}{98} \times \frac{360}{60} \times 100 = 12.24\%$.","1. Trade Credit Cost: 12.24% (from C).
+
+2. Bank Loan Cost: $i = 12\%; CB = 20\%$.
+
+3. Formula (EAR): $\frac{0.12}{1 - 0.20} \times 100 = 15\%$.
+
+4. Mr. Azad should choose trade credit.
+
+5. Logic: In this specific case, the cost of trade credit (12.24%) is lower than the effective cost of the bank loan (15%) due to the long credit period (70 days)."
+2018,Finance 1st,5,Dhaka Board,Board,"Bashundhara Ltd. needs TK 80,000 for working capital. It has two options: Option 1: Buy TK 1,00,000 of raw materials under terms 3/15, net 45. Option 2: Buy TK 80,000 of raw materials under terms 2/10, net 60.",What is mid-term financing?,Who bears the cost of trade credit? Explain.,Calculate the cost of trade credit for the 1st option based on the stem.,Which option should Bashundhara Ltd. select and why? Evaluate.,Mid-term financing refers to the sourcing of funds for a period usually ranging from more than one year to five years.,"1. Nominally, the buyer bears the cost of trade credit if they fail to take the cash discount offered by the seller.
+
+2. However, sellers often hide this cost by increasing the base price of the goods, meaning the buyer may bear it indirectly even if they take the discount.","1. Data: $CD = 3\%$; $CP = 45$ days; $DP = 15$ days.
+
+2. Formula: $Ktc = \frac{CD}{100 - CD} \times \frac{360}{CP - DP} \times 100$.
+
+3. Calculation: $Ktc = \frac{3}{97} \times \frac{360}{30} \times 100 = 37.11\%$.","1. Option 1 Cost: 37.11% (calculated in C).
+
+2. Option 2 Cost: $CD = 2\%; CP = 60; DP = 10$. $Ktc = \frac{2}{98} \times \frac{360}{50} \times 100 = 14.69\%$.
+
+3. Bashundhara Ltd. should choose Option 2.
+
+4. Logic: Option 2 is better because the cost of giving up the discount (14.69%) is significantly lower than the cost in Option 1 (37.11%)."
+2018,Finance 1st,5,Comilla Board,Board,"Mr. Mamun buys 1,00,000 kg of mangoes annually. Ordering costs (transport/comm) are TK 1,750 and TK 250 per order. Storage cost is TK 1/kg. Lead time is 3 days. He keeps 400 kg as safety stock. Annual working days = 250.",What is inventory management?,"""Inventory cost affects the selling price of a product""—Explain.",Calculate the Economic Order Quantity (EOQ) for Mr. Mamun.,How will a one-day increase in lead time affect the re-order level? Analyze.,"Inventory management is the process of ordering, storing, using, and selling a company's inventory, including raw materials, components, and finished products.","1. Inventory costs (carrying and ordering costs) are part of the total operating expense of a business.
+
+2. To maintain profit margins, businesses pass these costs to customers by increasing the final selling price of the product.","1. Data: $A = 1,00,000$; $O = 1,750 + 250 = 2,000$; $C = 1$.
+
+2. Formula: $EOQ = \sqrt{\frac{2 \times A \times O}{C}}$.
+
+3. Calculation: $EOQ = \sqrt{\frac{2 \times 1,00,000 \times 2,000}{1}} = 20,000$ kg.","1. Daily Demand: $1,00,000 / 250 = 400$ kg.
+
+2. Original ROP (3 days): $(400 \times 3) + 400 = 1,600$ kg.
+
+3. New ROP (4 days): $(400 \times 4) + 400 = 2,000$ kg.
+
+4. Conclusion: A one-day increase in lead time increases the re-order level by 400 kg, meaning the manager must place new orders earlier to avoid stockouts."
+2018,Finance 1st,5,Comilla Board,Board,"Future Ltd. purchased goods from Daily Ltd. under terms 2/15, net 45. You decided to take a bank loan at 13% to take the discount. Later, Daily Ltd. extended the payment period by 10 days.",What is commercial paper?,Who bears the cost of trade credit? Explain.,"If Future Ltd. took the discount initially, what would be the cost of trade credit?",How will the change in payment time affect your loan decision? Opinion with logic.,"Commercial paper is an unsecured, short-term debt instrument issued by a corporation, typically to finance accounts receivable and inventories.","1. The buyer bears the ""opportunity cost"" if they do not pay within the discount period.
+
+2. This cost is effectively the interest rate the buyer pays for using the supplier's money for the remaining credit period.","1. Data: $CD = 2\%$; $CP = 45$ days; $DP = 15$ days.
+
+2. Formula: $Ktc = \frac{CD}{100 - CD} \times \frac{360}{CP - DP} \times 100$.
+
+3. Calculation: $Ktc = \frac{2}{98} \times \frac{360}{30} \times 100 = 24.49\%$.","1. Original Cost: 24.49%. Bank Loan: 13%. (Taking loan is logical).
+
+2. New CP: $45 + 10 = 55$ days.
+
+3. New Ktc: $\frac{2}{98} \times \frac{360}{55 - 15} \times 100 = 18.37\%$.
+
+4. Conclusion: Even though the cost of trade credit dropped to 18.37%, it is still higher than the bank loan rate (13%). Therefore, the decision to take the bank loan remains logical."
+2017,Finance 1st,5,Dhaka Board,Board,"BD Foods markets processed food. Annual demand is 1,20,000 packets at TK 22 each. Ordering cost is TK 80 per order and carrying cost is TK 2 per unit. Lead time is 4 days. The company maintains a safety stock of 1,200 packets. Total working days are 300. The manager re-orders at 2,000 units.",What is spontaneous financing?,Differentiate between a line of credit and revolving credit.,Calculate the annual inventory cost for BD Foods Ltd.,Evaluate the logic of the manager's re-order decision mathematically.,"Spontaneous financing refers to the sources of funds that arise naturally from day-to-day business operations, such as accounts payable and accrued expenses.","1. A line of credit is an informal agreement where a bank limits the max loan, but isn't legally bound to lend.
+
+2. Revolving credit is a formal, legal commitment where the bank must lend, and the firm pays a commitment fee on unused funds.","1. Data: $A = 1,20,000; O = 80; C = 2$.
+
+2. EOQ: $\sqrt{\frac{2 \times 1,20,000 \times 80}{2}} = 3,098$ units.
+
+3. Total Cost: $(\frac{A}{EOQ} \times O) + (\frac{EOQ}{2} \times C)$.
+
+4. Calculation: $(\frac{1,20,000}{3,098} \times 80) + (\frac{3,098}{2} \times 2) \approx 3,100 + 3,098 =$ TK 6,198.","1. Daily Demand: $1,20,000 / 300 = 400$ units.
+
+2. Re-order Point (ROP): (Daily Demand $\times$ Lead Time) + Safety Stock.
+
+3. Calculation: $(400 \times 4) + 1,200 = 2,800$ units.
+
+4. Conclusion: The manager's decision to re-order at 2,000 units is illogical and risky because it is below the required 2,800 units, likely leading to a stockout."
+2017,Finance 1st,5,Rajshahi Board,Board,"Mr. Emran, a cloth merchant, purchased winter clothes worth TK 10,00,000 on credit from Jesico Garments. The credit terms are 4/10, net 30.",What is trade credit?,Why is maintaining working capital at an optimal level a key responsibility of a financial manager?,What will be Mr. Emran’s cost of trade credit if he pays on the 30th day?,"By what day must Mr. Emran pay to pay less than the total debt, and how much less will it be?",Trade credit is a short-term financing arrangement where a buyer is allowed to purchase goods and pay the supplier at a later date.,"1. Excessive working capital ties up funds unproductively, while insufficient working capital leads to liquidity crises.
+
+2. An optimal level ensures both operational efficiency and maximum profitability.","1. Data: $CD = 4\%; CP = 30; DP = 10$.
+
+2. Formula: $Ktc = \frac{CD}{100 - CD} \times \frac{360}{CP - DP} \times 100$.
+
+3. Calculation: $Ktc = \frac{4}{96} \times \frac{360}{20} \times 100 = 0.0417 \times 18 \times 100 =$ 75%.","1. To pay less, Mr. Emran must pay within the discount period (10 days).
+
+2. Total Debt = TK 10,00,000.
+
+3. Discount: $10,00,000 \times 4\% = 40,000$.
+
+4. Conclusion: He will pay TK 40,000 less (Total: 9,60,000) if he pays by the 10th day."
+2017,Finance 1st,5,Dinajpur Board,Board,"BGF Ltd. needs 64,000 units annually for a new clothing brand. Purchase price is TK 1,000/unit, ordering cost is TK 500/order, and carrying cost is 1% of the price. Safety stock is 500 units and lead time is 3 days.",What is Economic Order Quantity (EOQ)?,What will be the total inventory cost for BGF Ltd.?,Determine the re-order point (ROP) for BGF Ltd. based on the stem.,"If the lead time increases from 3 days to 5 days, what problems will occur in the inventory system?",EOQ is the ideal order quantity that minimizes the total annual costs of ordering and carrying inventory.,"1. Data: $A = 64,000; O = 500; C = 1000 \times 1\% = 10$.
+
+2. EOQ: $\sqrt{\frac{2 \times 64,000 \times 500}{10}} = 2,530$ units.
+
+3. Total Cost: $(\frac{64,000}{2530} \times 500) + (\frac{2530}{2} \times 10) \approx 12,650 + 12,650 =$ TK 25,300.","1. Daily Demand: $64,000 / 360 \approx 178$ units.
+
+2. ROP: (Daily Demand $\times$ Lead Time) + Safety Stock.
+
+3. Calculation: $(178 \times 3) + 500 =$ 1,034 units.","1. A longer lead time increases the risk of stockouts if the re-order point is not adjusted upward.
+
+2. To compensate, safety stock must be increased, which raises carrying costs.
+
+3. Operating efficiency may drop if production halts due to late delivery.
+
+4. New ROP Requirement: $(178 \times 5) + 500 = 1,390$ units."
+2017,Finance 1st,5,Dinajpur Board,Board,"You are the Finance Manager of FC Ltd. Your company purchased goods from MB Ltd. on terms 2.5/15, net 60. You decided to take a short-term bank loan at 18% to grab the discount. Later, MB Ltd. extended the payment period by 10 days.",What is trade credit?,Why is trade credit called spontaneous financing?,Calculate the cost of trade credit for FC Ltd. based on the stem.,How will the change in payment time affect your loan decision?,Trade credit is a short-term financing arrangement where a buyer is allowed to purchase goods and pay the supplier at a later date.,"1. It is called spontaneous financing because it arises naturally and automatically from day-to-day business transactions without formal negotiations.
+
+2. As a business expands its purchases, the volume of trade credit grows automatically to support that growth.","1. Data: $CD = 2.5\%$; $CP = 60$; $DP = 15$.
+
+2. Formula: $Ktc = \frac{CD}{100 - CD} \times \frac{360}{CP - DP} \times 100$.
+
+3. Calculation: $Ktc = \frac{2.5}{97.5} \times \frac{360}{45} \times 100 = 0.0256 \times 8 \times 100 =$ 20.51%.","1. Original Cost: 20.51%. Bank Loan: 18%. (Loan is logical as $18\% < 20.51\%$).
+
+2. New CP: $60 + 10 = 70$ days.
+
+3. New Ktc: $\frac{2.5}{97.5} \times \frac{360}{70 - 15} \times 100 = 0.0256 \times 6.545 \times 100 =$ 16.78%.
+
+4. Conclusion: After the extension, the bank loan (18%) becomes more expensive than the trade credit (16.78%). Therefore, the decision should change: the company should stop the bank loan and utilize the trade credit period instead."
+2017,Finance 1st,5,Comilla Board,Board,"Otol Co. sells 700 lights monthly. Each light costs TK 2,000 and the carrying cost is TK 1. On the other hand, Adhora Co. sells 15,000 lights annually. Their ordering and carrying costs are TK 50 and TK 3 respectively.",What is short-term financing?,What do you mean by the cash cycle?,Calculate the EOQ for Otol Company.,"""The total inventory cost of Otol Co. is higher than Adhora Co.""—Evaluate this statement.",Short-term financing refers to the collection of funds for a period of less than one year to meet daily operating expenses.,"1. The cash cycle is the time period between the initial outlay of cash for raw materials and the final collection of cash from sales.
+
+2. A shorter cash cycle indicates better liquidity and operational efficiency.","1. Data: Annual ($A$) = $700 \times 12 = 8,400$; $O$ (not given, assume standard or compare costs); $C = 1$.
+
+2. Note: Since $O$ is missing for Otol Co. in the stem, assume $O=0$ or focus on carrying costs. If $O=50$ (same as Adhora): $EOQ = \sqrt{\frac{2 \times 8400 \times 50}{1}} =$ 917 units.","1. Otol Cost: $(\frac{8400}{917} \times 50) + (\frac{917}{2} \times 1) \approx 458 + 458 =$ TK 916.
+
+2. Adhora EOQ: $\sqrt{\frac{2 \times 15000 \times 50}{3}} = 707$ units.
+
+3. Adhora Cost: $(\frac{15000}{707} \times 50) + (\frac{707}{2} \times 3) \approx 1060 + 1060 =$ TK 2,120.
+
+4. Conclusion: The statement is false. Adhora Co. has a higher total inventory cost (TK 2,120) than Otol Co. (TK 916)."
+2017,Finance 1st,5,Chittagong Board,Board,"Nobogonga Co. Ltd. requires 10,000 ball bearings annually at TK 75 each. Carrying cost is TK 2 and ordering cost is TK 150. Lead time is 4 days. The company keeps 600 units as safety stock. Due to natural disasters, the lead time increases to 7 days.",What is trade credit?,Why is inventory maintained?,Determine the EOQ based on the stem.,Will the delay in arrival due to natural disasters cause any problems in the inventory system?,Trade credit is a spontaneous source of financing where a buyer receives goods now and pays the supplier later.,"1. Inventory is maintained to ensure uninterrupted production and to meet customer demand without delays.
+
+2. It also helps to take advantage of quantity discounts and protect against price fluctuations.","1. Data: $A = 10,000; O = 150; C = 2$.
+
+2. Formula: $EOQ = \sqrt{\frac{2 \times A \times O}{C}}$.
+
+3. Calculation: $\sqrt{\frac{2 \times 10,000 \times 150}{2}} = \sqrt{15,00,000} =$ 1,225 units.","1. Daily Usage: $10,000 / 360 \approx 28$ units.
+
+2. Normal ROP: $(28 \times 4) + 600 = 712$ units.
+
+3. Natural Disaster Usage: $28 \times 7 = 196$ units required during wait time.
+
+4. Conclusion: Yes, it will cause a problem. If the inventory was ordered at 712 units, they will only have 600 (Safety) + 112 (Working) units. During the 7-day delay, they consume 196 units. While they won't run out of total stock (since safety stock is 600), their safety buffer will be significantly depleted, leaving them vulnerable to further shocks."
+2017,Finance 1st,5,Sylhet Board,Board,"A shoe manufacturer trades under terms 2/10, net 60. The owner has a bank loan of TK 5,00,000 and is thinking of using it to take the cash discount. Later, the owner extends the payment period by 10 days. The bank loan interest rate is 12%.",What is Economic Order Quantity (EOQ)?,Who bears the cost of trade credit?,Calculate the cost of trade credit for the firm.,Will the extension of the payment period affect the decision to take the cash discount? Give your opinion.,"EOQ is the ideal order quantity a company should purchase to minimize its total inventory costs, such as ordering and carrying costs.","1. Nominally, the buyer bears the cost if they fail to take the cash discount.
+
+2. Indirectly, the cost may be shifted to the buyer through higher product prices set by the supplier.","1. Data: $CD = 2\%$; $CP = 60$; $DP = 10$.
+
+2. Formula: $Ktc = \frac{CD}{100 - CD} \times \frac{360}{CP - DP} \times 100$.
+
+3. Calculation: $\frac{2}{98} \times \frac{360}{50} \times 100 =$ 14.69%.","1. Original Cost: 14.69%. Bank Loan: 12%. (Loan is better as $12\% < 14.69\%$).
+
+2. New CP: $60 + 10 = 70$ days.
+
+3. New Ktc: $\frac{2}{98} \times \frac{360}{70 - 10} \times 100 =$ 12.24%.
+
+4. Conclusion: Even with the extension, the bank loan (12%) is still slightly cheaper than the trade credit cost (12.24%). Therefore, the decision to use the bank loan to take the discount remains logical."
+2017,Finance 1st,5,Jessore Board,Board,"Mr. Sojib can take trade credit under terms 2/15, net 45, or issue 120-day commercial paper. The face value of each commercial paper is TK 100 and the selling price is TK 95.",What is short-term financing?,What do you mean by trade credit?,Calculate the cost of the commercial paper.,Which one should Mr. Sojib accept: trade credit or commercial paper? Comment.,Short-term financing refers to the collection of funds for a period of less than one year to meet daily operating expenses.,"1. Trade credit is a spontaneous source of financing where a buyer receives goods now and pays the supplier at a later date.
+
+2. It is an agreement between two businesses that allows for the purchase of goods without immediate cash payment.","1. Data: $FV = 100$; $SV = 95$; $MP = 120$ days.
+
+2. Formula: $Kcp = \frac{FV - SV}{SV} \times \frac{360}{MP} \times 100$.
+
+3. Calculation: $\frac{100 - 95}{95} \times \frac{360}{120} \times 100 = 0.0526 \times 3 \times 100 =$ 15.79%.","1. Commercial Paper Cost: 15.79% (from C).
+
+2. Trade Credit Cost: $CD = 2\%; CP = 45; DP = 15$.
+
+3. Calculation: $\frac{2}{98} \times \frac{360}{30} \times 100 =$ 24.49%.
+
+4. Conclusion: Sojib should choose commercial paper because its cost (15.79%) is much lower than the cost of giving up the trade credit discount (24.49%)."
+2017,Finance 1st,5,Barisal Board,Board,"Kids Zone and Child Zone are toy car manufacturers. Kids Zone produces 2,50,000 cars annually. Its ordering cost is TK 400 and carrying cost is TK 2 per unit. Child Zone has a total ordering cost of TK 14,000 and a total carrying cost of TK 8,000.",What is lead time?,What do you mean by accounts receivable management? Explain.,Calculate the EOQ for Kids Zone.,Is the total inventory cost of Child Zone higher? Provide a comparative mathematical analysis.,Lead time is the total time that elapses between the placement of an order and the receipt of the goods in the warehouse.,"1. It is the process of ensuring that customers pay their dues on time to maintain cash flow.
+
+2. It involves setting credit policies, evaluating creditworthiness, and implementing collection procedures.","1. Data: $A = 2,50,000$; $O = 400$; $C = 2$.
+
+2. Formula: $EOQ = \sqrt{\frac{2 \times A \times O}{C}}$.
+
+3. Calculation: $\sqrt{\frac{2 \times 2,50,000 \times 400}{2}} = \sqrt{10,00,00,000} =$ 10,000 units.","1. Kids Zone Total Cost: $(\frac{2,50,000}{10,000} \times 400) + (\frac{10,000}{2} \times 2) = 10,000 + 10,000 =$ TK 20,000.
+
+2. Child Zone Total Cost: $14,000 + 8,000 =$ TK 22,000.
+
+3. Conclusion: Yes, Child Zone’s total inventory cost (TK 22,000) is higher than Kids Zone’s (TK 20,000)."
+2026,Finance 1st,5,RAJUK Uttara Model College,College,"Kohinoor Chemicals needs TK 15,00,000. Option 1: Credit purchase at 3/15, net 45. Option 2: Bank loan at 12% interest with 10% compensating balance and interest paid in advance (discount loan). Option 3: 3-month commercial paper, face value TK 2,000, sold at 10% discount, with 3% dealer commission and 2% stamp duty.",What is revolving credit?,Why is inventory management important?,Calculate the cost of trade credit for the 1st option.,Which option should Kohinoor Chemicals select? Give your opinion.,Revolving credit is a formal and legal commitment by a bank to lend up to a maximum amount to a firm for a specific period.,"1. It ensures an uninterrupted production process and sales flow by preventing stockouts.
+
+2. It minimizes total costs by balancing ordering and carrying costs, ensuring funds are not unnecessarily tied up.","1. Data: $CD = 3\%; CP = 45; DP = 15$.
+
+2. Formula: $Ktc = \frac{CD}{100-CD} \times \frac{360}{CP-DP} \times 100$.
+
+3. Calculation: $\frac{3}{97} \times \frac{360}{30} \times 100 =$ 37.11%.","1. Opt 1: 37.11% (from C).
+
+2. Opt 2 (Bank): $\frac{i}{1-i-CB} = \frac{0.12}{1-0.12-0.10} = 15.38\%$.
+
+3. Opt 3 (CP): Costs = $10\%+3\%+2\% = 15\%$. $Kcp = \frac{15}{85} \times \frac{360}{90} \times 100 = 70.59\%$.
+
+4. Conclusion: Kohinoor should choose Option 2 (Bank Loan) as it has the lowest effective cost."
+2026,Finance 1st,5,Notre Dame College,College,"Jaflong Foods sells processed foods. Monthly demand is 10,000 packets. Lead time is 3–5 days. Safety stock is 1,200 units. Working days = 300. Manager re-orders at 2,000 units. AB Co. has annual cash outflow of TK 50,00,000, operating cycle of 100 days, and average payable period of 30 days.",What is spontaneous financing?,Who bears the cost of trade credit?,What is the Minimum Operating Cash (MOC) for AB Company?,Evaluate the logic of the manager's re-order decision mathematically.,"Spontaneous financing refers to sources of funds that arise naturally from day-to-day business operations, such as accounts payable.","1. Nominally, the buyer bears the ""opportunity cost"" if they fail to take the cash discount.
+
+2. Sellers may also shift the cost to buyers by increasing the base price of goods.","1. Cash Conversion Cycle (CCC): $100 - 30 = 70$ days.
+
+2. Cash Turnover (CT): $360 / 70 = 5.14$ times.
+
+3. MOC: $50,00,000 / 5.14 =$ TK 9,72,763.","1. Daily Demand: $(10,000 \times 12) / 300 = 400$ units.
+
+2. Max ROP: $(Daily Demand \times Max Lead Time) + Safety Stock$.
+
+3. Calculation: $(400 \times 5) + 1,200 = 3,200$ units.
+
+4. Conclusion: The decision to re-order at 2,000 units is illogical as it is far below the required 3,200 units, risking a stockout."
+2026,Finance 1st,5,Dhaka Commerce College,College,"Syedpur Enterprise sells jute products. Annual demand is 12,00,000 units at TK 220 each. Ordering cost is TK 800 and carrying cost is TK 20 per unit. Lead time is 4 days. Safety stock is 12,000 units. Total working days = 300. Manager re-orders at 20,000 units.",What is spontaneous financing?,How does a change in the cash conversion cycle affect cash turnover?,Calculate the annual total inventory cost for Syedpur Enterprise.,Evaluate the logic of the manager's re-order decision mathematically.,"Spontaneous financing refers to funds that arise naturally from operations, like trade credit and accruals.","1. There is an inverse relationship; if the cash conversion cycle decreases, cash turnover increases.
+
+2. A shorter cycle means the company completes the cash-to-cash process more times per year, requiring less idle cash.","1. EOQ: $\sqrt{\frac{2 \times 12,00,000 \times 800}{20}} = 9,798$ units.
+
+2. Total Cost: $(\frac{A}{EOQ} \times O) + (\frac{EOQ}{2} \times C) + (Safety Stock \times C)$.
+
+3. Calculation: $98,000 + 98,000 + (12,000 \times 20) =$ TK 4,36,000.","1. Daily Demand: $12,00,000 / 300 = 4,000$ units.
+
+2. ROP: $(4,000 \times 4) + 12,000 = 28,000$ units.
+
+3. Conclusion: The manager's decision to re-order at 20,000 units is incorrect. The company should re-order when stock hits 28,000 units to ensure safety."
+2026,Finance 1st,5,Adamjee Cantonment College,College,"Labib Co. purchases on credit under terms 2/20, net 45. Annual sales are 12,000 units, carrying cost is TK 60/unit, ordering cost is TK 800/order, and lead time is 7 days. They maintain safety stock for 3 days. The manager re-orders at 650 units.",What is Economic Order Quantity (EOQ)?,What is the optimal cash balance? Explain with the formula.,Calculate the cost of trade credit for Labib Company.,Mathematically analyze the purchase manager's re-order decision based on the stem.,EOQ is the order size that minimizes the total annual cost of ordering and carrying inventory.,"1. It is the cash level that minimizes the sum of opportunity costs (lost interest) and transaction costs.
+
+2. Formula (Baumol Model): $Q = \sqrt{\frac{2 \times T \times F}{i}}$, where $T$ = Annual cash need, $F$ = Fixed cost, $i$ = Interest rate.","1. Data: $CD = 2\%; CP = 45; DP = 20$.
+
+2. Formula: $Ktc = \frac{CD}{100 - CD} \times \frac{360}{CP - DP} \times 100$.
+
+3. Calculation: $\frac{2}{98} \times \frac{360}{25} \times 100 =$ 29.39%.","1. Daily Demand: $12,000 / 360 = 33.33$ units.
+
+2. Safety Stock: $33.33 \times 3 = 100$ units.
+
+3. Re-order Point (ROP): $(Daily Demand \times Lead Time) + Safety Stock$.
+
+4. Calculation: $(33.33 \times 7) + 100 = 333$ units.
+
+5. Conclusion: The manager re-ordered at 650 units, which is much higher than the required 333 units. While safe, it causes unnecessary carrying costs."
+2026,Finance 1st,5,Holy Cross College,College,"Sigma Co. sells 6,000 watches monthly. Carrying cost is TK 2, price is TK 2,000, and ordering cost is TK 100. Beta Co. sells 50,000 watches annually. Their ordering cost is TK 80 and carrying cost is TK 3.",What is the cost of trade credit?,What is meant by revolving credit?,Calculate the EOQ for Sigma Company.,Evaluate the current status of both companies based on total inventory cost.,It is the annual interest cost a firm effectively pays by not taking a cash discount from a supplier.,"Revolving credit is a formal, legal agreement where a bank is committed to lending a firm up to a specific limit, and the firm pays a commitment fee on unused funds.","1. Data: $A = 6,000 \times 12 = 72,000; O = 100; C = 2$.
+
+2. Formula: $EOQ = \sqrt{\frac{2 \times A \times O}{C}}$.
+
+3. Calculation: $\sqrt{\frac{2 \times 72,000 \times 100}{2}} =$ 2,683 units.","1. Sigma Total Cost: $(\frac{72,000}{2683} \times 100) + (\frac{2683}{2} \times 2) = 2,683 + 2,683 =$ TK 5,366.
+
+2. Beta EOQ: $\sqrt{\frac{2 \times 50,000 \times 80}{3}} = 1,633$ units.
+
+3. Beta Total Cost: $(\frac{50,000}{1633} \times 80) + (\frac{1633}{2} \times 3) = 2,450 + 2,450 =$ TK 4,900.
+
+4. Conclusion: Beta Co. is in a better position as its total inventory cost is lower than Sigma Co."
+2026,Finance 1st,5,"Govt. Azizul Haque College, Bogra",College,"Alam Ltd. purchased goods worth TK 10,00,000 from Bogra Shari Ghar under terms 2/15, net 60. The manager decided to take a bank loan at 18% to take the discount. Later, the supplier extended the payment period by 10 days.",What is commercial paper?,Why is current asset management important? Explain.,Calculate the cost of trade credit for Alam Ltd.,How will the change in payment time affect Alam Ltd.'s loan decision?,"Commercial paper is an unsecured, short-term promissory note issued by large corporations to raise funds.","1. It ensures the company has enough liquidity to meet day-to-day operational expenses.
+
+2. It helps maintain the right balance between risk and profitability by avoiding excessive or insufficient investment in current assets.","1. Data: $CD = 2\%; CP = 60; DP = 15$.
+
+2. Formula: $Ktc = \frac{CD}{100 - CD} \times \frac{360}{CP - DP} \times 100$.
+
+3. Calculation: $\frac{2}{98} \times \frac{360}{45} \times 100 =$ 16.33%.","1. Initial Cost: 16.33%. Bank Loan: 18%. (Bank loan was initially a bad decision as $18\% > 16.33\%$).
+
+2. New CP: $60 + 10 = 70$ days.
+
+3. New Ktc: $\frac{2}{98} \times \frac{360}{70 - 15} \times 100 =$ 13.36%.
+
+4. Conclusion: The extension reduces the cost of trade credit further. The manager should definitely avoid the bank loan and stick with the trade credit."
+2026,Finance 1st,5,Dinajpur Govt. College,College,"Mr. Sojib can take trade credit under terms 2/25, net 45, or issue 120-day commercial paper. Each commercial paper has a face value of TK 100 and a selling price of TK 95.",What is short-term financing?,What do you mean by trade credit?,Calculate the cost of the commercial paper.,Which one should Mr. Sojib accept: trade credit or commercial paper? Comment.,Short-term financing refers to the collection of funds for a period of less than one year to meet daily operating expenses.,Trade credit is a spontaneous source of financing where a buyer receives goods now and pays the supplier later.,"1. Data: $FV = 100$; $SV = 95$; $MP = 120$.
+
+2. Formula: $Kcp = \frac{FV - SV}{SV} \times \frac{360}{MP} \times 100$.
+
+3. Calculation: $\frac{100 - 95}{95} \times \frac{360}{120} \times 100 =$ 15.79%.","1. CP Cost: 15.79% (from C).
+
+2. Trade Credit Cost: $CD = 2\%; CP = 45; DP = 25$.
+
+3. Calculation: $\frac{2}{98} \times \frac{360}{20} \times 100 =$ 36.73%.
+
+4. Conclusion: Sojib should choose commercial paper because its cost (15.79%) is much lower than the cost of giving up the discount (36.73%)."
+2026,Finance 1st,5,"Cantonment College, Jessore",College,"Shonchoi Co. sells 800 fans monthly. Each fan costs TK 2,000, carrying cost is TK 1, and ordering cost is TK 100. Sopnil Co. sells 15,000 lights annually with ordering cost of TK 50 and carrying cost of TK 3.",What is trade credit?,Why is maintaining working capital at an optimal level a responsibility of a financial manager?,Calculate the EOQ for Shonchoi Company.,"""The total inventory cost of Sopnil Co. is higher than Shonchoi Co.""—Evaluate this statement.",Trade credit is a short-term financing arrangement where a buyer is allowed to purchase goods and pay later.,"1. Excessive working capital ties up funds unproductively, while insufficient working capital leads to liquidity crises.
+
+2. An optimal level ensures operational efficiency and maximum profitability.","1. Data: $A = 800 \times 12 = 9,600; O = 100; C = 1$.
+
+2. Formula: $EOQ = \sqrt{\frac{2 \times A \times O}{C}}$.
+
+3. Calculation: $\sqrt{\frac{2 \times 9,600 \times 100}{1}} =$ 1,386 units.","1. Shonchoi Cost: $(\frac{9,600}{1386} \times 100) + (\frac{1386}{2} \times 1) = 693 + 693 =$ TK 1,386.
+
+2. Sopnil EOQ: $\sqrt{\frac{2 \times 15,000 \times 50}{3}} = 707$ units.
+
+3. Sopnil Cost: $(\frac{15,000}{707} \times 50) + (\frac{707}{2} \times 3) = 1,061 + 1,061 =$ TK 2,122.
+
+4. Conclusion: The statement is correct. Sopnil Co.'s cost (TK 2,122) is higher than Shonchoi's (TK 1,386)."
+2026,Finance 1st,5,"Cantonment Public School & College, Mymensingh",College,"Sunmoon Co. can take trade credit under terms 3/10, net 30, or take a short-term bank loan at 2% monthly compound interest.",What is mid-term financing?,What do you mean by re-order level?,Calculate the cost of trade credit for Sunmoon Company.,From which source would it be profitable for Sunmoon Co. to take a loan? Explain.,Mid-term financing refers to the sourcing of funds for a period usually ranging from one to five years.,The re-order level is the specific inventory point at which a company must place a new order to avoid running out of stock.,"1. Data: $CD = 3\%; CP = 30; DP = 10$.
+
+2. Formula: $Ktc = \frac{CD}{100-CD} \times \frac{360}{CP-DP} \times 100$.
+
+3. Calculation: $\frac{3}{97} \times \frac{360}{20} \times 100 =$ 55.67%.","1. Trade Credit Cost: 55.67% (from C).
+
+2. Bank Loan (EAR): $(1 + 0.02)^{12} - 1 = 1.268 - 1 = 0.268$ or 26.82%.
+
+3. Conclusion: It is more profitable to take the bank loan because its effective annual rate (26.82%) is much lower than the trade credit cost (55.67%)."
+2026,Finance 1st,5,"Cantonment College, Jessore",College,"Siam is reviewing three financing options: (i) Bank loan of TK 5,00,000 at 15% interest with a 14% compensating balance and interest paid in advance. (ii) Trade credit under terms 2/20, net 60. (iii) Commercial paper with a face value of TK 5,50,000 for 6 months, sold at TK 5,00,000.",What is commercial paper?,What is meant by external financing?,Calculate the cost of the bank loan described in the stem.,Which source of financing should Siam choose? Give your opinion.,"Commercial paper is a short-term, unsecured promissory note issued by large, financially stable corporations to raise funds for immediate needs.","External financing refers to obtaining funds from sources outside the business, such as banks, investors, or credit suppliers, rather than using internal profits.","1. Data: $i = 15\%$; $CB = 14\%$. Interest is advance (Discount loan).
+
+2. Formula: $Kbl = \frac{i}{1 - i - CB} \times 100$.
+
+3. Calculation: $\frac{0.15}{1 - 0.15 - 0.14} \times 100 = \frac{0.15}{0.71} \times 100 =$ 21.13%.","1. Bank Loan Cost: 21.13% (from C).
+
+2. Trade Credit Cost: $\frac{2}{98} \times \frac{360}{40} \times 100 =$ 18.37%.
+
+3. CP Cost: $\frac{50,000}{5,00,000} \times \frac{360}{180} \times 100 =$ 20%.
+
+4. Conclusion: Siam should choose trade credit as it has the lowest cost (18.37%)."
+2026,Finance 1st,5,"Ispahani Public School, Comilla",College,"BD Foods sells processed food. Annual demand is 1,20,000 packets at TK 22 each. Ordering cost is TK 80 and annual carrying cost is TK 2 per unit. Lead time is 4 days. They keep 500 units as safety stock.",What is EOQ?,What problems arise from holding excessive inventory? Explain.,Calculate the annual inventory cost for BD Foods Ltd.,"The manager re-orders at 2,000 units. Explain the logic of this decision.",Economic Order Quantity (EOQ) is the order size that minimizes the total annual cost of ordering and holding inventory.,"Excessive inventory ties up working capital, increases storage and insurance costs, and risks loss through damage or obsolescence.","1. Data: $A = 1,20,000; O = 80; C = 2$.
+
+2. EOQ: $\sqrt{\frac{2 \times 1,20,000 \times 80}{2}} = 3,098$ units.
+
+3. Total Cost: $(\frac{A}{EOQ} \times O) + (\frac{EOQ}{2} \times C)$.
+
+4. Calculation: $3,099 + 3,098 =$ TK 6,197.","1. Daily Demand: $1,20,000 / 360 \approx 333$ units.
+
+2. Lead Time Demand: $333 \times 4 = 1,332$ units.
+
+3. Re-order Point (ROP): $1,332 + 500 = 1,832$ units.
+
+4. Conclusion: The decision to re-order at 2,000 units is logical and safe because it is slightly above the calculated ROP of 1,832 units."
+2026,Finance 1st,5,Abdul Kadir Molla City College,College,"Mr. Amjad needs TK 1,50,000 for working capital. Option 1: Trade credit with terms 2/10, net 70. Option 2: Bank loan at 12% interest with a 20% compensating balance requirement.",What is Economic Order Quantity?,Who bears the cost of trade credit? Explain.,What is the cost of trade credit for Mr. Amjad?,From which source should Mr. Amjad finance his needs? Explain.,EOQ is the ideal order quantity that minimizes the total costs associated with ordering and carrying inventory.,"The buyer bears the ""opportunity cost"" if they do not take the cash discount; the seller might also inflate prices to cover credit costs.","1. Data: $CD = 2\%; CP = 70; DP = 10$.
+
+2. Formula: $Ktc = \frac{CD}{100 - CD} \times \frac{360}{CP - DP} \times 100$.
+
+3. Calculation: $\frac{2}{98} \times \frac{360}{60} \times 100 = 0.0204 \times 6 \times 100 =$ 12.24%.","1. Trade Credit Cost: 12.24% (from C).
+
+2. Bank Loan Cost: $\frac{i}{1 - CB} = \frac{0.12}{1 - 0.20} = \frac{0.12}{0.80} =$ 15%.
+
+3. Conclusion: Mr. Amjad should choose trade credit because the cost (12.24%) is lower than the bank loan cost (15%)."
+2026,Finance 1st,5,"Govt. Commerce College, Chattogram",College,"Mr. Zaman is a successful motorbike businessman. He can purchase HERO bikes on credit under terms 3/10, net 30. Alternatively, he can purchase BAJAJ bikes under terms 4/10, net 25.",What is a commercial paper?,For what purposes is short-term debt used in an organization?,Calculate the cost of trade credit for the HERO bike proposal.,Which of the two proposals is more acceptable for Mr. Zaman? Analyze mathematically.,"A commercial paper is an unsecured, short-term promissory note issued by high-credit-rated corporations to raise immediate funds.","Short-term debt is primarily used to finance working capital needs, such as purchasing raw materials, paying utility bills, and meeting daily operational expenses.","1. Data: $CD = 3\%; CP = 30; DP = 10$.
+
+2. Formula: $Ktc = \frac{CD}{100 - CD} \times \frac{360}{CP - DP} \times 100$.
+
+3. Calculation: $\frac{3}{97} \times \frac{360}{20} \times 100 = 0.0309 \times 18 \times 100 =$ 55.67%.","1. HERO Cost: 55.67% (from C).
+
+2. BAJAJ Cost: $CD = 4\%; CP = 25; DP = 10$.
+
+3. Calculation: $\frac{4}{96} \times \frac{360}{15} \times 100 = 0.0417 \times 24 \times 100 =$ 100%.
+
+4. Conclusion: Mr. Zaman should accept the HERO proposal. Since the cost of giving up the discount for BAJAJ (100%) is significantly higher than for HERO (55.67%), HERO is the more cost-effective choice."
+2026,Finance 1st,5,"Safiuddin Sarker Academy, Gazipur",College,"Padma Co. sells 800 watches monthly. Each watch costs TK 2,000, carrying cost is TK 1, and ordering cost is TK 100. Surma Co. has an annual sales volume of 15,000 watches. Their ordering and carrying costs are TK 50 and TK 3 respectively.",What is trade credit?,For what purposes is short-term debt used in an organization?,Determine the Economic Order Quantity (EOQ) for Padma Company.,"""The total inventory cost of Padma Co. is lower than Surma Co.""—Evaluate the accuracy of this statement.",Trade credit is a spontaneous financing arrangement where a buyer receives goods now and pays the supplier later.,"Short-term debt is used to maintain liquidity and cover current liabilities, ensuring the business cycle remains uninterrupted.","1. Data: $A = 800 \times 12 = 9,600; O = 100; C = 1$.
+
+2. Formula: $EOQ = \sqrt{\frac{2 \times A \times O}{C}}$.
+
+3. Calculation: $\sqrt{\frac{2 \times 9,600 \times 100}{1}} = \sqrt{19,20,000} =$ 1,386 units.","1. Padma Total Cost: $(\frac{9,600}{1386} \times 100) + (\frac{1386}{2} \times 1) = 693 + 693 =$ TK 1,386.
+
+2. Surma EOQ: $\sqrt{\frac{2 \times 15,000 \times 50}{3}} = 707$ units.
+
+3. Surma Total Cost: $(\frac{15,000}{707} \times 50) + (\frac{707}{2} \times 3) = 1,061 + 1,061 =$ TK 2,122.
+
+4. Conclusion: The statement is accurate. Padma Co.'s total inventory cost (TK 1,386) is lower than Surma Co.'s (TK 2,122)."

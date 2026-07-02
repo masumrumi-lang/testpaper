@@ -1,0 +1,43 @@
+import json
+
+data_js_path = r'c:\Users\BMTF\.antigravity\testpaper\data.js'
+
+with open(data_js_path, 'r', encoding='utf-8') as f:
+    content = f.read()
+
+# Let's find "fin1":
+start_idx = content.find('"fin1":')
+if start_idx == -1:
+    print("Could not find 'fin1' block")
+    exit(1)
+
+brace_count = 0
+found_first_brace = False
+end_idx = -1
+for i in range(start_idx, len(content)):
+    char = content[i]
+    if char == '{':
+        brace_count += 1
+        found_first_brace = True
+    elif char == '}':
+        brace_count -= 1
+        if found_first_brace and brace_count == 0:
+            end_idx = i + 1
+            break
+
+fin1_block_str = content[start_idx:end_idx]
+json_str = fin1_block_str.split(':', 1)[1].strip()
+
+# Let's search using regex or by scanning the string to find some examples of "i." or "(i)" or "<br>" or similar
+# since standard json.loads might fail if the JSON isn't 100% standard (but wait, inspect_fin1_datajs did work when we printed keys? No, wait: inspect_fin1_datajs did print `mcqData length = 510` and `Sample MCQ`?
+# Ah! Wait! The error in task-37 was at line 30 `fin1_data = json.loads(json_str)`.
+# Why did it fail?
+# Let's check the error: `Expecting property name enclosed in double quotes: line 2 column 16 (char 17)`
+# Ah! In data.js, the keys of the outer dictionary and chapter numbers are unquoted or single-quoted!
+# E.g., `subjectName: "Accounting 1st Paper",` (no quotes around keys!)
+# That's why json.loads fails!
+# Let's use a regex or a simple demjson/dirty-json parser or write a robust python parser to parse Javascript objects, or let's read the MCQs using regex.
+# Let's write a python script that extracts all MCQs under "fin1" in data.js using a Javascript parser, or standard regex/ast/json-repair libraries, or a simple custom parser.
+# Actually, since it's valid JS, we can parse it using python's `re` or we can load it using a Node.js script! Since it is data.js, we can write a quick node script that reads `data.js`, prints out some MCQ samples as clean JSON, and runs it! That's extremely elegant and 100% accurate because Node.js can parse JS objects natively.
+
+# Let's write a node script to inspect some roman-item MCQs in fin1.

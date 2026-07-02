@@ -1,0 +1,28 @@
+{
+        "id": "31",
+        "stem": "<p>A diagram of the Management Cycle with missing functions indicated by 'ক' and 'খ'. 'ক' — ?.\nOrganizing (সংগঠন): Structuring resources.\nStaffing (কর্মীসংস্থান): Placing the right people.\nDirecting (নির্দেশনা): Guiding the workforce.\nMotivating (প্রেষণা): Inspiring performance.\nCoordinating (সমন্বয়): Harmonizing efforts.\n'খ' — ?.</p>",
+        "meta": "Barisal Board · 2023",
+        "type": "board",
+        "questions": [
+            {
+                "label": "a",
+                "text": "What is management? (1)",
+                "answer": "<p>Management is the art of getting things done through others effectively to achieve specific organizational goals.</p>"
+            },
+            {
+                "label": "b",
+                "text": "What is meant by the management cycle? (2)",
+                "answer": "<p>The management cycle refers to the continuous and sequential process of interrelated functions—planning, organizing, staffing, directing, motivating, coordinating, and controlling—that repeat in a circular manner to sustain an organization.</p>"
+            },
+            {
+                "label": "c",
+                "text": "Which management function is performed in position 'ক'? Explain. (3)",
+                "answer": "<p>Position 'ক' represents Planning (পরিকল্পনা).\n* Definition: It is the primary function of management that involves deciding in advance what is to be done, when, where, how, and by whom.\n* Foundation: It acts as the blueprint for all other management activities.\n* Placement: In the management cycle, it is the starting point that follows 'Controlling' from the previous cycle, as seen in the circular arrows of the diagram.</p>"
+            },
+            {
+                "label": "d",
+                "text": "What is the relationship between the functions marked 'ক' and 'খ'? Analyze. (4)",
+                "answer": "<p>There is a deep and inseparable relationship between 'ক' (Planning) and 'খ' (Controlling).\n* Two Sides of a Coin: Planning sets the standards, and Controlling verifies if those standards are met.\n* Interdependence: Planning is meaningless without Controlling (as there is no oversight), and Controlling is impossible without Planning (as there is no standard to compare against).\n* Corrective Loop: As shown in the diagram, 'খ' (Control) identifies deviations which then serve as the basis for the next 'ক' (Plan), ensuring the cycle remains continuous and effective.</p>"
+            }
+        ]
+    }

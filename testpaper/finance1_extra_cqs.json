@@ -1,0 +1,142 @@
+[
+    {
+        "id": "EX01",
+        "stem": "Mr. Abir wants to invest TK 5,00,000 for 5 years. Two banks have given him the following offers: <br> *table <br> Bank | Interest Rate | Compounding <br> Jamuna Bank | 10% | Annual <br> Padma Bank | 9.5% | Monthly",
+        "meta": "Standard Practice · 2025",
+        "type": "board",
+        "questions": [
+            {
+                "label": "a",
+                "text": "(a) What is the Time Value of Money?",
+                "answer": "The time value of money (TVM) is the concept that a sum of money is worth more now than the same sum will be at a future date due to its earnings potential in the interim."
+            },
+            {
+                "label": "b",
+                "text": "(b) Explain the 'Rule of 72'.",
+                "answer": "The Rule of 72 is a quick way to estimate how long it will take for an investment to double in value at a fixed annual rate of interest. By dividing 72 by the annual rate of return, investors get a rough estimate of how many years it will take for the initial investment to duplicate itself."
+            },
+            {
+                "label": "c",
+                "text": "(c) Calculate the future value of Mr. Abir's investment if he chooses Jamuna Bank.",
+                "answer": "Data: $PV = 5,00,000$ TK; $i = 10\\%$; $n = 5$ years. <br> Formula: $FV = PV(1 + i)^n$. <br> Calculation: $5,00,000 \\times (1 + 0.10)^5 = 5,00,000 \\times 1.61051 = 8,05,255$ TK."
+            },
+            {
+                "label": "d",
+                "text": "(d) Which bank should Mr. Abir choose based on the maturity value? Justify your answer.",
+                "answer": "Data (Padma Bank): $PV = 5,00,000$ TK; $i = 9.5\\%$; $m = 12$; $n = 5$ years. <br> Formula: $FV = PV(1 + \\frac{i}{m})^{n \\times m}$. <br> Calculation: $5,00,000 \\times (1 + \\frac{0.095}{12})^{5 \\times 12} = 5,00,000 \\times (1.007917)^{60} = 8,02,500$ TK (approx). <br> Decision: Mr. Abir should choose Jamuna Bank as it offers a higher maturity value ($8,05,255$ TK) compared to Padma Bank ($8,02,500$ TK)."
+            }
+        ]
+    },
+    {
+        "id": "EX02",
+        "stem": "The capital structure of Beximco Ltd. is as follows: <br> *table <br> Source of Capital | Amount (TK) | Cost of Capital <br> Debt (Before Tax) | 10,00,000 | 12% <br> Preference Share | 5,00,000 | 14% <br> Common Equity | 15,00,000 | 16% <br> The tax rate is 30%.",
+        "meta": "Standard Practice · 2025",
+        "type": "board",
+        "questions": [
+            {
+                "label": "a",
+                "text": "(a) What is WACC?",
+                "answer": "Weighted Average Cost of Capital (WACC) is the average rate of return a company is expected to pay to all its security holders to finance its assets."
+            },
+            {
+                "label": "b",
+                "text": "(b) Why is the cost of debt usually lower than the cost of equity?",
+                "answer": "The cost of debt is lower because interest payments are tax-deductible, providing a tax shield. Additionally, debt holders have a higher claim on assets than equity holders, making it a lower-risk investment for them."
+            },
+            {
+                "label": "c",
+                "text": "(c) Calculate the after-tax cost of debt for Beximco Ltd.",
+                "answer": "Data: $K_d = 12\\%$; $T = 30\\%$. <br> Formula: $K_{dt} = K_d(1 - T)$. <br> Calculation: $12\\% \\times (1 - 0.30) = 12\\% \\times 0.70 = 8.4\\%$."
+            },
+            {
+                "label": "d",
+                "text": "(d) Calculate the Weighted Average Cost of Capital (WACC) for the company.",
+                "answer": "Data: $W_d = 0.333, W_p = 0.167, W_e = 0.50$; $K_{dt} = 8.4\\%, K_p = 14\\%, K_e = 16\\%$. <br> Formula: $WACC = (W_d \\times K_{dt}) + (W_p \\times K_p) + (W_e \\times K_e)$. <br> Calculation: $(0.333 \\times 8.4\\%) + (0.167 \\times 14\\%) + (0.50 \\times 16\\%) = 2.8\\% + 2.338\\% + 8\\% = 13.138\\%$."
+            }
+        ]
+    },
+    {
+        "id": "EX03",
+        "stem": "Akij Group is considering two mutually exclusive projects. The initial investment for both is TK 10,00,000. The estimated net cash flows are: <br> *table <br> Year | Project Alpha (TK) | Project Beta (TK) <br> 1 | 4,00,000 | 5,00,000 <br> 2 | 4,00,000 | 4,00,000 <br> 3 | 4,00,000 | 3,00,000 <br> 4 | 4,00,000 | 2,00,000 <br> The cost of capital is 10%.",
+        "meta": "Standard Practice · 2025",
+        "type": "board",
+        "questions": [
+            {
+                "label": "a",
+                "text": "(a) What is NPV?",
+                "answer": "Net Present Value (NPV) is the difference between the present value of cash inflows and the present value of cash outflows over a period of time."
+            },
+            {
+                "label": "b",
+                "text": "(b) Explain the 'Accept-Reject' rule for NPV.",
+                "answer": "If NPV is positive (>0), the project should be accepted because it adds value to the firm. If NPV is negative (<0), the project should be rejected. If NPV is zero, the firm is indifferent."
+            },
+            {
+                "label": "c",
+                "text": "(c) Calculate the Payback Period for Project Alpha.",
+                "answer": "Data: Investment = $10,00,000$ TK; Annual Cash Flow = $4,00,000$ TK. <br> Formula: $PBP = \\frac{\\text{Initial Investment}}{\\text{Annual Cash Flow}}$. <br> Calculation: $\\frac{10,00,000}{4,00,000} = 2.5$ years."
+            },
+            {
+                "label": "d",
+                "text": "(d) Evaluate which project Akij Group should accept using the NPV method.",
+                "answer": "Data: $k = 10\\%$; Cash Flows as per table. <br> Formula: $NPV = \\sum \\frac{CF_t}{(1+k)^t} - CF_0$. <br> Calculation (Alpha): $4,00,000 \\times PVIFA(10\\%, 4) - 10,00,000 = 12,68,000 - 10,00,000 = 2,68,000$ TK. <br> Calculation (Beta): $(\\frac{5L}{1.1} + \\frac{4L}{1.21} + \\frac{3L}{1.331} + \\frac{2L}{1.4641}) - 10,00,000 = 11,47,119 - 10,00,000 = 1,47,119$ TK. <br> Decision: Accept Project Alpha as its NPV ($2,68,000$ TK) is higher than Project Beta's NPV ($1,47,119$ TK)."
+            }
+        ]
+    },
+    {
+        "id": "EX04",
+        "stem": "An investor is considering two stocks with the following probability distribution of returns: <br> *table <br> State | Probability | Stock X Return | Stock Y Return <br> Boom | 0.3 | 20% | 25% <br> Normal | 0.4 | 12% | 10% <br> Recession | 0.3 | -5% | -10%",
+        "meta": "Standard Practice · 2025",
+        "type": "board",
+        "questions": [
+            {
+                "label": "a",
+                "text": "(a) What is business risk?",
+                "answer": "Business risk is the possibility that a company will have lower than anticipated profits or experience a loss rather than taking a profit, often due to operational factors."
+            },
+            {
+                "label": "b",
+                "text": "(b) Differentiate between systematic and unsystematic risk.",
+                "answer": "Systematic risk (Market risk) affects the entire market and cannot be diversified away (e.g., inflation, interest rates). Unsystematic risk is specific to a company or industry and can be reduced through diversification."
+            },
+            {
+                "label": "c",
+                "text": "(c) Calculate the Expected Return for Stock X.",
+                "answer": "Data: $P_i$ and $R_i$ as per table. <br> Formula: $E(R) = \\sum (P_i \\times R_i)$. <br> Calculation: $(0.3 \\times 20\\%) + (0.4 \\times 12\\%) + (0.3 \\times -5\\%) = 6\\% + 4.8\\% - 1.5\\% = 9.3\\%$."
+            },
+            {
+                "label": "d",
+                "text": "(d) If the Standard Deviation for Stock X is 9.8% and for Stock Y is 14.5%, which stock is less risky per unit of return? (Given E(Ry) = 8.5%)",
+                "answer": "Data: $SD_x = 9.8\\%, E(R_x) = 9.3\\%$; $SD_y = 14.5\\%, E(R_y) = 8.5\\%$. <br> Formula: $CV = \\frac{SD}{E(R)}$. <br> Calculation: $CV_x = \\frac{9.8}{9.3} = 1.05$; $CV_y = \\frac{14.5}{8.5} = 1.71$. <br> Decision: Stock X is less risky per unit of return as its CV (1.05) is lower than Stock Y's CV (1.71)."
+            }
+        ]
+    },
+    {
+        "id": "EX05",
+        "stem": "Pran-RFL Group currently purchases raw materials on credit terms '2/10, net 30'. They are considering whether to take the discount or borrow from a bank at 15% interest to pay on day 10.",
+        "meta": "Standard Practice · 2025",
+        "type": "board",
+        "questions": [
+            {
+                "label": "a",
+                "text": "(a) What is Trade Credit?",
+                "answer": "Trade credit is a business-to-business (B2B) agreement in which a customer can purchase goods on account without paying cash up front, paying the vendor at a later scheduled date."
+            },
+            {
+                "label": "b",
+                "text": "(b) Explain '2/10, net 30'.",
+                "answer": "It means the buyer gets a 2% discount if they pay within 10 days; otherwise, the full amount is due within 30 days."
+            },
+            {
+                "label": "c",
+                "text": "(c) Calculate the nominal annual cost of giving up the cash discount.",
+                "answer": "Data: $CD = 2\\%; CP = 30; DP = 10$. <br> Formula: $Cost = \\frac{CD}{100 - CD} \\times \\frac{360}{CP - DP}$. <br> Calculation: $\\frac{2}{98} \\times \\frac{360}{20} = 0.0204 \\times 18 = 36.72\\%$."
+            },
+            {
+                "label": "d",
+                "text": "(d) Should Pran-RFL Group take the discount? Justify your answer based on bank loan cost.",
+                "answer": "The cost of giving up the discount ($36.72\\%$) is much higher than the bank loan cost ($15\\%$). <br> Decision: Yes, the company should borrow from the bank at $15\\%$ to pay within the discount period, as this saves them $36.72\\% - 15\\% = 21.72\\%$ annually."
+            }
+        ]
+    }
+]

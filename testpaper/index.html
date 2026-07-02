@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Etestpaper | Dashboard</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700&display=swap');
+body { font-family: 'Noto Sans Bengali', sans-serif; background-color: #f8fafc; }
+.poppins { font-family: 'Poppins', sans-serif; }
+.noto { font-family: 'Noto Sans Bengali', sans-serif; }
+</style>
+<link rel="stylesheet" href="global.css">
+</head>
+<body class="min-h-screen bg-gray-50 dark:bg-gray-950">
+<div id="__next">
+<main class="min-h-screen">
+<!-- Mobile Sidebar Overlay -->
+<div id="mobileOverlay" class="fixed inset-0 z-40 hidden transition-opacity duration-300"></div>
+
+<!-- Mobile Sidebar -->
+<aside id="mobileSidebar" class="fixed inset-y-0 left-0 z-50 w-72 bg-white dark:bg-gray-900 border-r border-gray-100 dark:border-gray-800 shadow-2xl lg:hidden">
+    <div class="flex flex-col h-full">
+        <div class="flex items-center justify-between p-4 border-b border-gray-100 dark:border-gray-800">
+            <div class="h-[28px] relative text-blue-600 font-bold text-xl poppins">etest<span class="text-sky-500">paper</span></div>
+            <button id="closeMobileMenuBtn" class="p-2 rounded-xl text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+            </button>
+        </div>
+        <nav class="flex-1 overflow-y-auto p-4 space-y-1">
+            <p class="px-3 pb-2 text-[10px] font-bold text-gray-400 uppercase tracking-widest poppins">Menu</p>
+            <a class="noto flex items-center gap-3 px-4 py-3 rounded-xl bg-sky-50 dark:bg-sky-900/20 text-sky-700 dark:text-sky-300 font-medium" href="index.html">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z"/></svg>
+                <span>ড্যাশবোর্ড</span>
+            </a>
+            <a class="noto flex items-center gap-3 px-4 py-3 rounded-xl text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800/50" href="subjects.html">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/></svg>
+                <span>অধ্যায় ভিত্তিক প্রস্তুতি</span>
+            </a>
+            <!-- Add more links as needed from the desktop sidebar -->
+        </nav>
+        <div class="p-4 border-t border-gray-100 dark:border-gray-800">
+            <button onclick="toggleDarkMode()" class="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl bg-gray-100 dark:bg-gray-800 text-sm font-medium noto">
+                <span>থিম পরিবর্তন</span>
+            </button>
+        </div>
+    </div>
+</aside>
+
+<!-- Sidebar -->
+<aside class="hidden lg:flex fixed inset-y-0 left-0 z-30 flex-col bg-white dark:bg-gray-900 border-r border-gray-100 dark:border-gray-800 transition-all duration-300 w-64">
+<div class="shrink-0 border-b border-gray-100 dark:border-gray-800 transition-all duration-300 px-4 py-4">
+<div class="flex items-center justify-between">
+<a href="index.html">
+<div class="h-[28px] relative text-blue-600 font-bold text-2xl poppins">etest<span class="text-sky-500">paper</span></div>
+</a>
+<button class="p-1.5 rounded-lg text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"></path></svg>
+</button>
+</div>
+</div>
+<nav class="flex-1 overflow-y-auto py-3 px-2">
+<p class="px-3 pb-2 pt-1 text-[10px] font-bold text-gray-400 dark:text-gray-500 uppercase tracking-widest poppins">Menu</p>
+<div class="grid gap-0.5">
+<a class="noto flex items-center rounded-xl text-[13px] font-medium transition-all duration-200 gap-3 px-3 py-2.5 bg-sky-50 dark:bg-sky-900/20 text-sky-700 dark:text-sky-300" href="index.html">
+<span class="shrink-0 text-sky-500"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z"></path></svg></span>
+<span class="mt-0.5">ড্যাশবোর্ড</span>
+<div class="ml-auto w-1.5 h-1.5 rounded-full bg-sky-500"></div>
+</a>
+<a class="noto flex items-center rounded-xl text-[13px] font-medium transition-all duration-200 gap-3 px-3 py-2.5 text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800/50" href="subjects.html">
+<span class="shrink-0 "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"></path></svg></span>
+<span class="mt-0.5">অধ্যায় ভিত্তিক প্রস্তুতি</span>
+</a>
+<a class="noto flex items-center rounded-xl text-[13px] font-medium transition-all duration-200 gap-3 px-3 py-2.5 text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800/50" href="#">
+<span class="shrink-0 "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 6.878V6a2.25 2.25 0 0 1 2.25-2.25h7.5A2.25 2.25 0 0 1 18 6v.878m-12 0c.235-.083.487-.128.75-.128h10.5c.263 0 .515.045.75.128m-12 0A2.25 2.25 0 0 0 4.5 9v.878m13.5-3A2.25 2.25 0 0 1 19.5 9v.878m0 0a2.246 2.246 0 0 0-.75-.128H5.25c-.263 0-.515.045-.75.128m15 0A2.25 2.25 0 0 1 21 12v6a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 18v-6c0-1.243 1.007-2.25 2.25-2.25h13.5"></path></svg></span>
+<span class="mt-0.5">বোর্ড প্রশ্ন</span>
+</a>
+<a class="noto flex items-center rounded-xl text-[13px] font-medium transition-all duration-200 gap-3 px-3 py-2.5 text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800/50" href="#">
+<span class="shrink-0 "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z"></path></svg></span>
+<span class="mt-0.5">কলেজ প্রশ্ন</span>
+</a>
+<a class="noto flex items-center rounded-xl text-[13px] font-medium transition-all duration-200 gap-3 px-3 py-2.5 text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800/50" href="#">
+<span class="shrink-0 "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15a2.25 2.25 0 0 1 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0 1 18 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3 1.5 1.5 3-3.75"></path></svg></span>
+<span class="mt-0.5">পরীক্ষা সমূহ </span>
+</a>
+<a class="noto flex items-center rounded-xl text-[13px] font-medium transition-all duration-200 gap-3 px-3 py-2.5 text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800/50" href="#">
+<span class="shrink-0 "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 8V17.0192M9 8V17M15 8V17M19 8V17.0192M5 17.0192C5.31428 17 5.70173 17 6.2 17H17.8C18.2983 17 18.6857 17 19 17.0192M5 17.0192C4.60779 17.0431 4.32953 17.097 4.09202 17.218C3.71569 17.4097 3.40973 17.7157 3.21799 18.092C3 18.5198 3 19.0799 3 20.2V21H21V20.2C21 19.0799 21 18.5198 20.782 18.092C20.5903 17.7157 20.2843 17.4097 19.908 17.218C19.6705 17.097 19.3922 17.0431 19 17.0192M3 5.5V8H21V5.5L12 3L3 5.5Z"></path></svg></span>
+<span class="mt-0.5">ইউনিভার্সিটি প্রশ্ন</span>
+</a>
+<a class="noto flex items-center rounded-xl text-[13px] font-medium transition-all duration-200 gap-3 px-3 py-2.5 text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800/50" href="#">
+<span class="shrink-0 "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"></path></svg></span>
+<span class="mt-0.5">সাজেশন</span>
+</a>
+<a class="noto flex items-center rounded-xl text-[13px] font-medium transition-all duration-200 gap-3 px-3 py-2.5 text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800/50" href="#">
+<span class="shrink-0 "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 1 1 0-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 0 1-1.44-4.282m3.102.069a18.03 18.03 0 0 1-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 0 1 8.835 2.535M10.34 6.66a23.847 23.847 0 0 0 8.835-2.535m0 0A23.74 23.74 0 0 0 18.795 3m.38 1.125a23.91 23.91 0 0 1 1.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 0 0 1.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 0 1 0 3.46"></path></svg></span>
+<span class="mt-0.5">নোটিশ</span>
+</a>
+</div>
+
+<div class="mt-3 pt-3 border-t border-gray-100 dark:border-gray-800 grid gap-0.5">
+<p class="px-3 pb-2 pt-1 text-[10px] font-bold text-gray-400 dark:text-gray-500 uppercase tracking-widest poppins">Profile</p>
+<div class="flex items-center gap-3 px-3 py-2">
+<button aria-label="Toggle dark mode" class="w-14 h-8 bg-gradient-to-r from-blue-100 to-purple-100 dark:from-gray-700 dark:to-gray-800 rounded-full p-1 transition-all duration-500 ease-in-out shadow-inner hover:shadow-md relative overflow-hidden">
+<div class="absolute inset-0 rounded-full overflow-hidden"><div class="absolute inset-0 bg-gradient-to-r from-yellow-200 to-orange-200 dark:from-blue-400 dark:to-purple-500 opacity-20"></div></div>
+<div class="relative h-6 w-6 rounded-full bg-white dark:bg-gray-900 shadow-md flex items-center justify-center transition-transform duration-500 ease-in-out translate-x-0">
+<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-yellow-500" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path></svg>
+</div>
+</button>
+<span class="noto text-xs font-medium text-gray-500 dark:text-gray-400 mt-0.5">থিম পরিবর্তন</span>
+</div>
+<button class="w-full flex items-center rounded-xl text-sm font-medium text-red-500 hover:bg-red-50 dark:hover:bg-red-900/10 transition-colors duration-200 gap-3 px-3 py-2.5">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 shrink-0"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15m3 0 3-3m0 0-3-3m3 3H9"></path></svg>
+<span class="noto mt-0.5">লগ আউট</span>
+</button>
+</div>
+</nav>
+<div class="border-t border-gray-100 dark:border-gray-800 px-2 py-3 shrink-0 space-y-1">
+<div class="flex items-center rounded-xl transition-all duration-200 gap-3 px-3 py-2.5">
+<div class="relative shrink-0">
+<div class="rounded-full bg-gradient-to-br from-sky-500 to-blue-600 flex items-center justify-center w-9 h-9">
+<span class="text-white font-bold text-sm">Z</span>
+</div>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-1.5">
+<p class="text-sm font-semibold text-gray-900 dark:text-white truncate noto">Zara</p>
+<span class="shrink-0 text-[9px] font-bold text-amber-600 bg-amber-50 px-1.5 py-0.5 rounded-full poppins">PRO</span>
+</div>
+<p class="text-[11px] text-gray-400 poppins">hsc</p>
+</div>
+</div>
+</div>
+</aside>
+
+<div class="transition-all duration-300 lg:ml-64">
+<header class="w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl border-b border-gray-200/60 dark:border-gray-700/40 sticky top-0 z-30 relative">
+<div class="flex justify-between max-w-screen-2xl w-full mx-auto px-4 md:px-6 xl:px-8 items-center h-16">
+<div class="lg:hidden flex items-center gap-3">
+<button id="mobileMenuBtn" type="button" class="p-1.5 -ml-1.5 rounded-xl text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path></svg>
+</button>
+<div class="h-[28px] relative text-blue-600 font-bold text-xl poppins">etest<span class="text-sky-500">paper</span></div>
+</div>
+<div class="hidden gap-1.5 xl:gap-2 items-center lg:flex">
+<a class="text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 noto duration-200 h-9 px-4 items-center text-sm font-medium rounded-full transition-all flex" href="index.html"><span class="mt-0.5">হোম</span></a>
+<button class="text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 noto duration-200 h-9 px-4 items-center text-sm font-medium flex rounded-full transition-all gap-1.5">
+<span class="mt-0.5">প্রশ্নব্যাংক</span>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3 h-3"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"></path></svg>
+</button>
+<a class="text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 noto duration-200 h-9 px-4 items-center text-sm font-medium flex rounded-full transition-all" href="#"><span class="mt-0.5">নোটিশ</span></a>
+<a class="text-amber-600 dark:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20 ring-1 ring-amber-300 dark:ring-amber-600 noto duration-200 h-9 px-4 items-center text-sm font-medium flex rounded-full transition-all" href="#"><span class="mt-0.5">সাবস্ক্রিপশন</span></a>
+</div>
+<div class="flex justify-end items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-gradient-to-br from-sky-500 to-blue-600 flex items-center justify-center shadow-sm">
+<span class="text-white text-sm font-bold poppins">Z</span>
+</div>
+</div>
+</div>
+</header>
+
+<div class="w-full">
+<div class="w-full min-h-screen bg-gray-50 dark:bg-gray-950">
+<div class="max-w-2xl mx-auto px-4 py-8">
+<div class="flex items-center justify-between mb-6 pb-3 border-b border-gray-200 dark:border-gray-800">
+<h1 class="noto text-lg font-semibold text-gray-800 dark:text-gray-200">ড্যাশবোর্ড</h1>
+<div class="flex items-center gap-1">
+<button class="relative h-9 w-9 flex items-center justify-center rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 transition-colors">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0"></path></svg>
+</button>
+</div>
+</div>
+
+<div class="relative mb-6">
+<div class="relative flex items-center">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 absolute left-4 text-gray-400 pointer-events-none"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path></svg>
+<input type="text" placeholder="প্রশ্ন বা কীওয়ার্ড অনুসন্ধান করুন..." class="noto w-full pl-11 pr-4 py-3 rounded-xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700/50 text-sm text-gray-800 dark:text-gray-200 placeholder:text-gray-400 dark:placeholder:text-gray-500 outline-none focus:border-sky-400 dark:focus:border-sky-500 focus:ring-1 focus:ring-sky-400 dark:focus:ring-sky-500 transition-all duration-200">
+</div>
+</div>
+
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+<!-- Card 1: Practice Engine (Links to MCQ) -->
+<a class="noto group flex flex-col items-center justify-center gap-3 p-5 sm:p-6 rounded-2xl text-xs sm:text-sm font-medium transition-all duration-200 border bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-700/50 text-gray-700 dark:text-gray-300 hover:border-sky-400 dark:hover:border-sky-500 hover:shadow-lg hover:shadow-sky-500/10 hover:-translate-y-0.5" href="subjects.html">
+<span class="shrink-0 w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-xl transition-colors duration-200 bg-sky-50 dark:bg-sky-900/20 text-sky-600 dark:text-sky-400 group-hover:bg-sky-100 dark:group-hover:bg-sky-900/30">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"></path></svg>
+</span>
+<span class="text-center leading-tight">অধ্যায় ভিত্তিক প্রস্তুতি</span>
+</a>
+
+<!-- Card 2: Board -->
+<a class="noto group flex flex-col items-center justify-center gap-3 p-5 sm:p-6 rounded-2xl text-xs sm:text-sm font-medium transition-all duration-200 border bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-700/50 text-gray-700 dark:text-gray-300 hover:border-sky-400 dark:hover:border-sky-500 hover:shadow-lg hover:shadow-sky-500/10 hover:-translate-y-0.5" href="#">
+<span class="shrink-0 w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-xl transition-colors duration-200 bg-sky-50 dark:bg-sky-900/20 text-sky-600 dark:text-sky-400 group-hover:bg-sky-100 dark:group-hover:bg-sky-900/30">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 6.878V6a2.25 2.25 0 0 1 2.25-2.25h7.5A2.25 2.25 0 0 1 18 6v.878m-12 0c.235-.083.487-.128.75-.128h10.5c.263 0 .515.045.75.128m-12 0A2.25 2.25 0 0 0 4.5 9v.878m13.5-3A2.25 2.25 0 0 1 19.5 9v.878m0 0a2.246 2.246 0 0 0-.75-.128H5.25c-.263 0-.515.045-.75.128m15 0A2.25 2.25 0 0 1 21 12v6a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 18v-6c0-1.243 1.007-2.25 2.25-2.25h13.5"></path></svg>
+</span>
+<span class="text-center leading-tight">বোর্ড প্রশ্ন</span>
+</a>
+
+<!-- Card 3: College -->
+<a class="noto group flex flex-col items-center justify-center gap-3 p-5 sm:p-6 rounded-2xl text-xs sm:text-sm font-medium transition-all duration-200 border bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-700/50 text-gray-700 dark:text-gray-300 hover:border-sky-400 dark:hover:border-sky-500 hover:shadow-lg hover:shadow-sky-500/10 hover:-translate-y-0.5" href="#">
+<span class="shrink-0 w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-xl transition-colors duration-200 bg-sky-50 dark:bg-sky-900/20 text-sky-600 dark:text-sky-400 group-hover:bg-sky-100 dark:group-hover:bg-sky-900/30">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z"></path></svg>
+</span>
+<span class="text-center leading-tight">কলেজ প্রশ্ন</span>
+</a>
+
+<!-- Card 4: Exams -->
+<a class="noto group flex flex-col items-center justify-center gap-3 p-5 sm:p-6 rounded-2xl text-xs sm:text-sm font-medium transition-all duration-200 border bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-700/50 text-gray-700 dark:text-gray-300 hover:border-sky-400 dark:hover:border-sky-500 hover:shadow-lg hover:shadow-sky-500/10 hover:-translate-y-0.5" href="#">
+<span class="shrink-0 w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-xl transition-colors duration-200 bg-sky-50 dark:bg-sky-900/20 text-sky-600 dark:text-sky-400 group-hover:bg-sky-100 dark:group-hover:bg-sky-900/30">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15a2.25 2.25 0 0 1 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0 1 18 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3 1.5 1.5 3-3.75"></path></svg>
+</span>
+<span class="text-center leading-tight">পরীক্ষা সমূহ </span>
+</a>
+
+<!-- Card 5: University -->
+<a class="noto group flex flex-col items-center justify-center gap-3 p-5 sm:p-6 rounded-2xl text-xs sm:text-sm font-medium transition-all duration-200 border bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-700/50 text-gray-700 dark:text-gray-300 hover:border-sky-400 dark:hover:border-sky-500 hover:shadow-lg hover:shadow-sky-500/10 hover:-translate-y-0.5" href="#">
+<span class="shrink-0 w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-xl transition-colors duration-200 bg-sky-50 dark:bg-sky-900/20 text-sky-600 dark:text-sky-400 group-hover:bg-sky-100 dark:group-hover:bg-sky-900/30">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 8V17.0192M9 8V17M15 8V17M19 8V17.0192M5 17.0192C5.31428 17 5.70173 17 6.2 17H17.8C18.2983 17 18.6857 17 19 17.0192M5 17.0192C4.60779 17.0431 4.32953 17.097 4.09202 17.218C3.71569 17.4097 3.40973 17.7157 3.21799 18.092C3 18.5198 3 19.0799 3 20.2V21H21V20.2C21 19.0799 21 18.5198 20.782 18.092C20.5903 17.7157 20.2843 17.4097 19.908 17.218C19.6705 17.097 19.3922 17.0431 19 17.0192M3 5.5V8H21V5.5L12 3L3 5.5Z"></path></svg>
+</span>
+<span class="text-center leading-tight">ইউনিভার্সিটি প্রশ্ন</span>
+</a>
+
+<!-- Card 6: Suggestions -->
+<a class="noto group flex flex-col items-center justify-center gap-3 p-5 sm:p-6 rounded-2xl text-xs sm:text-sm font-medium transition-all duration-200 border bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-700/50 text-gray-700 dark:text-gray-300 hover:border-sky-400 dark:hover:border-sky-500 hover:shadow-lg hover:shadow-sky-500/10 hover:-translate-y-0.5" href="#">
+<span class="shrink-0 w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-xl transition-colors duration-200 bg-sky-50 dark:bg-sky-900/20 text-sky-600 dark:text-sky-400 group-hover:bg-sky-100 dark:group-hover:bg-sky-900/30">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"></path></svg>
+</span>
+<span class="text-center leading-tight">সাজেশন</span>
+</a>
+
+</div>
+
+<!-- ─── AI Accounting Assistant Panel ─────────────────────────────────── -->
+<div id="aiAssistantPanel" class="mt-8">
+<div class="flex items-center justify-between mb-4">
+    <div class="flex items-center gap-2.5">
+        <span class="shrink-0 w-9 h-9 flex items-center justify-center rounded-xl bg-gradient-to-br from-violet-500 to-indigo-600 shadow-lg shadow-violet-500/20">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 0 0-2.455 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z"/></svg>
+        </span>
+        <div>
+            <h2 class="noto text-sm font-semibold text-gray-800 dark:text-gray-200">AI হিসাববিজ্ঞান সহকারী</h2>
+            <p class="text-[11px] text-gray-400 poppins" id="aiModelBadge">MiniMax M2.5</p>
+        </div>
+    </div>
+    <button id="aiSettingsBtn" class="p-2 rounded-xl text-gray-400 hover:text-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200" title="AI Settings">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.431.992a7.723 7.723 0 0 1 0 .255c-.007.378.138.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/></svg>
+    </button>
+</div>
+
+<!-- Settings Drawer (hidden by default) -->
+<div id="aiSettingsDrawer" class="hidden mb-4 p-4 rounded-2xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700/50 shadow-sm transition-all duration-300">
+    <label class="noto text-xs font-medium text-gray-500 dark:text-gray-400 block mb-2">OpenRouter API Key</label>
+    <div class="flex gap-2">
+        <input id="aiApiKeyInput" type="password" placeholder="sk-or-v1-..." class="poppins flex-1 px-3 py-2 rounded-xl bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm text-gray-800 dark:text-gray-200 outline-none focus:border-violet-400 focus:ring-1 focus:ring-violet-400 transition-all duration-200">
+        <button id="aiSaveKeyBtn" class="px-4 py-2 rounded-xl bg-violet-600 hover:bg-violet-700 text-white text-sm font-medium poppins transition-colors duration-200 shadow-sm">Save</button>
+    </div>
+    <p class="mt-2 text-[11px] text-gray-400 poppins">Get your free key at <a href="https://openrouter.ai/keys" target="_blank" class="text-violet-500 hover:underline">openrouter.ai/keys</a></p>
+</div>
+
+<!-- Fallback Status Banner (hidden by default) -->
+<div id="aiFallbackBanner" class="hidden mb-3 flex items-center gap-2 px-3 py-2 rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-700/40 text-amber-700 dark:text-amber-400 text-xs noto">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 shrink-0"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z"/></svg>
+    <span id="aiFallbackText">ফলব্যাক মডেল ব্যবহৃত হচ্ছে</span>
+</div>
+
+<!-- Chat Area -->
+<div id="aiChatArea" class="rounded-2xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700/50 shadow-sm overflow-hidden">
+    <!-- Messages -->
+    <div id="aiMessages" class="p-4 space-y-4 max-h-[420px] overflow-y-auto" style="min-height:120px;">
+        <div class="flex items-start gap-3">
+            <div class="shrink-0 w-7 h-7 rounded-lg bg-gradient-to-br from-violet-500 to-indigo-600 flex items-center justify-center mt-0.5">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-3.5 h-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09Z"/></svg>
+            </div>
+            <div class="noto text-sm text-gray-600 dark:text-gray-400 leading-relaxed pt-0.5">
+                আমি আপনার AI হিসাববিজ্ঞান সহকারী। জাবেদা, খতিয়ান, রেওয়ামিল, কার্যপত্র — যেকোনো প্রশ্ন করুন!
+            </div>
+        </div>
+    </div>
+
+    <!-- Input Bar -->
+    <div class="border-t border-gray-100 dark:border-gray-800 p-3">
+        <div class="flex items-end gap-2">
+            <textarea id="aiPromptInput" rows="1" placeholder="আপনার প্রশ্ন লিখুন..." class="noto flex-1 px-3 py-2.5 rounded-xl bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm text-gray-800 dark:text-gray-200 placeholder:text-gray-400 outline-none focus:border-violet-400 focus:ring-1 focus:ring-violet-400 transition-all duration-200 resize-none" style="max-height:120px;"></textarea>
+            <button id="aiSendBtn" class="shrink-0 w-10 h-10 rounded-xl bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-700 hover:to-indigo-700 text-white flex items-center justify-center shadow-lg shadow-violet-500/20 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4.5 h-4.5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5"/></svg>
+            </button>
+        </div>
+    </div>
+</div>
+</div>
+<!-- ─── End AI Assistant Panel ────────────────────────────────────────── -->
+
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="openrouter.js"></script>
+<script src="global.js"></script>
+<script>
+// ─── AI Assistant Dashboard Wiring ───────────────────────────────────────
+(function() {
+    const settingsBtn    = document.getElementById('aiSettingsBtn');
+    const settingsDrawer = document.getElementById('aiSettingsDrawer');
+    const apiKeyInput    = document.getElementById('aiApiKeyInput');
+    const saveKeyBtn     = document.getElementById('aiSaveKeyBtn');
+    const promptInput    = document.getElementById('aiPromptInput');
+    const sendBtn        = document.getElementById('aiSendBtn');
+    const messagesArea   = document.getElementById('aiMessages');
+    const fallbackBanner = document.getElementById('aiFallbackBanner');
+    const fallbackText   = document.getElementById('aiFallbackText');
+    const modelBadge     = document.getElementById('aiModelBadge');
+
+    // Conversation history for multi-turn
+    let conversationHistory = [];
+
+    // ── Settings toggle ──────────────────────────────────────────────────
+    settingsBtn.addEventListener('click', function() {
+        settingsDrawer.classList.toggle('hidden');
+        if (!settingsDrawer.classList.contains('hidden')) {
+            const existing = getApiKey();
+            if (existing) apiKeyInput.value = existing;
+            apiKeyInput.focus();
+        }
+    });
+
+    saveKeyBtn.addEventListener('click', function() {
+        const key = apiKeyInput.value.trim();
+        if (key) {
+            setApiKey(key);
+            settingsDrawer.classList.add('hidden');
+            apiKeyInput.value = '';
+            showToast('API key saved successfully!');
+        }
+    });
+
+    // ── Auto-resize textarea ─────────────────────────────────────────────
+    promptInput.addEventListener('input', function() {
+        this.style.height = 'auto';
+        this.style.height = Math.min(this.scrollHeight, 120) + 'px';
+    });
+
+    // ── Send on Enter (Shift+Enter for newline) ──────────────────────────
+    promptInput.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            sendBtn.click();
+        }
+    });
+
+    // ── Send message ─────────────────────────────────────────────────────
+    sendBtn.addEventListener('click', async function() {
+        const prompt = promptInput.value.trim();
+        if (!prompt || sendBtn.disabled) return;
+
+        // Add user message bubble
+        appendMessage('user', prompt);
+        promptInput.value = '';
+        promptInput.style.height = 'auto';
+
+        // Disable while loading
+        sendBtn.disabled = true;
+        const loadingEl = appendLoading();
+
+        try {
+            const result = await askAccountingAssistant(prompt, conversationHistory);
+
+            // Remove loading indicator
+            if (loadingEl && loadingEl.parentNode) loadingEl.remove();
+
+            if (result.success) {
+                // Update history
+                conversationHistory.push({ role: 'user', content: prompt });
+                conversationHistory.push({ role: 'assistant', content: result.content });
+
+                // Keep history manageable (last 10 turns = 20 messages)
+                if (conversationHistory.length > 20) {
+                    conversationHistory = conversationHistory.slice(-20);
+                }
+
+                // Render response — convert *table notation to HTML
+                const rendered = renderTableNotation(result.content);
+                appendMessage('assistant', rendered, true);
+
+                // Update model badge
+                modelBadge.textContent = result.model.split('/').pop().replace(':free', ' (free)');
+
+                // Show/hide fallback banner
+                if (result.fallbackUsed) {
+                    fallbackBanner.classList.remove('hidden');
+                    fallbackText.textContent = 'প্রাথমিক মডেল অনুপলব্ধ — ফলব্যাক মডেল ব্যবহৃত হচ্ছে';
+                } else {
+                    fallbackBanner.classList.add('hidden');
+                }
+            } else {
+                appendMessage('error', result.error);
+            }
+        } catch (err) {
+            // This should never happen (askAccountingAssistant never throws),
+            // but guard against it anyway to protect the dashboard.
+            if (loadingEl && loadingEl.parentNode) loadingEl.remove();
+            appendMessage('error', 'Unexpected error: ' + err.message);
+            console.error('[AI Assistant] Unhandled error:', err);
+        }
+
+        sendBtn.disabled = false;
+        promptInput.focus();
+    });
+
+    // ── UI Helpers ───────────────────────────────────────────────────────
+
+    function appendMessage(role, content, isHtml) {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'flex items-start gap-3 ai-msg-animate';
+
+        if (role === 'user') {
+            wrapper.innerHTML =
+                '<div class="shrink-0 w-7 h-7 rounded-lg bg-gradient-to-br from-sky-500 to-blue-600 flex items-center justify-center mt-0.5">' +
+                    '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-3.5 h-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"/></svg>' +
+                '</div>' +
+                '<div class="noto text-sm text-gray-800 dark:text-gray-200 leading-relaxed pt-0.5 whitespace-pre-wrap">' + escapeHtml(content) + '</div>';
+        } else if (role === 'assistant') {
+            wrapper.innerHTML =
+                '<div class="shrink-0 w-7 h-7 rounded-lg bg-gradient-to-br from-violet-500 to-indigo-600 flex items-center justify-center mt-0.5">' +
+                    '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-3.5 h-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09Z"/></svg>' +
+                '</div>' +
+                '<div class="noto text-sm text-gray-700 dark:text-gray-300 leading-relaxed pt-0.5 ai-response-content">' +
+                    (isHtml ? content : escapeHtml(content)) +
+                '</div>';
+        } else {
+            // error
+            wrapper.innerHTML =
+                '<div class="shrink-0 w-7 h-7 rounded-lg bg-red-100 dark:bg-red-900/30 flex items-center justify-center mt-0.5">' +
+                    '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3.5 h-3.5 text-red-500"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z"/></svg>' +
+                '</div>' +
+                '<div class="noto text-sm text-red-600 dark:text-red-400 leading-relaxed pt-0.5">' + escapeHtml(content) + '</div>';
+        }
+
+        messagesArea.appendChild(wrapper);
+        messagesArea.scrollTop = messagesArea.scrollHeight;
+    }
+
+    function appendLoading() {
+        const el = document.createElement('div');
+        el.className = 'flex items-start gap-3';
+        el.innerHTML =
+            '<div class="shrink-0 w-7 h-7 rounded-lg bg-gradient-to-br from-violet-500 to-indigo-600 flex items-center justify-center mt-0.5">' +
+                '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-3.5 h-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09Z"/></svg>' +
+            '</div>' +
+            '<div class="flex items-center gap-1 pt-2.5"><span class="ai-dot"></span><span class="ai-dot" style="animation-delay:.15s"></span><span class="ai-dot" style="animation-delay:.3s"></span></div>';
+        messagesArea.appendChild(el);
+        messagesArea.scrollTop = messagesArea.scrollHeight;
+        return el;
+    }
+
+    function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+
+    function showToast(msg) {
+        const toast = document.createElement('div');
+        toast.className = 'fixed bottom-6 left-1/2 -translate-x-1/2 z-50 px-5 py-2.5 rounded-xl bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900 text-sm font-medium poppins shadow-xl ai-msg-animate';
+        toast.textContent = msg;
+        document.body.appendChild(toast);
+        setTimeout(function() {
+            toast.style.opacity = '0';
+            toast.style.transition = 'opacity .3s';
+            setTimeout(function() { toast.remove(); }, 300);
+        }, 2000);
+    }
+})();
+</script>
+<style>
+/* AI Assistant Styles */
+.ai-msg-animate {
+    animation: aiFadeUp .3s ease-out;
+}
+@keyframes aiFadeUp {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+.ai-dot {
+    display: inline-block;
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: #8b5cf6;
+    animation: aiDotPulse .8s ease-in-out infinite alternate;
+}
+@keyframes aiDotPulse {
+    from { opacity: .3; transform: scale(.8); }
+    to   { opacity: 1;  transform: scale(1); }
+}
+.ai-response-content { white-space: pre-wrap; word-break: break-word; }
+.ai-response-content .table-responsive { overflow-x: auto; margin: 12px 0; }
+.ai-accounting-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    font-family: 'Poppins', 'Noto Sans Bengali', sans-serif;
+}
+.ai-accounting-table th,
+.ai-accounting-table td {
+    border: 1px solid #e5e7eb;
+    padding: 6px 10px;
+    text-align: left;
+    white-space: nowrap;
+}
+.ai-accounting-table th {
+    background: #f0f4ff;
+    font-weight: 600;
+    color: #4338ca;
+}
+.dark .ai-accounting-table th { background: #1e1b4b; color: #a5b4fc; }
+.dark .ai-accounting-table th,
+.dark .ai-accounting-table td { border-color: #374151; }
+#aiPromptInput::-webkit-scrollbar { width: 4px; }
+#aiPromptInput::-webkit-scrollbar-thumb { background: #c4b5fd; border-radius: 4px; }
+#aiMessages::-webkit-scrollbar { width: 4px; }
+#aiMessages::-webkit-scrollbar-thumb { background: #ddd6fe; border-radius: 4px; }
+.dark #aiMessages::-webkit-scrollbar-thumb { background: #4c1d95; }
+</style>
+</body>
+</html>

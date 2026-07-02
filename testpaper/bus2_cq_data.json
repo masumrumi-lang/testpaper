@@ -1,0 +1,2153 @@
+{
+    "1": {
+        "subjectName": "Business Organization & Management 2nd Paper",
+        "chapterName": "Chapter 1",
+        "mcqData": [],
+        "shortCQData": [
+            {
+                "id": "01A",
+                "text": "(a) What is the management cycle?",
+                "meta": "Knowledge · Dhaka Board · 2025",
+                "type": "board",
+                "answer": "The management cycle is the continuous process of performing management functions (Planning to Controlling) in a logical sequence."
+            },
+            {
+                "id": "01B",
+                "text": "(b) 'Is management a profession?'—Explain.",
+                "meta": "Comprehension · Dhaka Board · 2025",
+                "type": "board",
+                "answer": "Management is a \"quasi-profession\"; it requires specialized knowledge and code of conduct, but lacks mandatory licensing like medicine."
+            },
+            {
+                "id": "02A",
+                "text": "(a) What is management?",
+                "meta": "Knowledge · Dhaka Board · 2025",
+                "type": "board",
+                "answer": "Management is the process of planning, organizing, leading, and controlling resources to achieve organizational goals effectively and efficiently."
+            },
+            {
+                "id": "02B",
+                "text": "(b) Explain \"Universality of Management.\"",
+                "meta": "Comprehension · Dhaka Board · 2025",
+                "type": "board",
+                "answer": "It means management principles are applicable in all types of organizations (social, political, or economic) and at all levels of life."
+            },
+            {
+                "id": "03A",
+                "text": "(a) Who is the father of modern management?",
+                "meta": "Knowledge · Rajshahi Board · 2025",
+                "type": "board",
+                "answer": "Henri Fayol is considered the father of modern management."
+            },
+            {
+                "id": "03B",
+                "text": "(b) 'Management is a profession'—Explain.",
+                "meta": "Comprehension · Rajshahi Board · 2025",
+                "type": "board",
+                "answer": "It is a profession because it requires a specialized body of knowledge, formal training, and intellectual application."
+            },
+            {
+                "id": "04A",
+                "text": "(a) What are the levels of management?",
+                "meta": "Knowledge · Rajshahi Board · 2025",
+                "type": "board",
+                "answer": "Management levels refer to the division of authority and responsibility within an organization, typically categorized into top, mid, and lower levels."
+            },
+            {
+                "id": "04B",
+                "text": "(b) Why is control important in management? Explain.",
+                "meta": "Comprehension · Rajshahi Board · 2025",
+                "type": "board",
+                "answer": "Control is vital because it measures actual performance against standards, identifies deviations, and allows for corrective actions to achieve goals."
+            },
+            {
+                "id": "05A",
+                "text": "(a) Who is the father of modern management?",
+                "meta": "Knowledge · Jessore Board · 2025",
+                "type": "board",
+                "answer": "Henri Fayol is the father of modern management."
+            },
+            {
+                "id": "05B",
+                "text": "(b) 'Management is a profession'—Explain.",
+                "meta": "Comprehension · Jessore Board · 2025",
+                "type": "board",
+                "answer": "Management is a profession because it requires a specialized body of knowledge, formal training, and a code of ethics."
+            },
+            {
+                "id": "06A",
+                "text": "(a) What is management?",
+                "meta": "Knowledge · Jessore Board · 2025",
+                "type": "board",
+                "answer": "Management is the process of planning, organizing, staffing, directing, and controlling to achieve goals efficiently."
+            },
+            {
+                "id": "06B",
+                "text": "(b) Why is management called universal? Explain.",
+                "meta": "Comprehension · Jessore Board · 2025",
+                "type": "board",
+                "answer": "It is universal because its principles are required in every collective effort, whether it is a family, a social club, or a state."
+            },
+            {
+                "id": "07A",
+                "text": "(a) What is management?",
+                "meta": "Knowledge · Comilla Board · 2025",
+                "type": "board",
+                "answer": "Management is the process of getting things done through and with people to achieve organizational goals effectively."
+            },
+            {
+                "id": "07B",
+                "text": "(b) What is meant by the management cycle?",
+                "meta": "Comprehension · Comilla Board · 2025",
+                "type": "board",
+                "answer": "The management cycle is the continuous and sequential process of performing functions like planning, organizing, staffing, directing, and controlling."
+            },
+            {
+                "id": "08A",
+                "text": "(a) Who is the father of scientific management?",
+                "meta": "Knowledge · Comilla Board · 2025",
+                "type": "board",
+                "answer": "F.W. Taylor is the father of scientific management."
+            },
+            {
+                "id": "08B",
+                "text": "(b) What is meant by consultative direction?",
+                "meta": "Comprehension · Comilla Board · 2025",
+                "type": "board",
+                "answer": "Consultative direction is a leadership style where the manager discusses and seeks opinions from subordinates before making a final decision."
+            },
+            {
+                "id": "09A",
+                "text": "(a) What is motivation?",
+                "meta": "Knowledge · Chittagong Board · 2025",
+                "type": "board",
+                "answer": "Motivation is the process of inspiring and encouraging employees to work with interest and dedication to achieve organizational goals."
+            },
+            {
+                "id": "09B",
+                "text": "(b) \"Administration is the brain of management\"—Explain.",
+                "meta": "Comprehension · Chittagong Board · 2025",
+                "type": "board",
+                "answer": "Administration sets the core policies and goals (thinking/deciding), while management executes them (doing), making administration the guiding \"brain.\""
+            },
+            {
+                "id": "10A",
+                "text": "(a) What is division of labor?",
+                "meta": "Knowledge · Chittagong Board · 2025",
+                "type": "board",
+                "answer": "Division of labor is the process of breaking down a complex task into smaller, specialized parts and assigning them to individuals based on their skills."
+            },
+            {
+                "id": "10B",
+                "text": "(b) 'Management is an economic resource'—Explain.",
+                "meta": "Comprehension · Chittagong Board · 2025",
+                "type": "board",
+                "answer": "Management is an economic resource because it coordinates the other factors of production (land, labor, capital) to achieve maximum output with minimum waste."
+            },
+            {
+                "id": "11A",
+                "text": "(a) What is the Industrial Revolution?",
+                "meta": "Knowledge · Sylhet Board · 2025",
+                "type": "board",
+                "answer": "The Industrial Revolution (1760–1840) was the transition to new manufacturing processes using machines, which gave birth to modern management."
+            },
+            {
+                "id": "11B",
+                "text": "(b) Explain the concept of Universality of Management.",
+                "meta": "Comprehension · Sylhet Board · 2025",
+                "type": "board",
+                "answer": "Universality means management principles are applicable to all collective efforts, including families, social clubs, businesses, and governments."
+            },
+            {
+                "id": "12A",
+                "text": "(a) What is a profession?",
+                "meta": "Knowledge · Sylhet Board · 2025",
+                "type": "board",
+                "answer": "A profession is a specialized occupation requiring advanced education, formal training, and adherence to a specific code of ethics."
+            },
+            {
+                "id": "12B",
+                "text": "(b) Explain the management cycle.",
+                "meta": "Comprehension · Sylhet Board · 2025",
+                "type": "board",
+                "answer": "The management cycle is the continuous, circular process of Planning $\\rightarrow$ Organizing $\\rightarrow$ Staffing $\\rightarrow$ Directing $\\rightarrow$ Motivating $\\rightarrow$ Coordinating $\\rightarrow$ Controlling."
+            },
+            {
+                "id": "13A",
+                "text": "(a) What is the management cycle?",
+                "meta": "Knowledge · Barisal Board · 2025",
+                "type": "board",
+                "answer": "The management cycle is the continuous, sequential process of functions (Planning to Controlling) performed to achieve goals."
+            },
+            {
+                "id": "13B",
+                "text": "(b) 'Management is universal'—Explain.",
+                "meta": "Comprehension · Barisal Board · 2025",
+                "type": "board",
+                "answer": "It means management principles are applicable to all collective human efforts, regardless of the nature or size of the organization."
+            },
+            {
+                "id": "14A",
+                "text": "(a) What are the levels of management?",
+                "meta": "Knowledge · Barisal Board · 2025",
+                "type": "board",
+                "answer": "Management levels refer to the hierarchy of authority and responsibility (Top, Mid, Lower) within an organization."
+            },
+            {
+                "id": "14B",
+                "text": "(b) Is management a profession? Explain.",
+                "meta": "Comprehension · Barisal Board · 2025",
+                "type": "board",
+                "answer": "It is a \"quasi-profession\" because it requires specialized knowledge and ethics, though it lacks mandatory legal licensing in some areas."
+            },
+            {
+                "id": "15A",
+                "text": "(a) What is management?",
+                "meta": "Knowledge · Dinajpur Board · 2025",
+                "type": "board",
+                "answer": "Management is the art of getting things done through people effectively to reach organizational objectives."
+            },
+            {
+                "id": "15B",
+                "text": "(b) What is meant by the management cycle? Explain.",
+                "meta": "Comprehension · Dinajpur Board · 2025",
+                "type": "board",
+                "answer": "It is the circular flow of management functions where the end of one cycle (Control) leads to the start of the next (Planning)."
+            },
+            {
+                "id": "16A",
+                "text": "Question A is missing from the original row; placeholder inserted.",
+                "meta": "Knowledge · Mymensingh Board · 2025",
+                "type": "board",
+                "answer": "Management is the process of planning, organizing, staffing, directing, motivating, coordinating, and controlling resources to achieve organizational goals effectively and efficiently."
+            },
+            {
+                "id": "16B",
+                "text": "Question B is missing from the original row; placeholder inserted.",
+                "meta": "Comprehension · Mymensingh Board · 2025",
+                "type": "board",
+                "answer": "A supervisor is considered a lower-level manager because they are directly involved in the field-level execution of tasks. They oversee the workers' daily activities, provide technical guidance, and ensure that the plans set by higher management are implemented at the operational level."
+            },
+            {
+                "id": "17A",
+                "text": "Question A is missing from the original row; placeholder inserted.",
+                "meta": "Knowledge · Mymensingh Board · 2025",
+                "type": "board",
+                "answer": "The Greek philosopher Socrates said \"Management is Universal.\""
+            },
+            {
+                "id": "17B",
+                "text": "Question B is missing from the original row; placeholder inserted.",
+                "meta": "Comprehension · Mymensingh Board · 2025",
+                "type": "board",
+                "answer": "\"Unity is Strength\" (Esprit de Corps) is important because it fosters team spirit and coordination. When all members of an organization work together harmoniously toward a common objective, resources are used efficiently and the overall success of the institution is ensured."
+            },
+            {
+                "id": "18A",
+                "text": "Who is the father of scientific management?",
+                "meta": "Knowledge · LEVEL missing due to row misalignment; placeholder inserted. · 2023",
+                "type": "category missing due to row misalignment; placeholder inserted.",
+                "answer": "F.W. Taylor is the father of scientific management."
+            },
+            {
+                "id": "18B",
+                "text": "Why is management called a social process?",
+                "meta": "Comprehension · LEVEL missing due to row misalignment; placeholder inserted. · 2023",
+                "type": "category missing due to row misalignment; placeholder inserted.",
+                "answer": "It is a social process because it involves managing, coordinating, and leading people within a community to achieve common welfare."
+            },
+            {
+                "id": "19A",
+                "text": "What is Unity of Command?",
+                "meta": "Knowledge · LEVEL missing due to row misalignment; placeholder inserted. · 2023",
+                "type": "category missing due to row misalignment; placeholder inserted.",
+                "answer": "It means an employee should receive orders from only one superior to avoid confusion and conflict."
+            },
+            {
+                "id": "19B",
+                "text": "Why are management principles necessary? Explain.",
+                "meta": "Comprehension · LEVEL missing due to row misalignment; placeholder inserted. · 2023",
+                "type": "category missing due to row misalignment; placeholder inserted.",
+                "answer": "Principles provide a standardized guide for managers to make decisions, solve problems, and ensure consistency in organizational behavior."
+            },
+            {
+                "id": "20A",
+                "text": "State the period of the Industrial Revolution.",
+                "meta": "Knowledge · LEVEL missing due to row misalignment; placeholder inserted. · 2023",
+                "type": "category missing due to row misalignment; placeholder inserted.",
+                "answer": "The period between 1760 and 1840."
+            },
+            {
+                "id": "20B",
+                "text": "Why are management functions interdependent? Explain.",
+                "meta": "Comprehension · LEVEL missing due to row misalignment; placeholder inserted. · 2023",
+                "type": "category missing due to row misalignment; placeholder inserted.",
+                "answer": "They are interdependent because the output of one (e.g., Planning) serves as the necessary input for the next (e.g., Organizing)."
+            },
+            {
+                "id": "21A",
+                "text": "Who is the father of scientific management?",
+                "meta": "Knowledge · Rajshahi Board · 2023",
+                "type": "board",
+                "answer": "F.W. Taylor is the father of scientific management."
+            },
+            {
+                "id": "21B",
+                "text": "What is meant by management?",
+                "meta": "Comprehension · Rajshahi Board · 2023",
+                "type": "board",
+                "answer": "Management is the process of getting things done through others effectively to reach specific goals."
+            },
+            {
+                "id": "22A",
+                "text": "What is division of labor?",
+                "meta": "Knowledge · Rajshahi Board · 2023",
+                "type": "board",
+                "answer": "It is the process of breaking a complex task into smaller parts assigned to specialists."
+            },
+            {
+                "id": "22B",
+                "text": "What is the Scalar Chain principle?",
+                "meta": "Comprehension · Rajshahi Board · 2023",
+                "type": "board",
+                "answer": "It refers to the unbroken line of authority and communication from the highest to lowest level of an organization."
+            },
+            {
+                "id": "23A",
+                "text": "Who is the father of modern management?",
+                "meta": "Knowledge · Comilla Board · 2023",
+                "type": "board",
+                "answer": "Henri Fayol is the father of modern management."
+            },
+            {
+                "id": "23B",
+                "text": "What is \"Management of Managers\"?",
+                "meta": "Comprehension · Comilla Board · 2023",
+                "type": "board",
+                "answer": "It is the process where top executives manage middle and lower managers rather than general workers."
+            },
+            {
+                "id": "24A",
+                "text": "What is the last function of the management cycle?",
+                "meta": "Knowledge · Comilla Board · 2023",
+                "type": "board",
+                "answer": "Controlling is the last function of the management cycle."
+            },
+            {
+                "id": "24B",
+                "text": "Why is management called universal?",
+                "meta": "Comprehension · Comilla Board · 2023",
+                "type": "board",
+                "answer": "Management is universal because its principles are applicable to every field of human effort, from family to global organizations."
+            },
+            {
+                "id": "25A",
+                "text": "Who is the father of modern management?",
+                "meta": "Knowledge · Dinajpur Board · 2023",
+                "type": "board",
+                "answer": "Henri Fayol is the father of modern management."
+            },
+            {
+                "id": "25B",
+                "text": "What do you mean by the universality of management?",
+                "meta": "Comprehension · Dinajpur Board · 2023",
+                "type": "board",
+                "answer": "It means management principles apply to all collective human activities regardless of the nature or size of the institution."
+            },
+            {
+                "id": "26A",
+                "text": "What is directing?",
+                "meta": "Knowledge · Mymensingh Board · 2023",
+                "type": "board",
+                "answer": "Directing is the process of instructing, guiding, and overseeing employees to ensure they perform tasks correctly."
+            },
+            {
+                "id": "26B",
+                "text": "Why is the Metro Rail project a single-use plan?",
+                "meta": "Comprehension · Mymensingh Board · 2023",
+                "type": "board",
+                "answer": "It is a single-use plan because it is designed for a specific major goal and will lose its direct relevance once the project is completed."
+            },
+            {
+                "id": "27A",
+                "text": "(a) What is a budget?",
+                "meta": "Knowledge · Mymensingh Board · 2023",
+                "type": "board",
+                "answer": "A budget is the numerical or financial expression of a plan for a specific future period."
+            },
+            {
+                "id": "27B",
+                "text": "(b) Why is a committee formed? Explain.",
+                "meta": "Comprehension · Mymensingh Board · 2023",
+                "type": "board",
+                "answer": "A committee is formed to solve complex problems, make collective decisions, or perform specific investigations through a group of experts."
+            },
+            {
+                "id": "28A",
+                "text": "What is the management cycle?",
+                "meta": "Knowledge · Chittagong Board · 2023",
+                "type": "board",
+                "answer": "The management cycle is the continuous and sequential process of interrelated functions (Planning, Organizing, Staffing, Directing, Motivating, Coordinating, and Controlling) performed to achieve organizational goals."
+            },
+            {
+                "id": "28B",
+                "text": "Why is an interview conducted?",
+                "meta": "Comprehension · Chittagong Board · 2023",
+                "type": "board",
+                "answer": "An interview is conducted during the staffing process to evaluate a candidate's suitability for a specific role. It helps the management assess the candidate's communication skills, personality, and professional knowledge to ensure the right person is selected for the job."
+            },
+            {
+                "id": "29A",
+                "text": "What is the Industrial Revolution?",
+                "meta": "Knowledge · Jessore Board · 2023",
+                "type": "board",
+                "answer": "The Industrial Revolution refers to the period between 1760 and 1840 characterized by the transition from manual labor to machine-based manufacturing. This era gave birth to modern management to handle large-scale production."
+            },
+            {
+                "id": "29B",
+                "text": "What is the necessity of the \"Unity of Command\" principle?",
+                "meta": "Comprehension · Jessore Board · 2023",
+                "type": "board",
+                "answer": "Unity of Command is necessary to ensure that an employee receives orders from only one superior. This prevents confusion, avoids conflicting instructions, ensures accountability, and maintains organizational discipline."
+            },
+            {
+                "id": "30A",
+                "text": "Where did the Industrial Revolution first begin?",
+                "meta": "Knowledge · Sylhet Board · 2023",
+                "type": "board",
+                "answer": "The Industrial Revolution first began in Great Britain (England)."
+            },
+            {
+                "id": "30B",
+                "text": "How does management play a role in human resource development?",
+                "meta": "Comprehension · Sylhet Board · 2023",
+                "type": "board",
+                "answer": "Management contributes to human resource development through the Staffing function, which involves identifying, training, and motivating employees to improve their efficiency."
+            },
+            {
+                "id": "31A",
+                "text": "Who is a manager?",
+                "meta": "Knowledge · Sylhet Board · 2023",
+                "type": "board",
+                "answer": "A manager is an individual in an organization who is responsible for achieving goals by planning, organizing, directing, and controlling the efforts of others."
+            },
+            {
+                "id": "31B",
+                "text": "Explain the universality of management.",
+                "meta": "Comprehension · Sylhet Board · 2023",
+                "type": "board",
+                "answer": "The universality of management refers to the fact that management principles and functions are applicable to all types of organizations (social, political, or economic) and at all levels of management, regardless of the size or nature of the institution."
+            },
+            {
+                "id": "32A",
+                "text": "What is management?",
+                "meta": "Knowledge · Barisal Board · 2023",
+                "type": "board",
+                "answer": "Management is the art of getting things done through others effectively to achieve specific organizational goals."
+            },
+            {
+                "id": "32B",
+                "text": "What is meant by the management cycle?",
+                "meta": "Comprehension · Barisal Board · 2023",
+                "type": "board",
+                "answer": "The management cycle refers to the continuous and sequential process of interrelated functions—planning, organizing, staffing, directing, motivating, coordinating, and controlling—that repeat in a circular manner to sustain an organization."
+            },
+            {
+                "id": "33A",
+                "text": "What is a profession?",
+                "meta": "Knowledge · Barisal Board · 2023",
+                "type": "board",
+                "answer": "A profession is a specialized occupation that requires high educational qualifications, specialized training, and adherence to a specific code of ethics."
+            },
+            {
+                "id": "33B",
+                "text": "How is management a social process?",
+                "meta": "Comprehension · Barisal Board · 2023",
+                "type": "board",
+                "answer": "It is a social process because it involves managing people within a community and coordinating their efforts to achieve goals that benefit society."
+            },
+            {
+                "id": "34A",
+                "text": "(a) What is the management cycle?",
+                "meta": "Knowledge · VNSC, Dhaka · 2025",
+                "type": "board",
+                "answer": "The management cycle is the continuous, circular process of functions (Planning to Controlling) performed in sequence to achieve goals."
+            },
+            {
+                "id": "34B",
+                "text": "(b) \"Management is a social process\"—Explain.",
+                "meta": "Comprehension · VNSC, Dhaka · 2025",
+                "type": "board",
+                "answer": "It is a social process because it involves managing and coordinating people (the social element) within a community to achieve common welfare."
+            },
+            {
+                "id": "35A",
+                "text": "(a) What is scientific management?",
+                "meta": "Knowledge · VNSC, Dhaka · 2025",
+                "type": "board",
+                "answer": "Scientific management is the application of scientific methods (experiments/observation) to increase labor productivity, pioneered by F.W. Taylor."
+            },
+            {
+                "id": "35B",
+                "text": "(b) \"Management functions are interdependent\"—Explain.",
+                "meta": "Comprehension · VNSC, Dhaka · 2025",
+                "type": "board",
+                "answer": "Each function (like Planning) sets the stage for the next (Organizing), and failures in one affect the performance of others."
+            },
+            {
+                "id": "36A",
+                "text": "(a) Which period is called the Industrial Revolution?",
+                "meta": "Knowledge · Holy Cross College · 2025",
+                "type": "board",
+                "answer": "The period between 1760 and 1840 is known as the Industrial Revolution."
+            },
+            {
+                "id": "36B",
+                "text": "(b) Why are management functions interdependent? Explain.",
+                "meta": "Comprehension · Holy Cross College · 2025",
+                "type": "board",
+                "answer": "They are interdependent because one function provides the input for another; for example, Organizing is based on the objectives set in Planning."
+            },
+            {
+                "id": "37A",
+                "text": "What is the Industrial Revolution?",
+                "meta": "Knowledge · Rajshahi College · 2025",
+                "type": "board",
+                "answer": "The Industrial Revolution (1760–1840) was the transition from hand production methods to machines, giving rise to modern management."
+            },
+            {
+                "id": "37B",
+                "text": "Why is Henri Fayol called the father of modern management?",
+                "meta": "Comprehension · Rajshahi College · 2025",
+                "type": "board",
+                "answer": "He is called the father of modern management for identifying the 14 principles of management and the 5 key functions of a manager."
+            },
+            {
+                "id": "38A",
+                "text": "What is the management cycle?",
+                "meta": "Knowledge · Rajshahi College · 2025",
+                "type": "board",
+                "answer": "The management cycle is the continuous, sequential process of planning, organizing, staffing, directing, motivating, coordinating, and controlling."
+            },
+            {
+                "id": "38B",
+                "text": "Why is Unity of Direction important? Explain.",
+                "meta": "Comprehension · Rajshahi College · 2025",
+                "type": "board",
+                "answer": "Unity of direction ensures that all activities with the same objective are directed by one manager using one plan, preventing confusion."
+            },
+            {
+                "id": "39A",
+                "text": "What is the Industrial Revolution?",
+                "meta": "Knowledge · Cumilla Victoria Govt. College · 2025",
+                "type": "board",
+                "answer": "The Industrial Revolution (1760–1840) marked the shift to machine-based manufacturing, creating the need for structured management."
+            },
+            {
+                "id": "39B",
+                "text": "Explain the role of management in family life.",
+                "meta": "Comprehension · Cumilla Victoria Govt. College · 2025",
+                "type": "board",
+                "answer": "Management in family life helps in budget planning, resource allocation, and achieving household goals through organized effort."
+            },
+            {
+                "id": "40A",
+                "text": "What is the universality of management?",
+                "meta": "Knowledge · JCPSC, Sylhet · 2026",
+                "type": "college",
+                "answer": "It means that management principles are applicable to all types of organizations and at all levels of human activity."
+            },
+            {
+                "id": "40B",
+                "text": "Why is the management level shaped like a pyramid?",
+                "meta": "Comprehension · JCPSC, Sylhet · 2026",
+                "type": "college",
+                "answer": "It is shaped like a pyramid because the number of managers decreases as one moves from lower to top levels, reflecting the hierarchy of authority."
+            },
+            {
+                "id": "41A",
+                "text": "Who is the father of administrative management?",
+                "meta": "Knowledge · Holy Cross College · 2026",
+                "type": "college",
+                "answer": "Henri Fayol is the father of administrative management."
+            },
+            {
+                "id": "41B",
+                "text": "What is meant by management is universal?",
+                "meta": "Comprehension · Holy Cross College · 2026",
+                "type": "college",
+                "answer": "It refers to the global applicability of management functions across different cultures, sizes, and types of organizations."
+            },
+            {
+                "id": "42A",
+                "text": "Who is the father of modern management?",
+                "meta": "Knowledge · DRMC, Dhaka · 2026",
+                "type": "college",
+                "answer": "Henri Fayol is the father of modern management."
+            },
+            {
+                "id": "42B",
+                "text": "What do you mean by the universality of management?",
+                "meta": "Comprehension · DRMC, Dhaka · 2026",
+                "type": "college",
+                "answer": "It means management principles apply to all collective human activities regardless of nature, such as family, business, or state."
+            },
+            {
+                "id": "43A",
+                "text": "What is the management cycle?",
+                "meta": "Knowledge · Dhaka City College · 2026",
+                "type": "college",
+                "answer": "The management cycle is the continuous, sequential process of interrelated functions (Planning to Controlling) performed to achieve goals."
+            },
+            {
+                "id": "43B",
+                "text": "Explain 'Management is Universal'.",
+                "meta": "Comprehension · Dhaka City College · 2026",
+                "type": "college",
+                "answer": "It means management principles apply to all types of organizations (social, political, etc.) and at all levels of human effort."
+            },
+            {
+                "id": "44A",
+                "text": "Who is a manager?",
+                "meta": "Knowledge · DMRMC, Dhaka · 2025",
+                "type": "college",
+                "answer": "A manager is an individual responsible for achieving goals by directing the efforts of others."
+            },
+            {
+                "id": "44B",
+                "text": "Why is management called universal?",
+                "meta": "Comprehension · DMRMC, Dhaka · 2025",
+                "type": "college",
+                "answer": "It is universal because its principles are needed in every collective human activity, from families to global firms."
+            },
+            {
+                "id": "45A",
+                "text": "What is the Industrial Revolution?",
+                "meta": "Knowledge · DMRMC, Dhaka · 2025",
+                "type": "college",
+                "answer": "It is the transition from manual labor to machine-based manufacturing (1760–1840)."
+            },
+            {
+                "id": "45B",
+                "text": "What is meant by the management cycle?",
+                "meta": "Comprehension · DMRMC, Dhaka · 2025",
+                "type": "college",
+                "answer": "It refers to the repetitive, circular sequence of functions like planning and organizing to achieve goals."
+            },
+            {
+                "id": "46A",
+                "text": "What is management?",
+                "meta": "Knowledge · ALD College, Barisal · 2025",
+                "type": "college",
+                "answer": "Management is the process of achieving goals effectively through others."
+            },
+            {
+                "id": "46B",
+                "text": "Is management a profession? Explain.",
+                "meta": "Comprehension · ALD College, Barisal · 2025",
+                "type": "college",
+                "answer": "While it has professional traits, it isn't a full profession yet because it lacks a mandatory uniform code of conduct and universal licensing."
+            },
+            {
+                "id": "47A",
+                "text": "Who is the father of modern management?",
+                "meta": "Knowledge · ALD College, Barisal · 2025",
+                "type": "college",
+                "answer": "Henri Fayol is the father of modern management."
+            },
+            {
+                "id": "47B",
+                "text": "Explain the management cycle.",
+                "meta": "Comprehension · ALD College, Barisal · 2025",
+                "type": "college",
+                "answer": "It is the continuous, repetitive sequence of functions like planning and organizing to reach goals."
+            },
+            {
+                "id": "48A",
+                "text": "What is the management cycle?",
+                "meta": "Knowledge · Dhaka Commerce College · 2024",
+                "type": "college",
+                "answer": "The management cycle is the continuous and sequential process of interrelated functions (Planning to Controlling) performed to achieve specific goals."
+            },
+            {
+                "id": "48B",
+                "text": "Is management a science or an art? Explain.",
+                "meta": "Comprehension · Dhaka Commerce College · 2024",
+                "type": "college",
+                "answer": "Management is both. It is a Science because it has organized principles, and an Art because it requires personal skill to apply those principles to reach goals."
+            },
+            {
+                "id": "49A",
+                "text": "What is administration?",
+                "meta": "Knowledge · BSMRPC, Dhaka · 2024",
+                "type": "college",
+                "answer": "Administration is the higher-level function of an organization concerned with setting goals, policies, and broad strategies."
+            },
+            {
+                "id": "49B",
+                "text": "What do you mean by the universality of management?",
+                "meta": "Comprehension · BSMRPC, Dhaka · 2024",
+                "type": "college",
+                "answer": "It refers to the global applicability of management principles across all types of organizations and levels of human activity."
+            },
+            {
+                "id": "50A",
+                "text": "Who is the father of scientific management?",
+                "meta": "Knowledge · Adamjee Cantt. College · 2024",
+                "type": "college",
+                "answer": "F.W. Taylor is the father of scientific management."
+            },
+            {
+                "id": "50B",
+                "text": "What is meant by motivation?",
+                "meta": "Comprehension · Adamjee Cantt. College · 2024",
+                "type": "college",
+                "answer": "Motivation is the process of inspiring and encouraging employees to work enthusiastically toward organizational goals."
+            },
+            {
+                "id": "51A",
+                "text": "What is directing?",
+                "meta": "Knowledge · Viqarunnisa Noon · 2024",
+                "type": "college",
+                "answer": "Directing is the process of instructing and guiding employees to ensure tasks are performed correctly."
+            },
+            {
+                "id": "51B",
+                "text": "What is meant by formal organizational structure?",
+                "meta": "Comprehension · Viqarunnisa Noon · 2024",
+                "type": "college",
+                "answer": "It is a structure where authority, responsibility, and relationships are clearly defined through official rules and hierarchy."
+            }
+        ],
+        "fullCQData": [
+            {
+                "id": "01",
+                "stem": "Mr. Arnab Chowdhury plans and sets policies for 'Arsha Jute Mills'. Mr. Mahim implements those policies by directing foremen and supervisors according to standards.",
+                "meta": "Dhaka Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) What is the management cycle?",
+                        "answer": "The management cycle is the continuous process of performing management functions (Planning to Controlling) in a logical sequence."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) 'Is management a profession?'—Explain.",
+                        "answer": "Management is a \"quasi-profession\"; it requires specialized knowledge and code of conduct, but lacks mandatory licensing like medicine."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) Which level of management does Mr. Arnab belong to? Explain.",
+                        "answer": "Mr. Arnab is a Top-level Manager. He is involved in defining goals, long-term planning, and policy-making for the entire organization."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) Is the contribution of both equally important? Give 4 points in support.",
+                        "answer": "1. Strategic Direction: Arnab provides the vision and goals.<br><br>2. Execution: Mahim ensures plans turn into reality.<br><br>3. Interdependence: Plans are useless without execution.<br><br>4. Synergy: Their combined effort creates institutional success."
+                    }
+                ]
+            },
+            {
+                "id": "02",
+                "stem": "<p>[Conceptual Diagram: Planning $\\rightarrow$ 'ক' $\\rightarrow$ Staffing $\\rightarrow$ Directing $\\rightarrow$ Motivating $\\rightarrow$ Coordinating $\\rightarrow$ 'খ']</p><div style=\"background:#f8fafc;border:1px solid #d1d5db;border-radius:0.75rem;padding:0.9rem;margin-top:0.8rem;\"><pre style=\"margin:0;font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; white-space:pre-wrap; font-size:0.95rem; line-height:1.5;\">Conceptual Diagram: Planning → 'ক' → Staffing → Directing → Motivating → Coordinating → 'খ'</pre></div>",
+                "meta": "Dhaka Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) What is management?",
+                        "answer": "Management is the process of planning, organizing, leading, and controlling resources to achieve organizational goals effectively and efficiently."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) Explain \"Universality of Management.\"",
+                        "answer": "It means management principles are applicable in all types of organizations (social, political, or economic) and at all levels of life."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) Which management function belongs at 'ক'? Explain.",
+                        "answer": "1. 'ক' represents Organizing.<br><br>2. After planning, resources and tasks must be grouped.<br><br>3. It involves defining roles and authority.<br><br>4. It creates the structure for execution."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) Analyze the comparative differences between function 'খ' and Planning.",
+                        "answer": "1. 'খ' is Controlling, the final step, while Planning is the first.<br><br>2. Planning is future-oriented; Controlling is evaluative of the past.<br><br>3. Planning sets the \"standard\"; Controlling measures the \"deviation.\"<br><br>4. Planning is the \"base,\" whereas Controlling ensures the \"goal\" is met."
+                    }
+                ]
+            },
+            {
+                "id": "03",
+                "stem": "Mr. Sabbir determines long-term goals/strategies. Mr. Abir manages employees directly to implement those decisions.",
+                "meta": "Rajshahi Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) Who is the father of modern management?",
+                        "answer": "Henri Fayol is considered the father of modern management."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) 'Management is a profession'—Explain.",
+                        "answer": "It is a profession because it requires a specialized body of knowledge, formal training, and intellectual application."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) At which level of management is Mr. Sabbir working? Explain.",
+                        "answer": "Mr. Sabbir is in Top-level Management. His role focuses on determining the long-term vision and core strategies of the firm."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) Analyze the importance of managerial skills seen in Mr. Abir.",
+                        "answer": "1. Human Skill: Abir manages people effectively.<br><br>2. Technical Skill: He supervises tasks directly.<br><br>3. Implementation: He bridges the gap between goal and action.<br><br>4. Morale: His supervision keeps workers satisfied."
+                    }
+                ]
+            },
+            {
+                "id": "04",
+                "stem": "Students of the Management Dept. at 'Khang' College planned a study tour to Sylhet. The Head of Dept. (HOD) decided the schedule and locations in advance. He then distributed tasks among teachers to ensure a successful tour.",
+                "meta": "Rajshahi Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) What are the levels of management?",
+                        "answer": "Management levels refer to the division of authority and responsibility within an organization, typically categorized into top, mid, and lower levels."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) Why is control important in management? Explain.",
+                        "answer": "Control is vital because it measures actual performance against standards, identifies deviations, and allows for corrective actions to achieve goals."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) Which management function includes the HOD's actions before going on the tour? Explain.",
+                        "answer": "The actions belong to Planning. Planning involves deciding in advance what to do, when to do it, and who will do it. Since the HOD fixed the destination and schedule beforehand, it is planning."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) Analyze the management function that played a vital role later in the success of the tour based on the stem.",
+                        "answer": "1. The function is Organizing.<br><br>2. The HOD distributed specific duties among all teachers to execute the tour.<br><br>3. This grouping of activities and assignment of responsibility creates a clear work structure.<br><br>4. Without this distribution of tasks, the plan would not have been executed successfully."
+                    }
+                ]
+            },
+            {
+                "id": "05",
+                "stem": "Mr. Shimul sets policies and coordinates with external organizations. Mr. Pradeep is an accounting manager who achieves goals by getting accounting tasks done through his subordinates.",
+                "meta": "Jessore Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) Who is the father of modern management?",
+                        "answer": "Henri Fayol is the father of modern management."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) 'Management is a profession'—Explain.",
+                        "answer": "Management is a profession because it requires a specialized body of knowledge, formal training, and a code of ethics."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) Which level officer is Mr. Shimul? Explain.",
+                        "answer": "Mr. Shimul is a Top-level Manager. His roles involve policy-making, defining long-term goals, and representing the firm to outside entities."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) Analyze the nature of Mr. Pradeep's skills.",
+                        "answer": "1. Mr. Pradeep primarily demonstrates Human (Interpersonal) Skills.<br><br>2. He also requires Technical Skills as he manages the accounting department specifically.<br><br>3. His ability to get work done \"through subordinates\" highlights his leadership and communication skills.<br><br>4. These skills are essential at the middle management level to bridge the gap between policy and action."
+                    }
+                ]
+            },
+            {
+                "id": "06",
+                "stem": "<p>[Conceptual Diagram of Management Cycle: Planning (১) $\\rightarrow$ Organizing (২) $\\rightarrow$ '?' (৩) $\\rightarrow$ Directing (৪) $\\rightarrow$ Motivating (৫) $\\rightarrow$ Coordinating (৬) $\\rightarrow$ 'P' (৭)]</p><div style=\"background:#f8fafc;border:1px solid #d1d5db;border-radius:0.75rem;padding:0.9rem;margin-top:0.8rem;\"><pre style=\"margin:0;font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; white-space:pre-wrap; font-size:0.95rem; line-height:1.5;\">Conceptual Diagram of Management Cycle: Planning (১) → Organizing (২) → '?' (৩) → Directing (৪) → Motivating (৫) → Coordinating (৬) → 'P' (৭)</pre></div>",
+                "meta": "Jessore Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) What is management?",
+                        "answer": "Management is the process of planning, organizing, staffing, directing, and controlling to achieve goals efficiently."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) Why is management called universal? Explain.",
+                        "answer": "It is universal because its principles are required in every collective effort, whether it is a family, a social club, or a state."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) Which function is missing at the '?' mark? Explain.",
+                        "answer": "1. The '?' mark (step 3) represents Staffing (কর্মীসংস্থান).<br><br>2. It follows organizing and precedes directing.<br><br>3. It involves recruiting, selecting, and training people.<br><br>4. Without the right people, the structure remains empty."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) \"Without 'P', management work is bound to be meaningless and chaotic\"—Do you agree? Give logic.",
+                        "answer": "1. 'P' represents Controlling (নিয়ন্ত্রণ), the final stage.<br><br>2. Control ensures that actual work aligns with the initial plan.<br><br>3. Without it, errors go undetected, leading to chaos and goal failure.<br><br>4. It provides the basis for the next planning cycle."
+                    }
+                ]
+            },
+            {
+                "id": "07",
+                "stem": "Md. Russel is a sales officer who works hard to achieve goals. He coordinates with various departments and implements the plans made by the Board of Directors through his subordinates. He believes implementation is more important than just making decisions.",
+                "meta": "Comilla Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) What is management?",
+                        "answer": "Management is the process of getting things done through and with people to achieve organizational goals effectively."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) What is meant by the management cycle?",
+                        "answer": "The management cycle is the continuous and sequential process of performing functions like planning, organizing, staffing, directing, and controlling."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) Which level of management does Mr. Russel belong to? Explain.",
+                        "answer": "1. Mr. Russel is a Mid-level Manager.<br><br>2. He acts as a bridge between the Board (Top level) and subordinates.<br><br>3. He focuses on implementing departmental plans.<br><br>4. He coordinates with other departments to ensure goal attainment."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) \"Not just making decisions, but implementing them is the real task\"—Evaluate in light of the stem.",
+                        "answer": "1. Execution Focus: Russel turns the top management's vision into actionable reality.<br><br>2. Departmental Success: Without implementation, the best strategic decisions remain theoretical.<br><br>3. Supervision: He ensures subordinates work according to the set standards.<br><br>4. Goal Attainment: Real results are only achieved when plans are executed effectively on the field."
+                    }
+                ]
+            },
+            {
+                "id": "08",
+                "stem": "<p>[Conceptual Diagram of Management Cycle: 'A' $\\rightarrow$ Organizing $\\rightarrow$ Staffing $\\rightarrow$ Directing $\\rightarrow$ Motivating $\\rightarrow$ 'F' $\\rightarrow$ Controlling]</p><div style=\"background:#f8fafc;border:1px solid #d1d5db;border-radius:0.75rem;padding:0.9rem;margin-top:0.8rem;\"><pre style=\"margin:0;font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; white-space:pre-wrap; font-size:0.95rem; line-height:1.5;\">Conceptual Diagram of Management Cycle: 'A' → Organizing → Staffing → Directing → Motivating → 'F' → Controlling</pre></div>",
+                "meta": "Comilla Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) Who is the father of scientific management?",
+                        "answer": "F.W. Taylor is the father of scientific management."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) What is meant by consultative direction?",
+                        "answer": "Consultative direction is a leadership style where the manager discusses and seeks opinions from subordinates before making a final decision."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) What is the function at stage 'F' in the diagram? Explain.",
+                        "answer": "1. Stage 'F' represents Coordinating (সমন্বয়সাধন).<br><br>2. It integrates the activities of different departments.<br><br>3. It ensures all members work toward a common goal.<br><br>4. It prevents conflict and overlap in tasks."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) The work at stage 'A' is very important. Discuss.",
+                        "answer": "1. 'A' is Planning (পরিকল্পনা), the first step.<br><br>2. It sets the foundation for all other functions.<br><br>3. It reduces uncertainty and risk.<br><br>4. It defines the \"What, How, and When\" of an organization."
+                    }
+                ]
+            },
+            {
+                "id": "09",
+                "stem": "Reference: image_20031b.png. Diagram of the management cycle: Planning $\\rightarrow$ 'ক' $\\rightarrow$ Staffing $\\rightarrow$ Directing $\\rightarrow$ Motivating $\\rightarrow$ 'খ' $\\rightarrow$ Controlling.",
+                "meta": "Chittagong Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) What is motivation?",
+                        "answer": "Motivation is the process of inspiring and encouraging employees to work with interest and dedication to achieve organizational goals."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) \"Administration is the brain of management\"—Explain.",
+                        "answer": "Administration sets the core policies and goals (thinking/deciding), while management executes them (doing), making administration the guiding \"brain.\""
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) Which management function is performed at stage 'ক'? Explain.",
+                        "answer": "1. Stage 'ক' represents Organizing (সংগঠন).<br><br>2. It involves grouping tasks and assigning authority.<br><br>3. It establishes relationships between workers and resources.<br><br>4. It creates the organizational structure."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) \"Absence of the function at 'খ' will create chaos in the organization\"—Do you agree? Analyze.",
+                        "answer": "1. 'খ' represents Coordinating (সমন্বয়সাধন).<br><br>2. Yes, I agree; it integrates departmental efforts.<br><br>3. Without it, individuals work in isolation, causing conflict.<br><br>4. It ensures all \"moving parts\" work toward one goal."
+                    }
+                ]
+            },
+            {
+                "id": "10",
+                "stem": "Surma Cement' is a large factory in Munshiganj. Mr. Rafiq, a director, sets goals and policies. Mr. Kabir arranges the field-level implementation of those plans.",
+                "meta": "Chittagong Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) What is division of labor?",
+                        "answer": "Division of labor is the process of breaking down a complex task into smaller, specialized parts and assigning them to individuals based on their skills."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) 'Management is an economic resource'—Explain.",
+                        "answer": "Management is an economic resource because it coordinates the other factors of production (land, labor, capital) to achieve maximum output with minimum waste."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) Which level of manager is Mr. Rafiq? Explain.",
+                        "answer": "1. Mr. Rafiq is a Top-level Manager.<br><br>2. He is a \"Director\" involved in defining objectives and policy formulation.<br><br>3. These functions determine the long-term vision of the company.<br><br>4. He provides the overall direction for 'Surma Cement'."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) \"Mr. Kabir's role is vital for achieving goals\"—Evaluate in light of the stem.",
+                        "answer": "1. Execution: Kabir bridges the gap between Rafiq’s policy and actual results.<br><br>2. Field Management: He ensures that strategy becomes action.<br><br>3. Supervision: He guides lower-level staff to follow the standards.<br><br>4. Success: Goals remain theoretical without Kabir's practical implementation."
+                    }
+                ]
+            },
+            {
+                "id": "11",
+                "stem": "Mr. A is the owner of a factory. Mr. B is the Production Manager, and Mr. C is the Marketing Manager. Two supervisors handle constant field-level responsibilities.",
+                "meta": "Sylhet Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) What is the Industrial Revolution?",
+                        "answer": "The Industrial Revolution (1760–1840) was the transition to new manufacturing processes using machines, which gave birth to modern management."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) Explain the concept of Universality of Management.",
+                        "answer": "Universality means management principles are applicable to all collective efforts, including families, social clubs, businesses, and governments."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) At which level of management are the supervisors working? Explain.",
+                        "answer": "1. Supervisors work at the Lower-level (Operational) Management.<br><br>2. They directly oversee the workers' activities.<br><br>3. Their focus is on technical execution and daily targets.<br><br>4. They act as a link between workers and middle management."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) 'A and B achieve institutional goals, but their nature of work is different'—Give your opinion.",
+                        "answer": "1. Level Difference: A is Top-level (Owner), while B is Mid-level (Manager).<br><br>2. Focus: A decides \"what\" to do; B decides \"how\" to do it.<br><br>3. Scope: A looks at the whole business; B looks at production specifically.<br><br>4. Skill: A needs conceptual skills; B needs human and technical skills."
+                    }
+                ]
+            },
+            {
+                "id": "12",
+                "stem": "Shahed Chowdhury, a Sales Manager, plans everything but fails to meet targets due to lack of supervision. To fix this, he adopts new managerial decisions for better monitoring.",
+                "meta": "Sylhet Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) What is a profession?",
+                        "answer": "A profession is a specialized occupation requiring advanced education, formal training, and adherence to a specific code of ethics."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) Explain the management cycle.",
+                        "answer": "The management cycle is the continuous, circular process of Planning $\\rightarrow$ Organizing $\\rightarrow$ Staffing $\\rightarrow$ Directing $\\rightarrow$ Motivating $\\rightarrow$ Coordinating $\\rightarrow$ Controlling."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) With which management function did Shahed start the sales activity? Explain.",
+                        "answer": "1. He started with Planning.<br><br>2. The stem mentions he \"fixed everything beforehand.\"<br><br>3. Planning is the primary function that sets targets.<br><br>4. It provides the roadmap for sales operations."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) Evaluate the appropriateness of Shahed’s decision for achieving future targets.",
+                        "answer": "1. Decision: He chose to implement Controlling.<br><br>2. Corrective Action: Control identifies why targets weren't met (lack of supervision).<br><br>3. Discipline: It brings order and dynamic movement to the department.<br><br>4. Verification: It ensures future performance matches the planned standards."
+                    }
+                ]
+            },
+            {
+                "id": "13",
+                "stem": "Rashed Akbar wants maximum output. He shares 5% of profits with workers and takes steps to improve their standard of living. He is highly respected by his staff.",
+                "meta": "Barisal Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) What is the management cycle?",
+                        "answer": "The management cycle is the continuous, sequential process of functions (Planning to Controlling) performed to achieve goals."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) 'Management is universal'—Explain.",
+                        "answer": "It means management principles are applicable to all collective human efforts, regardless of the nature or size of the organization."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) Which management function has Mr. Rashed performed? Explain.",
+                        "answer": "1. He performed Motivating (প্রেষণা).<br><br>2. He provided financial incentives (5% profit).<br><br>3. He focused on their welfare.<br><br>4. Motivation inspires workers to give their best effort."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) Evaluate the specific skill of Mr. Rashed that played a role in his acceptance among workers.",
+                        "answer": "1. He demonstrates Human (Interpersonal) Skill.<br><br>2. This skill allows him to understand and work with people.<br><br>3. His focus on welfare built trust and respect.<br><br>4. It bridges the gap between management and labor."
+                    }
+                ]
+            },
+            {
+                "id": "14",
+                "stem": "Chairman Omar Faruk formulated housing policies for officials. He also introduced pension, medical, and family security benefits. Workers now have high morale.",
+                "meta": "Barisal Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) What are the levels of management?",
+                        "answer": "Management levels refer to the hierarchy of authority and responsibility (Top, Mid, Lower) within an organization."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) Is management a profession? Explain.",
+                        "answer": "It is a \"quasi-profession\" because it requires specialized knowledge and ethics, though it lacks mandatory legal licensing in some areas."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) Which level of manager is Mr. Omar Faruk? Explain.",
+                        "answer": "1. He is a Top-level Manager.<br><br>2. As \"Chairman,\" he is the highest authority.<br><br>3. He formulates broad institutional policies.<br><br>4. He decides long-term benefits and vision."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) Analyze Mr. Omar Faruk’s interpersonal skills.",
+                        "answer": "1. Human Skill: He understands employee needs for security.<br><br>2. Morale Building: His policies directly increased worker dedication.<br><br>3. Leadership: He acts as a provider and guide.<br><br>4. Retention: These skills help in maintaining a stable and loyal workforce."
+                    }
+                ]
+            },
+            {
+                "id": "15",
+                "stem": "Mr. Amir runs a medicine factory where he sets all policies and supervises personally. He is active in social service and says management is applicable to all fields of life.",
+                "meta": "Dinajpur Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) What is management?",
+                        "answer": "Management is the art of getting things done through people effectively to reach organizational objectives."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) What is meant by the management cycle? Explain.",
+                        "answer": "It is the circular flow of management functions where the end of one cycle (Control) leads to the start of the next (Planning)."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) At which level of management is Mr. Amir working? Explain.",
+                        "answer": "1. Mr. Amir is in Top-level Management.<br><br>2. He \"sets all policies and strategies.\"<br><br>3. He holds the ultimate decision-making power.<br><br>4. He oversees the entire factory's direction."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) Analyze the validity of Mr. Amir's opinion in light of Socrates' famous quote on management.",
+                        "answer": "1. Socrates' View: He stated \"Management is Universal.\"<br><br>2. Alignment: Amir's claim that it applies \"from individuals to all fields\" reflects this.<br><br>3. Evidence: Management is needed in families, NGOs, and factories.<br><br>4. Conclusion: His opinion is highly valid as management is a fundamental life skill."
+                    }
+                ]
+            },
+            {
+                "id": "16",
+                "stem": "Mr. Shihan is involved in strategic planning and policy formulation for a production-oriented firm. Ms. Maliha provides instructions and advice to floor-in-charge staff to implement those plans. The collective effort and skill of the employees are increasing the firm's profit and image.",
+                "meta": "Mymensingh Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "Question A is missing from the original row; placeholder inserted.",
+                        "answer": "Management is the process of planning, organizing, staffing, directing, motivating, coordinating, and controlling resources to achieve organizational goals effectively and efficiently."
+                    },
+                    {
+                        "label": "b",
+                        "text": "Question B is missing from the original row; placeholder inserted.",
+                        "answer": "A supervisor is considered a lower-level manager because they are directly involved in the field-level execution of tasks. They oversee the workers' daily activities, provide technical guidance, and ensure that the plans set by higher management are implemented at the operational level."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Question C is missing from the original row; placeholder inserted.",
+                        "answer": "Ms. Maliha belongs to Mid-level Management.<br><br>Explanation: Mid-level managers act as a bridge between top management and the operational level. In the stem, Ms. Maliha takes the plans formulated by Mr. Shihan (Top level) and provides specific instructions and advice to the floor-in-charges to ensure execution. This role of translating strategy into actionable instructions for supervisors is the core characteristic of middle management."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Question D is missing from the original row; placeholder inserted.",
+                        "answer": "I disagree with the statement. There is a significant difference in the types of skills required for their respective roles:<br><br>1. Shihan (Top Level): Primarily requires Conceptual Skills to formulate long-term strategies and navigate complex situations.<br><br>2. Maliha (Mid Level): Primarily requires Human (Interpersonal) Skills to lead, motivate, and coordinate with the floor-in-charges.<br><br>3. Nature of Work: Shihan focuses on mental labor and decision-making, whereas Maliha focuses on implementation and supervision.<br><br>4. Scope: Shihan's skills impact the entire organization's image and profit, while Maliha’s skills focus on departmental efficiency."
+                    }
+                ]
+            },
+            {
+                "id": "17",
+                "stem": "Diagram of Management Pyramid: Top Level (A) $\\rightarrow$ Mid Level (B) $\\rightarrow$ Lower Level (C).",
+                "meta": "Mymensingh Board · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "Question A is missing from the original row; placeholder inserted.",
+                        "answer": "The Greek philosopher Socrates said \"Management is Universal.\""
+                    },
+                    {
+                        "label": "b",
+                        "text": "Question B is missing from the original row; placeholder inserted.",
+                        "answer": "\"Unity is Strength\" (Esprit de Corps) is important because it fosters team spirit and coordination. When all members of an organization work together harmoniously toward a common objective, resources are used efficiently and the overall success of the institution is ensured."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Question C is missing from the original row; placeholder inserted.",
+                        "answer": "A' represents Top-level Management.<br>* Role: Managers at this level are the highest authority in an organization (e.g., Chairman, Directors).<br>* Functions: Their primary tasks involve defining long-term goals, formulating broad policies, and determining strategic plans.<br>* Focus: They focus on the organization as a whole rather than specific departments."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Question D is missing from the original row; placeholder inserted.",
+                        "answer": "I disagree with this statement. While all are managers, the mix of skills required at each level is fundamentally different:<br>* Level 'A' (Top): Requires high Conceptual Skills for strategy and policy-making.<br>* Level 'B' (Mid): Requires high Human (Interpersonal) Skills to bridge the gap between policy and execution.<br>* Level 'C' (Lower): Requires high Technical Skills to supervise workers directly on the field.<br>* Labor Type: 'A' involves mostly mental labor, while 'C' involves more physical/technical labor."
+                    }
+                ]
+            },
+            {
+                "id": "18",
+                "stem": "STEM missing due to row misalignment; placeholder inserted.",
+                "meta": "LEVEL missing due to row misalignment; placeholder inserted. · 2023",
+                "type": "category missing due to row misalignment; placeholder inserted.",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "Who is the father of scientific management?",
+                        "answer": "F.W. Taylor is the father of scientific management."
+                    },
+                    {
+                        "label": "b",
+                        "text": "Why is management called a social process?",
+                        "answer": "It is a social process because it involves managing, coordinating, and leading people within a community to achieve common welfare."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Which level of management does Mr. Asad belong to? Explain.",
+                        "answer": "Mid-level Manager. He acts as a bridge by instructing lower-level staff (supervisors/foremen) to execute top-level plans."
+                    },
+                    {
+                        "label": "d",
+                        "text": "\"The institution is progressing due to the blend of managerial skills of Nahid and Asad\"—Do you agree?",
+                        "answer": "Yes. 1. Nahid provides Conceptual Skill (Vision). 2. Asad provides Human Skill (Execution). 3. Success requires both policy and practice."
+                    }
+                ]
+            },
+            {
+                "id": "19",
+                "stem": "STEM missing due to row misalignment; placeholder inserted.",
+                "meta": "LEVEL missing due to row misalignment; placeholder inserted. · 2023",
+                "type": "category missing due to row misalignment; placeholder inserted.",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is Unity of Command?",
+                        "answer": "It means an employee should receive orders from only one superior to avoid confusion and conflict."
+                    },
+                    {
+                        "label": "b",
+                        "text": "Why are management principles necessary? Explain.",
+                        "answer": "Principles provide a standardized guide for managers to make decisions, solve problems, and ensure consistency in organizational behavior."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Which management function's characteristics are present in Mr. Maruf's activities?",
+                        "answer": "Planning. His foresight in \"project selection\" and deciding the nature of the business beforehand is the core of planning."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Evaluate the logicality of Mr. Maruf's decision.",
+                        "answer": "Logical. 1. He used his prior technical experience as a supervisor. 2. He identified a market gap in his area. 3. He balanced risk with loans and savings."
+                    }
+                ]
+            },
+            {
+                "id": "20",
+                "stem": "STEM missing due to row misalignment; placeholder inserted.",
+                "meta": "LEVEL missing due to row misalignment; placeholder inserted. · 2023",
+                "type": "category missing due to row misalignment; placeholder inserted.",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "State the period of the Industrial Revolution.",
+                        "answer": "The period between 1760 and 1840."
+                    },
+                    {
+                        "label": "b",
+                        "text": "Why are management functions interdependent? Explain.",
+                        "answer": "They are interdependent because the output of one (e.g., Planning) serves as the necessary input for the next (e.g., Organizing)."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Which level of manager is Jamila's husband? Explain.",
+                        "answer": "Lower-level (Operational) Manager. He directly supervises field-level workers and ensures the execution of daily tasks."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Why should Jamila's husband be termed a manager? Give your opinion.",
+                        "answer": "He is a manager because he gets work done through others. By directing 6 workers, he performs core functions like leading, supervising, and controlling."
+                    }
+                ]
+            },
+            {
+                "id": "21",
+                "stem": "Mr. Shahed (MD) instructs Mr. Rafiq (Dept. Head) to improve worker quality. Rafiq takes action. Mr. Rashed supervises the production workers directly.",
+                "meta": "Rajshahi Board · 2023",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "Who is the father of scientific management?",
+                        "answer": "F.W. Taylor is the father of scientific management."
+                    },
+                    {
+                        "label": "b",
+                        "text": "What is meant by management?",
+                        "answer": "Management is the process of getting things done through others effectively to reach specific goals."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Which management function is Mr. Rafiq involved in? Explain.",
+                        "answer": "1. Mr. Rafiq is involved in Staffing (কর্মীসংস্থান).<br><br>2. He was tasked with improving \"worker quality.\"<br><br>3. This involves training and development.<br><br>4. Staffing ensures the right people have the right skills."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Evaluate the effectiveness of mental labor at the management level where Mr. Rashed works.",
+                        "answer": "1. Mr. Rashed works at the Lower-level (Operational).<br><br>2. Mental labor is relatively low here compared to physical/technical labor.<br><br>3. Its effectiveness lies in short-term scheduling and direct supervision.<br><br>4. It translates top-level vision into manual output."
+                    }
+                ]
+            },
+            {
+                "id": "22",
+                "stem": "Mrs. Shaila (MD) sets a 25% sales growth target. She recruits skilled workers, sets daily targets for motivation, and takes daily reports to decide next steps.",
+                "meta": "Rajshahi Board · 2023",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is division of labor?",
+                        "answer": "It is the process of breaking a complex task into smaller parts assigned to specialists."
+                    },
+                    {
+                        "label": "b",
+                        "text": "What is the Scalar Chain principle?",
+                        "answer": "It refers to the unbroken line of authority and communication from the highest to lowest level of an organization."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Which level of officer is Mrs. Shaila? Explain.",
+                        "answer": "1. She is a Top-level Manager.<br><br>2. As Managing Director, she sets broad policies.<br><br>3. She plans long-term goals (25% growth).<br><br>4. She holds ultimate authority."
+                    },
+                    {
+                        "label": "d",
+                        "text": "\"The sales target was achieved due to Mrs. Shaila's use of management functions\"—Evaluate.",
+                        "answer": "1. Planning: Setting the 25% target.<br><br>2. Staffing: Recruiting skilled workers.<br><br><br>3. Motivating: Setting daily targets for encouragement.<br><br>4. Controlling: Taking daily reports to monitor progress."
+                    }
+                ]
+            },
+            {
+                "id": "23",
+                "stem": "Mr. Subrata (MD) sets a goal and determines who will do what, when, where, and how long it will take in advance. This makes achieving the target easy.",
+                "meta": "Comilla Board · 2023",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "Who is the father of modern management?",
+                        "answer": "Henri Fayol is the father of modern management."
+                    },
+                    {
+                        "label": "b",
+                        "text": "What is \"Management of Managers\"?",
+                        "answer": "It is the process where top executives manage middle and lower managers rather than general workers."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Which level of management is Mr. Subrata involved in? Explain.",
+                        "answer": "1. He is in Top-level Management.<br><br>2. He determines the primary goal.<br><br>3. He sets the operational framework.<br><br>4. He is the Managing Director (MD)."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Analyze the importance of the management function adopted by Mr. Subrata in achieving the goal.",
+                        "answer": "1. He adopted Planning (পরিকল্পনা).<br><br>2. It provides direction and reduces uncertainty.<br><br>3. It serves as the basis for organizing and controlling.<br><br>4. It ensures efficient use of time and resources."
+                    }
+                ]
+            },
+            {
+                "id": "24",
+                "stem": "Mr. Sajjad, an Area Manager, leads 10 supervisors and influences them for goal achievement. Mr. Tanveer is a supervisor under him who implements plans at the field level.",
+                "meta": "Comilla Board · 2023",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is the last function of the management cycle?",
+                        "answer": "Controlling is the last function of the management cycle."
+                    },
+                    {
+                        "label": "b",
+                        "text": "Why is management called universal?",
+                        "answer": "Management is universal because its principles are applicable to every field of human effort, from family to global organizations."
+                    },
+                    {
+                        "label": "c",
+                        "text": "At which level of management is Mr. Tanveer working? Explain.",
+                        "answer": "1. Mr. Tanveer works at the Lower-level (Operational) Management.<br><br>2. He is a \"supervisor\".<br><br>3. He implements plans at the \"field level\".<br><br>4. He directly oversees workers."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Analyze the role of the management function used by Sajjad to achieve goals through team effort.",
+                        "answer": "1. Sajjad used Leading/Directing and Motivating.<br><br>2. It builds team spirit (Esprit de Corps).<br><br>3. It influences employees to achieve goals.<br><br>4. It bridges planning and execution."
+                    }
+                ]
+            },
+            {
+                "id": "25",
+                "stem": "\"Beacon Pharmaceuticals\" is a large firm. Mr. Matin (Director) sets objectives and policies. Mr. Ratin implements these plans and strategies at the field level.",
+                "meta": "Dinajpur Board · 2023",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "Who is the father of modern management?",
+                        "answer": "Henri Fayol is the father of modern management."
+                    },
+                    {
+                        "label": "b",
+                        "text": "What do you mean by the universality of management?",
+                        "answer": "It means management principles apply to all collective human activities regardless of the nature or size of the institution."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Which level of manager is Mr. Matin? Explain.",
+                        "answer": "1. Mr. Matin is a Top-level Manager.<br><br>2. He is a \"Director\".<br><br>3. He is involved in \"objective setting and policy formulation\".<br><br>4. He provides the overall direction."
+                    },
+                    {
+                        "label": "d",
+                        "text": "\"Mr. Ratin’s role is vital for plan implementation\"—Evaluate in light of the stem.",
+                        "answer": "1. Ratin is a Mid-level Manager.<br><br>2. He acts as a bridge between strategy and the field.<br><br>3. Without his implementation, Matin’s policies remain theoretical.<br><br>4. He ensures technical execution."
+                    }
+                ]
+            },
+            {
+                "id": "26",
+                "stem": "Mr. Sujan is an executive who gives orders across levels. He noticed waste fabric being discarded, so he used it to make cotton and established a factory to reuse it.",
+                "meta": "Mymensingh Board · 2023",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is directing?",
+                        "answer": "Directing is the process of instructing, guiding, and overseeing employees to ensure they perform tasks correctly."
+                    },
+                    {
+                        "label": "b",
+                        "text": "Why is the Metro Rail project a single-use plan?",
+                        "answer": "It is a single-use plan because it is designed for a specific major goal and will lose its direct relevance once the project is completed."
+                    },
+                    {
+                        "label": "c",
+                        "text": "From a work perspective, what is the scope of Mr. Sujan’s management? Explain.",
+                        "answer": "1. His scope is Broad/Administrative.<br><br>2. He \"gives orders across levels and departments\".<br><br>3. He handles resource optimization.<br><br>4. He is involved in cross-functional coordination."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Which management aspect's importance led to Mr. Sujan’s success? Give your opinion.",
+                        "answer": "1. Success is due to Resource Optimization/Innovation.<br><br>2. He used the \"6 Ms\" (Materials) efficiently.<br><br>3. He converted waste into wealth.<br><br>4. He focused on Efficiency and Profitability."
+                    }
+                ]
+            },
+            {
+                "id": "27",
+                "stem": "Mrs. Momtaz and Mrs. Shahnaz work in the same firm. Momtaz sets objectives and gives instructions to subordinates. Shahnaz directs and supervises workers to achieve those goals.",
+                "meta": "Mymensingh Board · 2023",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) What is a budget?",
+                        "answer": "A budget is the numerical or financial expression of a plan for a specific future period."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) Why is a committee formed? Explain.",
+                        "answer": "A committee is formed to solve complex problems, make collective decisions, or perform specific investigations through a group of experts."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) What type of work is Mrs. Momtaz performing? Explain.",
+                        "answer": "1. Mrs. Momtaz is performing Top-level Management work.<br><br>2. She is responsible for \"setting objectives\".<br><br>3. She provides broad direction to subordinates.<br><br>4. Her focus is on strategic vision."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) Whose work is more important in managing lower-level workers? Give your opinion.",
+                        "answer": "1. Mrs. Shahnaz's work is more important for managing workers.<br><br>2. She is a Lower-level Manager.<br><br>3. She interacts directly with workers through \"supervision\".<br><br>4. She ensures technical execution."
+                    }
+                ]
+            },
+            {
+                "id": "28",
+                "stem": "A diagram of the Management Cycle with two missing functions: 'ক' and 'খ'. (Summary of the Management Cycle shown in the Diagram:<br>Planning (পরিকল্পনা): Setting goals and deciding how to achieve them.<br>Organizing ('খ' - সংগঠন): Structuring resources and responsibilities.<br>Staffing (কর্মীসংস্থান): Recruiting and training the right people.<br>Directing (নির্দেশনা): Guiding and instructing the workforce.<br>Motivating (প্রেষণা): Inspiring employees to work with high morale.<br>Coordinating (সমন্বয়): Harmonizing activities across different departments.<br>Controlling ('ক' - নিয়ন্ত্রণ): Monitoring performance and making corrections.)",
+                "meta": "Chittagong Board · 2023",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is the management cycle?",
+                        "answer": "The management cycle is the continuous and sequential process of interrelated functions (Planning, Organizing, Staffing, Directing, Motivating, Coordinating, and Controlling) performed to achieve organizational goals."
+                    },
+                    {
+                        "label": "b",
+                        "text": "Why is an interview conducted?",
+                        "answer": "An interview is conducted during the staffing process to evaluate a candidate's suitability for a specific role. It helps the management assess the candidate's communication skills, personality, and professional knowledge to ensure the right person is selected for the job."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Explain the management function that belongs in position 'ক'.",
+                        "answer": "Position 'ক' represents Controlling (নিয়ন্ত্রণ).<br>* Definition: It is the final stage of the management cycle where actual performance is compared against planned standards.<br>* Process: It involves identifying deviations, analyzing the reasons for failure, and taking corrective actions.<br>* Link: In the diagram, 'ক' follows 'Coordination' and leads back to 'Planning', which is the core characteristic of the controlling function."
+                    },
+                    {
+                        "label": "d",
+                        "text": "\"The function in position 'খ' is like an engine\"—Do you agree? Analyze your opinion.",
+                        "answer": "I agree. Position 'খ' represents Organizing (সংগঠন).<br>* Engine Analogy: Just as an engine integrates various parts to make a machine run, organizing integrates the \"6 Ms\" (Man, Machine, Material, Money, Method, Market) to make the plan operational.<br>* Structuring: It involves defining duties, allocating resources, and establishing authority-responsibility relationships.<br>* Efficiency: Without organizing, even the best plan remains static; this function provides the \"structure\" or \"engine\" that drives the organization toward its goals."
+                    }
+                ]
+            },
+            {
+                "id": "29",
+                "stem": "A diagram representing the Management Cycle with one missing function indicated by a question mark (?). (Planning $\\rightarrow$ Organizing $\\rightarrow$ Staffing $\\rightarrow$ Directing $\\rightarrow$\\? $\\rightarrow$ Coordinating $\\rightarrow$ Controlling.)",
+                "meta": "Jessore Board · 2023",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is the Industrial Revolution?",
+                        "answer": "The Industrial Revolution refers to the period between 1760 and 1840 characterized by the transition from manual labor to machine-based manufacturing. This era gave birth to modern management to handle large-scale production."
+                    },
+                    {
+                        "label": "b",
+                        "text": "What is the necessity of the \"Unity of Command\" principle?",
+                        "answer": "Unity of Command is necessary to ensure that an employee receives orders from only one superior. This prevents confusion, avoids conflicting instructions, ensures accountability, and maintains organizational discipline."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Which management function is missing in the diagram? Explain.",
+                        "answer": "The missing function indicated by the \"?\" is Motivating (প্রেষণা).<br>* Definition: It is the process of inspiring and encouraging employees to perform their duties with maximum enthusiasm and sincerity.<br>* Placement: In the management cycle, it typically follows Directing and leads to Coordinating.<br>* Importance: Without motivation, employees may lack the drive to achieve the targets set in the planning stage."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Why is management called a continuous process? Explain in light of the diagram.",
+                        "answer": "Management is called a continuous (or ongoing) process because its functions are interrelated and repeat in a circular sequence.<br>* The Cycle: As shown in the diagram image_125912.png, management starts with Planning, followed by organizing, staffing, directing, motivating, and coordinating, ending with Controlling.<br>* Repetition: Once a goal is achieved or a deviation is found during control, it leads back to a new plan.<br>*Sustainability: As long as an organization exists, this cycle must keep running to handle new challenges and maintain growth."
+                    }
+                ]
+            },
+            {
+                "id": "30",
+                "stem": "Mr. Shakil, manager of Brishti Ltd., divides tasks by type and assigns staff based on skill. He sets policies and uses new technology/techniques based on consumer taste, leading to high demand.",
+                "meta": "Sylhet Board · 2023",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "Where did the Industrial Revolution first begin?",
+                        "answer": "The Industrial Revolution first began in Great Britain (England)."
+                    },
+                    {
+                        "label": "b",
+                        "text": "How does management play a role in human resource development?",
+                        "answer": "Management contributes to human resource development through the Staffing function, which involves identifying, training, and motivating employees to improve their efficiency."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Which level of manager is Mr. Shakil? Explain.",
+                        "answer": "1. Mr. Shakil is a Top-level Manager.<br><br>2. He is responsible for \"setting the policies\" of the institution.<br><br>3. He makes strategic decisions regarding technology.<br><br>4. His focus is on long-term goal achievement."
+                    },
+                    {
+                        "label": "d",
+                        "text": "\"Research and development by management is the main reason for the institution's success\"—Do you agree? Give your opinion with logic.",
+                        "answer": "1. Yes, I agree.<br><br>2. He researched \"consumer taste and demand\" to stay relevant.<br><br>3. Using \"new techniques and technologies\" provided a competitive edge.<br><br>4. Innovation ensures the growth and sustainability of the firm."
+                    }
+                ]
+            },
+            {
+                "id": "31",
+                "stem": "A diagram of the Management Cycle with a missing function indicated by \"Q\". Hierarchy of the Management Cycle in the Image<br>Planning (পরিকল্পনা)<br>Organizing (সংগঠন)<br>Staffing (কর্মীসংস্থান)<br>Leadership (নেতৃত্ব)<br>Motivating (প্রেষণা)<br>Communication (যোগাযোগ)<br>Coordinating (সমন্বয়সাধন)<br>Q -",
+                "meta": "Sylhet Board · 2023",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "Who is a manager?",
+                        "answer": "A manager is an individual in an organization who is responsible for achieving goals by planning, organizing, directing, and controlling the efforts of others."
+                    },
+                    {
+                        "label": "b",
+                        "text": "Explain the universality of management.",
+                        "answer": "The universality of management refers to the fact that management principles and functions are applicable to all types of organizations (social, political, or economic) and at all levels of management, regardless of the size or nature of the institution."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Which cycle is indicated by the diagram in the stem? Explain.",
+                        "answer": "The diagram indicates the Management Cycle.<br>* Definition: It is a continuous process where various management functions are performed in a sequential and circular order to reach institutional goals.<br>* Functions: As seen in the image, it includes Planning (পরিকল্পনা), Organizing (সংগঠন), Staffing (কর্মীসংস্থান), Leadership (নেতৃত্ব), and others.<br>* Continuous Nature: The cycle shows how one function leads to the next, creating a repetitive loop that ensures organizational sustainability."
+                    },
+                    {
+                        "label": "d",
+                        "text": "\"Management activities can be meaningless and chaotic without proper 'Q'\" — Do you agree? Give your opinion with logic.",
+                        "answer": "Answer D is missing from the original row; placeholder inserted."
+                    }
+                ]
+            },
+            {
+                "id": "32",
+                "stem": "A diagram of the Management Cycle with missing functions indicated by 'ক' and 'খ'. 'ক' — ?.<br>Organizing (সংগঠন): Structuring resources.<br>Staffing (কর্মীসংস্থান): Placing the right people.<br>Directing (নির্দেশনা): Guiding the workforce.<br>Motivating (প্রেষণা): Inspiring performance.<br>Coordinating (সমন্বয়): Harmonizing efforts.<br>'খ' — ?.",
+                "meta": "Barisal Board · 2023",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is management?",
+                        "answer": "Management is the art of getting things done through others effectively to achieve specific organizational goals."
+                    },
+                    {
+                        "label": "b",
+                        "text": "What is meant by the management cycle?",
+                        "answer": "The management cycle refers to the continuous and sequential process of interrelated functions—planning, organizing, staffing, directing, motivating, coordinating, and controlling—that repeat in a circular manner to sustain an organization."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Which management function is performed in position 'ক'? Explain.",
+                        "answer": "Position 'ক' represents Planning (পরিকল্পনা).<br>* Definition: It is the primary function of management that involves deciding in advance what is to be done, when, where, how, and by whom.<br>* Foundation: It acts as the blueprint for all other management activities.<br>* Placement: In the management cycle, it is the starting point that follows 'Controlling' from the previous cycle, as seen in the circular arrows of the diagram."
+                    },
+                    {
+                        "label": "d",
+                        "text": "What is the relationship between the functions marked 'ক' and 'খ'? Analyze.",
+                        "answer": "There is a deep and inseparable relationship between 'ক' (Planning) and 'খ' (Controlling).<br>* Two Sides of a Coin: Planning sets the standards, and Controlling verifies if those standards are met.<br>* Interdependence: Planning is meaningless without Controlling (as there is no oversight), and Controlling is impossible without Planning (as there is no standard to compare against).<br>* Corrective Loop: As shown in the diagram, 'খ' (Control) identifies deviations which then serve as the basis for the next 'ক' (Plan), ensuring the cycle remains continuous and effective."
+                    }
+                ]
+            },
+            {
+                "id": "33",
+                "stem": "Mr. Rahman decided to expand a factory due to high demand. Mr. Shafiq was appointed as a foreman for the expanded unit to supervise workers.",
+                "meta": "Barisal Board · 2023",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is a profession?",
+                        "answer": "A profession is a specialized occupation that requires high educational qualifications, specialized training, and adherence to a specific code of ethics."
+                    },
+                    {
+                        "label": "b",
+                        "text": "How is management a social process?",
+                        "answer": "It is a social process because it involves managing people within a community and coordinating their efforts to achieve goals that benefit society."
+                    },
+                    {
+                        "label": "c",
+                        "text": "At which level of management does Mr. Shafiq work? Explain.",
+                        "answer": "Mr. Shafiq's Level of Management<br>Mr. Shafiq is working at the Lower-level Management (also known as Supervisory or Operational level).<br>Direct Supervision: As a foreman, his primary duty is to oversee the workers directly and ensure that production meets the required standards.<br>Implementation: He does not create the broad plans but executes the specific tasks assigned by the higher authorities.<br>Technical Skill: This level requires high technical and human skills to handle daily operational challenges and worker grievances."
+                    },
+                    {
+                        "label": "d",
+                        "text": "\"Mr. Rahman is involved in policy-making\"—Evaluate in light of the stem.",
+                        "answer": "Evaluation of Mr. Rahman's Role<br>The statement that Mr. Rahman is involved in policy-making is accurate based on his actions in the stem.<br>Strategic Decision: Deciding to expand a factory is a major strategic move that involves high-level planning and resource allocation.<br>Top-level Authority: Only individuals at the top-level management (such as Directors or MDs) have the authority to make such expansionary decisions and appoint supervisors like Mr. Shafiq.<br>Objective Setting: By initiating the expansion steps, he is determining the future path and growth targets of the institution."
+                    }
+                ]
+            },
+            {
+                "id": "34",
+                "stem": "Mr. Rahim is the Chairman of 'Rahim Shoe Ltd.' The goal was 10 lakh units, but only 8.5 lakh were produced despite hard work. An investigation found no negligence by workers or officers.",
+                "meta": "VNSC, Dhaka · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) What is the management cycle?",
+                        "answer": "The management cycle is the continuous, circular process of functions (Planning to Controlling) performed in sequence to achieve goals."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) \"Management is a social process\"—Explain.",
+                        "answer": "It is a social process because it involves managing and coordinating people (the social element) within a community to achieve common welfare."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) Which level of officer is Mr. Rahim? Explain.",
+                        "answer": "Mr. Rahim is a Top-level Manager. As \"Chairman,\" he is involved in policy-making, goal-setting, and high-level planning."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) The error lay in the top-level work rather than mid/lower levels—Explain your logical opinion.",
+                        "answer": "1. Unrealistic Planning: The 10 lakh target was likely set without a proper feasibility study.<br><br>2. Investigation Result: Since no negligence was found at lower levels, the \"Standard\" set by the top was flawed.<br><br>3. Resource Gap: Top management may have failed to provide necessary raw materials or tech.<br><br>4. Policy Failure: The plan lacked the flexibility to adapt to field-level realities."
+                    }
+                ]
+            },
+            {
+                "id": "35",
+                "stem": "Ms. Alifa, a garment owner, inspires her workers during visits. However, because duties and responsibilities are not clearly defined, chaos always prevails in the departments.",
+                "meta": "VNSC, Dhaka · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) What is scientific management?",
+                        "answer": "Scientific management is the application of scientific methods (experiments/observation) to increase labor productivity, pioneered by F.W. Taylor."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) \"Management functions are interdependent\"—Explain.",
+                        "answer": "Each function (like Planning) sets the stage for the next (Organizing), and failures in one affect the performance of others."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) Ms. Alifa's actions during visits are consistent with which management function?",
+                        "answer": "Her actions correspond to Motivating (প্রেষণা). By inspiring and encouraging workers, she builds morale and dedication."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) Which management function should be done correctly to tackle the chaos? Give logic.",
+                        "answer": "1. The function needed is Organizing (সংগঠন).<br><br>2. Organizing involves defining specific duties and authority for every role.<br><br>3. Clarity: It eliminates overlaps and confusion between departments.<br><br>4. Stability: Clear responsibility ensures accountability, which stops the prevailing chaos."
+                    }
+                ]
+            },
+            {
+                "id": "36",
+                "stem": "Mr. Amjad, a textile engineer, started his own mill. He is the Executive Director. He realized that more than technology, the element that operates the machinery is vital, so he is focusing on training.",
+                "meta": "Holy Cross College · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "(a) Which period is called the Industrial Revolution?",
+                        "answer": "The period between 1760 and 1840 is known as the Industrial Revolution."
+                    },
+                    {
+                        "label": "b",
+                        "text": "(b) Why are management functions interdependent? Explain.",
+                        "answer": "They are interdependent because one function provides the input for another; for example, Organizing is based on the objectives set in Planning."
+                    },
+                    {
+                        "label": "c",
+                        "text": "(c) At which level is Mr. Amjad working? Explain.",
+                        "answer": "Mr. Amjad is in Top-level Management. As \"Executive Director,\" he holds ultimate administrative and strategic decision-making power."
+                    },
+                    {
+                        "label": "d",
+                        "text": "(d) Which factor is being emphasized over advanced machinery? Analyze its logicality.",
+                        "answer": "1. The factor is Human Resources (Man).<br><br>2. Active Element: Machines (6Ms) are passive; they require skilled human labor to be productive.<br><br>3. Skill & Training: Amjad's focus on training proves that human efficiency drives tech efficiency.<br><br>4. Logic: Humans are the only \"living\" resource that can innovate and manage other factors."
+                    }
+                ]
+            },
+            {
+                "id": "37",
+                "stem": "Mr. Asad, head of the production dept., provides training and welfare for workers. However, he fails to communicate with purchasing, sales, and marketing departments, leading to a lack of harmony in work.",
+                "meta": "Rajshahi College · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is the Industrial Revolution?",
+                        "answer": "The Industrial Revolution (1760–1840) was the transition from hand production methods to machines, giving rise to modern management."
+                    },
+                    {
+                        "label": "b",
+                        "text": "Why is Henri Fayol called the father of modern management?",
+                        "answer": "He is called the father of modern management for identifying the 14 principles of management and the 5 key functions of a manager."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Which management function did Mr. Asad perform in his department? Explain.",
+                        "answer": "1. He performed Staffing (কর্মীসংস্থান) and Motivating (প্রেষণা).<br><br>2. He provided training for inefficient workers.<br><br>3. He organized annual picnics to boost morale.<br><br>4. These activities enhance worker capacity."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Which management function, if performed correctly, would make Mr. Asad successful in achieving objectives? Give logic.",
+                        "answer": "1. The function is Coordinating (সমন্বয়সাধন).<br><br>2. Coordination integrates the efforts of different departments like sales and production.<br><br>3. It ensures unity of action and prevents departmental isolation.<br><br>4. Without it, individual departmental success does not lead to overall organizational success."
+                    }
+                ]
+            },
+            {
+                "id": "38",
+                "stem": "Mr. Hafiz works as a QC (Quality Controller). He noticed workers aren't paid fairly and the work environment is poor, so he decided to leave for a better job.",
+                "meta": "Rajshahi College · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is the management cycle?",
+                        "answer": "The management cycle is the continuous, sequential process of planning, organizing, staffing, directing, motivating, coordinating, and controlling."
+                    },
+                    {
+                        "label": "b",
+                        "text": "Why is Unity of Direction important? Explain.",
+                        "answer": "Unity of direction ensures that all activities with the same objective are directed by one manager using one plan, preventing confusion."
+                    },
+                    {
+                        "label": "c",
+                        "text": "At which level of management is Mr. Hafiz working? Explain.",
+                        "answer": "1. Mr. Hafiz works at the Lower-level (Operational) Management.<br><br>2. As a QC, he is involved in direct technical supervision.<br><br>3. He monitors product quality at the field level.<br><br>4. He acts as the link between workers and middle management."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Due to the absence of which fundamental management function did Mr. Hafiz decide to quit? Analyze.",
+                        "answer": "1. The function is Motivating (প্রেষণা).<br><br>2. Motivation involves providing fair wages and a good environment to keep staff engaged.<br><br>3. Lack of incentives leads to low morale and employee turnover.<br><br>4. Effective motivation is essential for retaining skilled personnel like Mr. Hafiz."
+                    }
+                ]
+            },
+            {
+                "id": "39",
+                "stem": "Mr. Zahid Hassan formulates long-term plans and strategies. Mr. Tasnim Alam supervises workers and implements plans at the field level.",
+                "meta": "Cumilla Victoria Govt. College · 2025",
+                "type": "board",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is the Industrial Revolution?",
+                        "answer": "The Industrial Revolution (1760–1840) marked the shift to machine-based manufacturing, creating the need for structured management."
+                    },
+                    {
+                        "label": "b",
+                        "text": "Explain the role of management in family life.",
+                        "answer": "Management in family life helps in budget planning, resource allocation, and achieving household goals through organized effort."
+                    },
+                    {
+                        "label": "c",
+                        "text": "At which level of management is Mr. Zahid working? Explain.",
+                        "answer": "1. Mr. Zahid is in Top-level Management.<br><br>2. He is responsible for long-term planning and policy formulation.<br><br>3. He determines the core strategies of the organization.<br><br>4. His work requires high conceptual skills."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Between the two managers, who provides more mental labor? Give your opinion with logic based on the textbook.",
+                        "answer": "1. Mr. Zahid Hassan provides more mental labor.<br><br>2. Top-level management requires creative thinking, strategy, and complex decision-making.<br><br>3. Mr. Tasnim (Lower-level) focuses more on physical supervision and execution.<br><br>4. The ratio of mental to physical labor is highest at the top tier of management."
+                    }
+                ]
+            },
+            {
+                "id": "40",
+                "stem": "Mr. Hamza Chowdhury, Chairman of Madani Group, finalized promotion and housing policies and modernized the accounting system with technology.",
+                "meta": "JCPSC, Sylhet · 2026",
+                "type": "college",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is the universality of management?",
+                        "answer": "It means that management principles are applicable to all types of organizations and at all levels of human activity."
+                    },
+                    {
+                        "label": "b",
+                        "text": "Why is the management level shaped like a pyramid?",
+                        "answer": "It is shaped like a pyramid because the number of managers decreases as one moves from lower to top levels, reflecting the hierarchy of authority."
+                    },
+                    {
+                        "label": "c",
+                        "text": "At which level of management is Mr. Hamza? Explain.",
+                        "answer": "1. He is a Top-level Manager.<br><br>2. He is the \"Chairman\".<br><br>3. He finalizes \"policies\" for the entire group.<br><br>4. He determines long-term employee welfare."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Analyze the skill of Mr. Hamza Chowdhury.",
+                        "answer": "1. He demonstrates Conceptual Skill.<br><br>2. He has the vision to modernize systems.<br><br>3. He understands organizational dynamics.<br><br>4. He creates strategic policies."
+                    }
+                ]
+            },
+            {
+                "id": "41",
+                "stem": "Mr. Amzad (MD) set a target of 200,000 meters of cloth per month for 2025. Production Manager Mr. Rahat coordinates with supervisors to achieve it.",
+                "meta": "Holy Cross College · 2026",
+                "type": "college",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "Who is the father of administrative management?",
+                        "answer": "Henri Fayol is the father of administrative management."
+                    },
+                    {
+                        "label": "b",
+                        "text": "What is meant by management is universal?",
+                        "answer": "It refers to the global applicability of management functions across different cultures, sizes, and types of organizations."
+                    },
+                    {
+                        "label": "c",
+                        "text": "At which level of management is Mr. Amzad working?",
+                        "answer": "1. He is a Top-level Manager.<br><br>2. As \"MD,\" he sets the monthly target.<br><br>3. He provides the overall directive.<br><br>4. He makes the strategic goal."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Who plays a more vital role in achieving goals—Amzad or Rahat? Evaluate by levels.",
+                        "answer": "1. Both are vital, but Amzad's role is primary.<br><br>2. Amzad provides the standard (Goal).<br><br>3. Rahat (Mid-level) provides the bridge.<br><br>4. Without the goal, effort is directionless."
+                    }
+                ]
+            },
+            {
+                "id": "42",
+                "stem": "Mr. Matin (Director) sets objectives and policies for Beacon Pharmaceuticals. Mr. Ratin implements those plans and strategies at the field level.",
+                "meta": "DRMC, Dhaka · 2026",
+                "type": "college",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "Who is the father of modern management?",
+                        "answer": "Henri Fayol is the father of modern management."
+                    },
+                    {
+                        "label": "b",
+                        "text": "What do you mean by the universality of management?",
+                        "answer": "It means management principles apply to all collective human activities regardless of nature, such as family, business, or state."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Which level of manager is Mr. Matin? Explain.",
+                        "answer": "1. He is a Top-level Manager.<br><br>2. He is a \"Director\".<br><br>3. He is involved in \"policy formulation\".<br><br>4. He defines the firm's purpose."
+                    },
+                    {
+                        "label": "d",
+                        "text": "\"Mr. Ratin’s role is vital for plan implementation\"—Evaluate in light of the stem.",
+                        "answer": "1. Ratin is a Mid-level Manager.<br><br>2. He translates theory into action.<br><br>3. He ensures field-level execution.<br><br>4. He bridges the gap between top and bottom."
+                    }
+                ]
+            },
+            {
+                "id": "43",
+                "stem": "Mr. Habib, GM of XYZ Industries, improved the work environment. However, goals are not being met due to a lack of proper supervision.",
+                "meta": "Dhaka City College · 2026",
+                "type": "college",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is the management cycle?",
+                        "answer": "The management cycle is the continuous, sequential process of interrelated functions (Planning to Controlling) performed to achieve goals."
+                    },
+                    {
+                        "label": "b",
+                        "text": "Explain 'Management is Universal'.",
+                        "answer": "It means management principles apply to all types of organizations (social, political, etc.) and at all levels of human effort."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Which management function did Mr. Habib perform for the workers?",
+                        "answer": "1. He performed Staffing (কর্মীসংস্থান) and Motivation.<br><br>2. He provided \"sufficient facilities.\"<br><br>3. This improved the work environment.<br><br>4. It focuses on human resource welfare."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Due to negligence at which level of management is XYZ Industries failing to meet goals?",
+                        "answer": "1. Negligence is at the Lower-level (Operational).<br><br>2. The stem mentions a lack of \"proper supervision.\"<br><br>3. Supervisors belong to the lower tier.<br><br>4. They are responsible for field-level execution."
+                    }
+                ]
+            },
+            {
+                "id": "44",
+                "stem": "Mr. Hasibur (GM) plans and sets policies. He instructs Mr. Hasin to implement them, who then directs Mr. Hasmat to get the work done through laborers.",
+                "meta": "DMRMC, Dhaka · 2025",
+                "type": "college",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "Who is a manager?",
+                        "answer": "A manager is an individual responsible for achieving goals by directing the efforts of others."
+                    },
+                    {
+                        "label": "b",
+                        "text": "Why is management called universal?",
+                        "answer": "It is universal because its principles are needed in every collective human activity, from families to global firms."
+                    },
+                    {
+                        "label": "c",
+                        "text": "At which level of management is Mr. Hasibur working?",
+                        "answer": "1. He is a Top-level Manager.<br><br>2. He is the \"General Manager\".<br><br>3. He is involved in \"policy-making.\"<br><br>4. He sets the broad plans."
+                    },
+                    {
+                        "label": "d",
+                        "text": "\"Mr. Hasmat’s role is maximum in implementing plans\"—Give your opinion.",
+                        "answer": "1. Yes, I agree.<br><br>2. Hasmat is a Lower-level Manager.<br><br>3. He works directly with laborers.<br><br>4. He translates theoretical plans into physical output."
+                    }
+                ]
+            },
+            {
+                "id": "45",
+                "stem": "Mr. Simon (Owner) divides tasks by nature and assigns them by qualification. He also ensures timely pay, bonuses, and a good environment.",
+                "meta": "DMRMC, Dhaka · 2025",
+                "type": "college",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is the Industrial Revolution?",
+                        "answer": "It is the transition from manual labor to machine-based manufacturing (1760–1840)."
+                    },
+                    {
+                        "label": "b",
+                        "text": "What is meant by the management cycle?",
+                        "answer": "It refers to the repetitive, circular sequence of functions like planning and organizing to achieve goals."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Which management function did Mr. Simon perform first?",
+                        "answer": "1. He first performed Organizing (সংগঠন).<br><br>2. He \"divided tasks by nature.\"<br><br>3. He assigned work by \"qualification.\"<br><br>4. This establishes the structural framework."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Evaluate the appropriateness of the function Simon uses to get work done.",
+                        "answer": "1. He uses Motivation (প্রেষণা).<br><br>2. Pay and bonuses inspire employees.<br><br>3. It ensures workers work with \"sincerity.\"<br><br>4. Motivation is vital for productivity."
+                    }
+                ]
+            },
+            {
+                "id": "46",
+                "stem": "Mr. Ayan implements plans through supervisors. Mr. Sujan implements plans himself. The company's profit is increasing.",
+                "meta": "ALD College, Barisal · 2025",
+                "type": "college",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is management?",
+                        "answer": "Management is the process of achieving goals effectively through others."
+                    },
+                    {
+                        "label": "b",
+                        "text": "Is management a profession? Explain.",
+                        "answer": "While it has professional traits, it isn't a full profession yet because it lacks a mandatory uniform code of conduct and universal licensing."
+                    },
+                    {
+                        "label": "c",
+                        "text": "At which level of management is Mr. Ayan working? Explain.",
+                        "answer": "1. He works at the Mid-level.<br><br>2. He bridges the gap between managers and supervisors.<br><br>3. He oversees implementation.<br><br>4. He directs lower tiers."
+                    },
+                    {
+                        "label": "d",
+                        "text": "\"Mr. Sujan's contribution to profit growth is greater\"—Give your opinion.",
+                        "answer": "1. Yes, I agree.<br><br>2. Sujan is a Lower-level Manager.<br><br>3. He works directly at the field level.<br><br>4. Real output is generated under his direct care."
+                    }
+                ]
+            },
+            {
+                "id": "47",
+                "stem": "Mr. X, a GM, collects data, analyzes it, determines alternatives, and chooses the best one to improve the institution.",
+                "meta": "ALD College, Barisal · 2025",
+                "type": "college",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "Who is the father of modern management?",
+                        "answer": "Henri Fayol is the father of modern management."
+                    },
+                    {
+                        "label": "b",
+                        "text": "Explain the management cycle.",
+                        "answer": "It is the continuous, repetitive sequence of functions like planning and organizing to reach goals."
+                    },
+                    {
+                        "label": "c",
+                        "text": "At which level of management is Mr. X? Explain.",
+                        "answer": "1. He is a Top-level Manager.<br><br>2. He is a \"General Manager\".<br><br>3. He determines strategic direction.<br><br>4. He makes key decisions."
+                    },
+                    {
+                        "label": "d",
+                        "text": "On which management function has Mr. X focused for success? Evaluate.",
+                        "answer": "1. He focused on Planning (পরিকল্পনা).<br><br>2. He analyzed alternatives.<br><br>3. He chose the \"best alternative\".<br><br>4. Planning is the base of success."
+                    }
+                ]
+            },
+            {
+                "id": "48",
+                "stem": "Japan's moon lander \"SLIM\" landed successfully through a joint effort between JAXA and Takara Tomy. JAXA formulated core policies, while the toy company handled less critical decisions.",
+                "meta": "Dhaka Commerce College · 2024",
+                "type": "college",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is the management cycle?",
+                        "answer": "The management cycle is the continuous and sequential process of interrelated functions (Planning to Controlling) performed to achieve specific goals."
+                    },
+                    {
+                        "label": "b",
+                        "text": "Is management a science or an art? Explain.",
+                        "answer": "Management is both. It is a Science because it has organized principles, and an Art because it requires personal skill to apply those principles to reach goals."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Which management function was followed by the two organizations in the research activity?",
+                        "answer": "1. They followed Coordinating (সমন্বয়সাধন).<br><br>2. They established a \"joint link\" (যোগসূত্র) for the research.<br><br>3. It harmonizes diverse efforts toward a common goal.<br><br>4. It ensures unity of action."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Evaluate the decision-making arrangement of the two organizations in light of Henri Fayol's principles.",
+                        "answer": "1. It reflects the principle of Centralization and Decentralization.<br><br>2. JAXA kept \"core policies\" (Centralization).<br><br>3. Takara Tomy handled \"less critical decisions\" (Decentralization).<br><br>4. This balance ensures efficiency and speed."
+                    }
+                ]
+            },
+            {
+                "id": "49",
+                "stem": "Mr. Jamil decided to buy a new machine. He instructed Mr. Akash, a department official, to recruit a mechanical engineer. Mr. Akash began the recruitment process.",
+                "meta": "BSMRPC, Dhaka · 2024",
+                "type": "college",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is administration?",
+                        "answer": "Administration is the higher-level function of an organization concerned with setting goals, policies, and broad strategies."
+                    },
+                    {
+                        "label": "b",
+                        "text": "What do you mean by the universality of management?",
+                        "answer": "It refers to the global applicability of management principles across all types of organizations and levels of human activity."
+                    },
+                    {
+                        "label": "c",
+                        "text": "At which level of management is Mr. Akash? Explain.",
+                        "answer": "1. Mr. Akash is a Mid-level Manager.<br><br>2. He is a departmental official.<br><br>3. He implements orders from top management.<br><br>4. He coordinates between levels."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Analyze the management function being performed by Mr. Akash.",
+                        "answer": "1. He is performing Staffing (কর্মীসংস্থান).<br><br>2. This involves recruiting and selecting the right person.<br><br>3. It ensures technical expertise (Engineer) is available.<br><br>4. It is vital for resource management."
+                    }
+                ]
+            },
+            {
+                "id": "50",
+                "stem": "Mr. Raihan (Director) sets objectives and policies at Square Pharmaceuticals. Mr. Rajin ensures these plans are implemented at the field level.",
+                "meta": "Adamjee Cantt. College · 2024",
+                "type": "college",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "Who is the father of scientific management?",
+                        "answer": "F.W. Taylor is the father of scientific management."
+                    },
+                    {
+                        "label": "b",
+                        "text": "What is meant by motivation?",
+                        "answer": "Motivation is the process of inspiring and encouraging employees to work enthusiastically toward organizational goals."
+                    },
+                    {
+                        "label": "c",
+                        "text": "At which level of management is Mr. Raihan? Explain.",
+                        "answer": "1. Mr. Raihan is a Top-level Manager.<br><br>2. He is a \"Director\".<br><br>3. He handles \"policy formulation\".<br><br>4. He defines the firm's purpose."
+                    },
+                    {
+                        "label": "d",
+                        "text": "How should the mix of conceptual and technical skills differ between Raihan and Rajin?",
+                        "answer": "1. Raihan (Top): High Conceptual Skill, low technical skill.<br><br>2. Rajin (Mid/Lower): High Technical/Human Skill, moderate conceptual skill.<br><br>3. This balance ensures strategy meets execution."
+                    }
+                ]
+            },
+            {
+                "id": "51",
+                "stem": "Ms. Priti sets policies for TS Co. Mr. Rifat (Dept. Head) implements plans. Mr. Raju (Foreman) supervises and encourages workers directly.",
+                "meta": "Viqarunnisa Noon · 2024",
+                "type": "college",
+                "questions": [
+                    {
+                        "label": "a",
+                        "text": "What is directing?",
+                        "answer": "Directing is the process of instructing and guiding employees to ensure tasks are performed correctly."
+                    },
+                    {
+                        "label": "b",
+                        "text": "What is meant by formal organizational structure?",
+                        "answer": "It is a structure where authority, responsibility, and relationships are clearly defined through official rules and hierarchy."
+                    },
+                    {
+                        "label": "c",
+                        "text": "Analyze Ms. Priti's management level in light of the stem.",
+                        "answer": "1. Ms. Priti is a Top-level Manager.<br><br>2. She is responsible for \"policy and planning\".<br><br>3. She holds ultimate authority.<br><br>4. She provides the strategic vision."
+                    },
+                    {
+                        "label": "d",
+                        "text": "Whose contribution is greater for increasing production—Rifat or Raju? Explain.",
+                        "answer": "1. Mr. Raju's contribution is more direct.<br><br>2. As a \"foreman,\" he is at the field level.<br><br>3. He directly \"supervises and encourages\" workers.<br><br>4. Production happens under his watch."
+                    }
+                ]
+            }
+        ]
+    }
+}

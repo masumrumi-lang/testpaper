@@ -1,0 +1,11 @@
+{
+        "id": "16",
+        "stem": "<p>Mr. Shihan is involved in strategic planning and policy formulation for a production-oriented firm. Ms. Maliha provides instructions and advice to floor-in-charge staff to implement those plans. The collective effort and skill of the employees are increasing the firm's profit and image.</p>",
+        "meta": "Mymensingh Board · 2025",
+        "type": "board",
+        "questions": [
+            {
+                "label": "a",
+                "text": "",
+                "answer": "<p>Management is the process of planning, organizing, staffing, directing, motivating, coordinating, and controlling resources to achieve organizational goals effectively and efficiently.</p>"
+            }

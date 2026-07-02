@@ -1,0 +1,28 @@
+{
+        "id": "20",
+        "stem": "<p>Mr. Shahed (MD) instructs Mr. Rafiq (Dept. Head) to improve worker quality. Rafiq takes action. Mr. Rashed supervises the production workers directly.</p>",
+        "meta": "Rajshahi Board · 2023",
+        "type": "board",
+        "questions": [
+            {
+                "label": "a",
+                "text": "Who is the father of scientific management? (1)",
+                "answer": "<p>F.W. Taylor is the father of scientific management.</p>"
+            },
+            {
+                "label": "b",
+                "text": "What is meant by management? (2)",
+                "answer": "<p>Management is the process of getting things done through others effectively to reach specific goals.</p>"
+            },
+            {
+                "label": "c",
+                "text": "Which management function is Mr. Rafiq involved in? Explain. (3)",
+                "answer": "<p>1. Mr. Rafiq is involved in Staffing (কর্মীসংস্থান).\n\n2. He was tasked with improving \"worker quality.\"\n\n3. This involves training and development.\n\n4. Staffing ensures the right people have the right skills.</p>"
+            },
+            {
+                "label": "d",
+                "text": "Evaluate the effectiveness of mental labor at the management level where Mr. Rashed works. (4)",
+                "answer": "<p>1. Mr. Rashed works at the Lower-level (Operational).\n\n2. Mental labor is relatively low here compared to physical/technical labor.\n\n3. Its effectiveness lies in short-term scheduling and direct supervision.\n\n4. It translates top-level vision into manual output.</p>"
+            }
+        ]
+    }

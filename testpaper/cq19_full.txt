@@ -1,0 +1,28 @@
+{
+        "id": "19",
+        "stem": "<p>Which management function's characteristics are present in Mr. Maruf's activities?</p>",
+        "meta": "What is Unity of Command? · 2023",
+        "type": "why are management principles necessary? explain.",
+        "questions": [
+            {
+                "label": "a",
+                "text": "Evaluate the logicality of Mr. Maruf's decision. (1)",
+                "answer": "<p>Logical. 1. He used his prior technical experience as a supervisor. 2. He identified a market gap in his area. 3. He balanced risk with loans and savings.</p>"
+            },
+            {
+                "label": "b",
+                "text": "It means an employee should receive orders from only one superior to avoid confusion and conflict. (2)",
+                "answer": ""
+            },
+            {
+                "label": "c",
+                "text": "Principles provide a standardized guide for managers to make decisions, solve problems, and ensure consistency in organizational behavior. (3)",
+                "answer": ""
+            },
+            {
+                "label": "d",
+                "text": "Planning. His foresight in \"project selection\" and deciding the nature of the business beforehand is the core of planning. (4)",
+                "answer": ""
+            }
+        ]
+    }

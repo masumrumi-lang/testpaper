@@ -1,0 +1,28 @@
+{
+        "id": "30",
+        "stem": "<p>A diagram of the Management Cycle with a missing function indicated by \"Q\". Hierarchy of the Management Cycle in the Image\nPlanning (পরিকল্পনা)\nOrganizing (সংগঠন)\nStaffing (কর্মীসংস্থান)\nLeadership (নেতৃত্ব)\nMotivating (প্রেষণা)\nCommunication (যোগাযোগ)\nCoordinating (সমন্বয়সাধন)\nQ -</p>",
+        "meta": "Sylhet Board · 2023",
+        "type": "board",
+        "questions": [
+            {
+                "label": "a",
+                "text": "Who is a manager? (1)",
+                "answer": "<p>A manager is an individual in an organization who is responsible for achieving goals by planning, organizing, directing, and controlling the efforts of others.</p>"
+            },
+            {
+                "label": "b",
+                "text": "Explain the universality of management. (2)",
+                "answer": "<p>The universality of management refers to the fact that management principles and functions are applicable to all types of organizations (social, political, or economic) and at all levels of management, regardless of the size or nature of the institution.</p>"
+            },
+            {
+                "label": "c",
+                "text": "Which cycle is indicated by the diagram in the stem? Explain. (3)",
+                "answer": "<p>The diagram indicates the Management Cycle.\n* Definition: It is a continuous process where various management functions are performed in a sequential and circular order to reach institutional goals.\n* Functions: As seen in the image, it includes Planning (পরিকল্পনা), Organizing (সংগঠন), Staffing (কর্মীসংস্থান), Leadership (নেতৃত্ব), and others.\n* Continuous Nature: The cycle shows how one function leads to the next, creating a repetitive loop that ensures organizational sustainability.</p>"
+            },
+            {
+                "label": "d",
+                "text": "\"Management activities can be meaningless and chaotic without proper 'Q'\" — Do you agree? Give your opinion with logic. (4)",
+                "answer": ""
+            }
+        ]
+    }

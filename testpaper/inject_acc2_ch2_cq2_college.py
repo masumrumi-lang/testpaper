@@ -1,0 +1,117 @@
+import json
+import re
+
+# 1. Structured CQ Object requested by user
+structured_cq = {
+  "chapter": "Accounting 2nd Paper Chapter 2",
+  "question_id": "acc2_ch2_cq2_college",
+  "stimulus": "Suman, Rajan, and Mohan are three partners in a business. At the beginning of 2025, their capital in the business was Tk. 60,000, Tk. 40,000, and Tk. 20,000 respectively. According to the agreement, 10% interest is to be paid to Suman on the entire capital of the business. Rajan will get a salary of Tk. 600 per month, 60% of which will be charged to the business account and the remaining 40% to Suman's Current Account. In the middle of each month, every partner withdraws Tk. 500 in cash, and Mohan withdraws goods worth Tk. 1,000 throughout the year. There is a provision for charging 5% interest on drawings. It should be noted that their profit-sharing ratio is 3:2:1 respectively. Before making the above adjustments, the net profit of the business amounts to Tk. 85,000. A 5% commission is to be paid to Mohan on the said profit.<br><strong>Dhaka College - 2026</strong>",
+  "requirements": {
+    "a": "Show the journal entry for charging Rajan's salary to Suman's Current Account.",
+    "b": "Prepare Profit and Loss Appropriation Account.",
+    "c": "Prepare the Partners' Current Account, assuming the divisible profit is Tk. 60,000 and the credit balances of the Current Accounts on January 1, 2025, were: Suman Tk. 10,000, Rajan Tk. 8,000, and Mohan Tk. 6,000.",
+    "d": ""
+  },
+  "solutions": {
+    "a": "<p><strong>Journal entry for charging Rajan's salary to Suman's Current Account:</strong></p><div class=\"table-responsive overflow-x-auto\"><table><tr><th>Date</th><th>Account Title &amp; Explanation</th><th>L.F.</th><th>Debit (Tk.)</th><th>Credit (Tk.)</th></tr><tr><td>2025<br>Dec. 31</td><td>Suman's Current Account (Salary) (Calculation)<br>To Rajan's Current Account (Salary)</td><td></td><td>2,880</td><td><br>2,880</td></tr><tr><td></td><td><strong>Total</strong></td><td></td><td><strong><u>2,880</u></strong></td><td><strong><u>2,880</u></strong></td></tr></table></div><p><i>(Being Rajan's salary charged to Suman's Current Account)</i></p><p><strong>Answer:</strong> Total of Journal Tk. 2,880.</p><p><strong>Calculation:</strong> Salary = (600 &times; 12 &times; 40%) = Tk. 2,880</p>",
+    "b": "<div class=\"text-center\"><p><strong>Suman, Rajan, and Mohan<br>Profit and Loss Appropriation Account<br>For the year ended December 31, 2025</strong></p></div><div class=\"table-responsive overflow-x-auto\"><table><tr><th colspan=\"3\" style=\"text-align: left;\">Debit</th><th colspan=\"3\" style=\"text-align: right;\">Credit</th></tr><tr><th>Particulars</th><th>Tk.</th><th>Tk.</th><th>Particulars</th><th>Tk.</th><th>Tk.</th></tr><tr><td><strong>Partners' Current Account: (Interest on Capital)</strong><br>Suman [(60,000 + 40,000 + 20,000) &times; 10%]</td><td></td><td style=\"vertical-align: bottom;\">12,000</td><td><strong>Income Statement:</strong> (Net Profit)</td><td></td><td style=\"vertical-align: top;\">85,000</td></tr><tr><td><strong>Rajan's Current Account:</strong><br>Salary (600 &times; 12 &times; 60%)</td><td></td><td style=\"vertical-align: bottom;\">4,320</td><td><strong>Partners' Current Account: (Interest on Drawings)</strong><br>Suman (500 &times; 5% &times; 6)<br>Rajan (500 &times; 5% &times; 6)<br>Mohan (500 &times; 5% &times; 6)</td><td style=\"vertical-align: bottom;\">150<br>150<br><u>150</u></td><td style=\"vertical-align: bottom;\">450</td></tr><tr><td><strong>Mohan's Current Account:</strong><br>Commission (85,000 &times; 5%)</td><td></td><td style=\"vertical-align: bottom;\">4,250</td><td><strong>Mohan's Current Account:</strong><br>Drawings of Goods</td><td></td><td style=\"vertical-align: bottom;\">1,000</td></tr><tr><td><strong>Partners' Current Account: (Share of Profit)</strong><br>Suman (65,880 &times; 3/6)<br>Rajan (65,880 &times; 2/6)<br>Mohan (65,880 &times; 1/6)</td><td style=\"vertical-align: bottom;\">32,940<br>21,960<br><u>10,980</u></td><td style=\"vertical-align: bottom;\">65,880</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td><strong><u>86,450</u></strong></td><td></td><td></td><td><strong><u>86,450</u></strong></td></tr></table></div><p><strong>Answer:</strong> Divisible Share of Profit: Suman Tk. 32,940; Rajan Tk. 21,960; Mohan Tk. 10,980.</p>",
+    "c": "<div class=\"text-center\"><p><strong>Suman, Rajan, and Mohan<br>Current Account</strong></p></div><div class=\"table-responsive overflow-x-auto\"><table><tr><th colspan=\"5\" style=\"text-align: left;\">Debit</th><th colspan=\"5\" style=\"text-align: right;\">Credit</th></tr><tr><th>Date</th><th>Particulars</th><th>Suman (Tk.)</th><th>Rajan (Tk.)</th><th>Mohan (Tk.)</th><th>Date</th><th>Particulars</th><th>Suman (Tk.)</th><th>Rajan (Tk.)</th><th>Mohan (Tk.)</th></tr><tr><td>2025<br>Dec. 31</td><td>Suman's Current Account (Salary)</td><td>2,880</td><td></td><td></td><td>2025<br>Jan. 1</td><td>Balance b/d (Given in question)</td><td>10,000</td><td>8,000</td><td>6,000</td></tr><tr><td>Dec. 31</td><td>Drawings Account</td><td>6,000</td><td>6,000</td><td>6,000</td><td>Dec. 31</td><td>Rajan's Current Account (Salary)</td><td></td><td>2,880</td><td></td></tr><tr><td>Dec. 31</td><td><strong>Profit &amp; Loss App. A/c:</strong><br>Interest on Drawings</td><td>150</td><td>150</td><td>150</td><td>Dec. 31</td><td><strong>Profit &amp; Loss App. A/c:</strong><br>Interest on Capital</td><td>12,000</td><td></td><td></td></tr><tr><td></td><td>Drawings of Goods</td><td></td><td></td><td>1,000</td><td></td><td>Salary</td><td></td><td>4,320</td><td></td></tr><tr><td>Dec. 31</td><td>Balance c/d</td><td>42,970</td><td>29,050</td><td>13,100</td><td></td><td>Commission</td><td></td><td></td><td>4,250</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td>Share of Profit (Calculation) (Given in question)</td><td>30,000</td><td>20,000</td><td>10,000</td></tr><tr><td></td><td></td><td><strong><u>52,000</u></strong></td><td><strong><u>35,200</u></strong></td><td><strong><u>20,250</u></strong></td><td></td><td></td><td><strong><u>52,000</u></strong></td><td><strong><u>35,200</u></strong></td><td><strong><u>20,250</u></strong></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>2026<br>Jan. 1</td><td>Balance b/d</td><td>42,970</td><td>29,050</td><td>13,100</td></tr></table></div>",
+    "d": ""
+  },
+  "tables": []
+}
+
+with open('extracted_cq2.json', 'w', encoding='utf-8') as f:
+    json.dump(structured_cq, f, indent=2, ensure_ascii=False)
+
+# 2. Convert to application schema and inject into data.js
+new_cq_app_schema = {
+    "id": "acc2_ch2_cq2_college",
+    "stem": "<p>Suman, Rajan, and Mohan are three partners in a business. At the beginning of 2025, their capital in the business was Tk. 60,000, Tk. 40,000, and Tk. 20,000 respectively. According to the agreement, 10% interest is to be paid to Suman on the entire capital of the business. Rajan will get a salary of Tk. 600 per month, 60% of which will be charged to the business account and the remaining 40% to Suman's Current Account. In the middle of each month, every partner withdraws Tk. 500 in cash, and Mohan withdraws goods worth Tk. 1,000 throughout the year. There is a provision for charging 5% interest on drawings. It should be noted that their profit-sharing ratio is 3:2:1 respectively. Before making the above adjustments, the net profit of the business amounts to Tk. 85,000. A 5% commission is to be paid to Mohan on the said profit.</p><p>Dhaka College · 2026</p>",
+    "meta": "Dhaka College · 2026",
+    "type": "college",
+    "questions": [
+        {
+            "label": "a",
+            "text": "Show the journal entry for charging Rajan's salary to Suman's Current Account.",
+            "answer": structured_cq["solutions"]["a"]
+        },
+        {
+            "label": "b",
+            "text": "Prepare Profit and Loss Appropriation Account.",
+            "answer": structured_cq["solutions"]["b"]
+        },
+        {
+            "label": "c",
+            "text": "Prepare the Partners' Current Account, assuming the divisible profit is Tk. 60,000 and the credit balances of the Current Accounts on January 1, 2025, were: Suman Tk. 10,000, Rajan Tk. 8,000, and Mohan Tk. 6,000.",
+            "answer": structured_cq["solutions"]["c"]
+        }
+    ]
+}
+
+with open('data.js', 'r', encoding='utf-8') as f:
+    content = f.read()
+
+# Find the chapter
+target_chapter = '"chapterName": "Chapter 2 : Partnership Business Accounts",'
+idx = content.find(target_chapter)
+
+if idx == -1:
+    print("Error: Chapter not found")
+else:
+    cq_idx = content.find('"fullCQData": [', idx)
+    if cq_idx == -1:
+        print("Error: fullCQData not found")
+    else:
+        # Find the end of the fullCQData array for this chapter
+        bracket_count = 0
+        in_string = False
+        escape = False
+        start_search = cq_idx + len('"fullCQData": [')
+        
+        close_idx = -1
+        for i in range(start_search, len(content)):
+            char = content[i]
+            if in_string:
+                if escape:
+                    escape = False
+                elif char == '\\':
+                    escape = True
+                elif char == '"':
+                    in_string = False
+            else:
+                if char == '"':
+                    in_string = True
+                elif char == '[' or char == '{':
+                    bracket_count += 1
+                elif char == ']' or char == '}':
+                    bracket_count -= 1
+                    if bracket_count < 0: # This means we hit the closing bracket of the array
+                        close_idx = i
+                        break
+        
+        if close_idx == -1:
+            print("Error: Closing bracket for fullCQData not found")
+        else:
+            inner_content = content[start_search:close_idx].strip()
+            
+            json_str = json.dumps(new_cq_app_schema, indent=4, ensure_ascii=False)
+            lines = json_str.split('\n')
+            indented_lines = ['                ' + line for line in lines]
+            formatted_json = '\n'.join(indented_lines)
+            
+            if inner_content == "":
+                new_val = '\n' + formatted_json + '\n            '
+                new_content = content[:start_search] + new_val + content[close_idx:]
+            else:
+                last_brace_idx = content.rfind('}', start_search, close_idx)
+                if last_brace_idx != -1:
+                    new_val = ',\n' + formatted_json
+                    new_content = content[:last_brace_idx+1] + new_val + content[last_brace_idx+1:]
+                else:
+                    new_val = formatted_json
+                    new_content = content[:close_idx] + new_val + content[close_idx:]
+            
+            with open('data.js', 'w', encoding='utf-8') as f:
+                f.write(new_content)
+            print("Successfully injected into data.js")

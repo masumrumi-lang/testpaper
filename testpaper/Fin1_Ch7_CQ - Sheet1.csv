@@ -1,0 +1,1760 @@
+Year,Subject,Chapter,Level,Category,Stem,Stem_Image,Question_A,Question_B,Question_C,Question_D,Ans_A,Ans_B,Ans_C,Ans_D
+2019,Finance,Cost of Capital,Comilla Board,Board,"Chitra Ltd. has issued a 5-year bond with a face value of 1,000 taka at a 12% coupon rate. Flotation cost per bond is 2%. On the other hand, Ganga Ltd. operates its business with debt, preferred stock, and common equity capital, where the specific costs and capital ratios are 12%, 14%, & 15% and 30%, 30%, & 40% respectively. The company's rate of return on investment is 15%. The corporate tax rate for both companies is 30%.",NA,What is the cost of retained earnings?,What is the impact of flotation costs on the cost of newly issued shares?,What is the cost of the issued bond of Chitra Ltd. mentioned in the stem?,Analyze the efficiency of the capital structure of Ganga Ltd. mentioned in the stem.,The cost of retained earnings is the opportunity cost that shareholders forgo by allowing the company to reinvest profits instead of receiving them as dividends.,"Flotation costs (underwriting, legal, and brokerage fees) reduce the net proceeds received from selling new shares. Since the cost of capital is calculated by dividing dividends by the net proceeds, a lower denominator results in a higher cost of capital. Therefore, flotation costs increase the cost of new equity compared to internal equity.","Calculation for Chitra Ltd. Irredeemable Bond Cost:
+
+Face Value (FV) = 1,000
+
+Coupon Rate = 12%
+
+Interest (I) = 1,000 × 12% = 120
+
+Tax Rate (T) = 30% or 0.30
+
+Flotation Cost (FC) = 2% of 1,000 = 20
+
+Net Sale Value (NSV) = 1,000 - 20 = 980
+
+Formula: $K_d = \frac{I(1-T)}{NSV} \times 100$
+
+$K_d = \frac{120(1-0.30)}{980} \times 100$
+
+$K_d = \frac{84}{980} \times 100 = 8.57\%$
+
+Answer: 8.57%","Calculation for Ganga Ltd. WACC:
+
+Cost of Debt ($K_d$) = 12% × (1 - 0.30) = 8.4%
+
+Cost of Preferred Stock ($K_p$) = 14%
+
+Cost of Common Equity ($K_e$) = 15%
+
+Weights: $W_d = 0.30, W_p = 0.30, W_e = 0.40$
+
+WACC = $(K_d \times W_d) + (K_p \times W_p) + (K_e \times W_e)$
+
+WACC = $(8.4 \times 0.30) + (14 \times 0.30) + (15 \times 0.40)$
+
+WACC = $2.52\% + 4.2\% + 6.0\% = 12.72\%$
+
+Analysis: The company's Weighted Average Cost of Capital (WACC) is 12.72%, while its Return on Investment (ROI) is 15%. Since $ROI (15\%) > WACC (12.72\%)$, the capital structure is efficient as the company is generating more value than the cost of its funds."
+2019,Finance,Capital Budgeting and Investment Decision,Dhaka Board,Board,"Mr. S Alam is the financial manager of a company. He is considering investing in a project. The initial estimated cash outflow of the project is 2,00,000 taka. The project duration is 4 years and there is no salvage value. The company charges depreciation using the straight-line method. The required rate of return is 10% and the corporate tax rate is 40%. The projected pre-tax cash inflows are as follows: Year-1: 80,000; Year-2: 70,000; Year-3: 80,000; Year-4: 1,00,000.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq2.png""",What is a mutually exclusive project?,What is the Payback Period method? Explain.,Calculate the Average Rate of Return (ARR) of the project.,Calculate the Net Present Value (NPV) of the project and comment on its acceptability.,A mutually exclusive project refers to a set of projects where the acceptance of one project automatically results in the rejection of the others.,"Payback Period (PBP) is the amount of time required to recover the initial investment of a project from its cash inflows. It is a simple method used to evaluate the risk and liquidity of an investment; generally, a shorter payback period is preferred.","Step 1: Calculate Annual Depreciation
+
+Depreciation = (Initial Investment - Salvage Value) / Life
+
+Depreciation = (2,00,000 - 0) / 4 = 50,000 Taka.
+
+
+Step 2: Calculate Average After-Tax Profit
+
+Year 1: (80k-50k) * (1-0.4) = 18,000
+
+Year 2: (70k-50k) * (1-0.4) = 12,000
+
+Year 3: (80k-50k) * (1-0.4) = 18,000
+
+Year 4: (100k-50k) * (1-0.4) = 30,000
+
+Total Profit = 78,000
+
+Avg Profit = 78,000 / 4 = 19,500.
+
+
+Step 3: Calculate Average Investment
+
+Avg Investment = (2,00,000 + 0) / 2 = 1,00,000.
+
+
+Step 4: Calculate ARR
+
+ARR = (19,500 / 1,00,000) * 100 = 19.5%.","Step 1: Calculate Cash Flow After Tax (CFAT)
+
+CFAT = (Pre-tax Cash Flow - Depreciation) * (1 - Tax) + Depreciation
+
+Year 1: (30,000 * 0.6) + 50,000 = 68,000
+
+Year 2: (20,000 * 0.6) + 50,000 = 62,000
+
+Year 3: (30,000 * 0.6) + 50,000 = 68,000
+
+Year 4: (50,000 * 0.6) + 50,000 = 80,000
+
+
+Step 2: Calculate Present Value (PV) at 10%
+
+PV1: 68,000 / (1.1)^1 = 61,818
+
+PV2: 62,000 / (1.1)^2 = 51,240
+
+PV3: 68,000 / (1.1)^3 = 51,089
+
+PV4: 80,000 / (1.1)^4 = 54,641
+
+Total PV = 2,18,788
+
+
+Step 3: Calculate NPV
+
+NPV = Total PV - Initial Investment
+
+NPV = 2,18,788 - 2,00,000 = 18,788 Taka.
+
+
+Comment: Since the NPV is positive (18,788 > 0), the project is financially viable and should be accepted."
+2019,Finance,Cost of Capital,Dhaka Board,Board,"The capital structure of Nusrat Ltd. is as follows:
+
+Common Stock Capital: 5,00,000 Taka
+
+8% Preferred Stock Capital: 2,00,000 Taka
+
+10% Bond: 3,00,000 Taka
+
+Total = 10,00,000 Taka.
+
+The market price per common share is 200 Taka. The company decided to pay a dividend of 15 Taka per share next year. The dividend growth rate is 4%. The company's tax rate is 40%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq3.png""",What is capital structure?,Common stock capital has a cost' - Explain.,Calculate the cost of common stock capital of the company.,Calculate the Weighted Average Cost of Capital (WACC) of the firm.,Capital structure refers to the specific mix of long-term debt and equity (such as common stock and preferred stock) used by a firm to finance its overall operations and growth.,"Although a company is not legally obligated to pay dividends to common stockholders, common stock capital still has a cost known as opportunity cost. Investors expect a return for the risk they take by investing in the company's shares. If the company fails to meet this expected return, the share price may fall, making it harder to raise capital in the future.","Calculation for Cost of Common Equity ($K_e$):
+
+Current Market Price ($P_0$) = 200 Taka
+
+Expected Dividend ($D_1$) = 15 Taka
+
+Growth Rate ($g$) = 4% or 0.04
+
+
+Formula (Constant Growth Model):
+
+$K_e = (\frac{D_1}{P_0} + g) \times 100$
+
+$K_e = (\frac{15}{200} + 0.04) \times 100$
+
+$K_e = (0.075 + 0.04) \times 100$
+
+$K_e = 0.115 \times 100 = 11.5\%$
+
+Answer: 11.5%","Step 1: Calculate individual costs
+
+1. Cost of Equity ($K_e$) = 11.5% (from Question C)
+
+2. Cost of Preferred Stock ($K_p$) = 8%
+
+3. After-tax Cost of Debt ($K_d$):
+
+$K_d = I(1 - T) = 10\% \times (1 - 0.40) = 6\%$
+
+
+Step 2: Determine Weights ($W$)
+
+Total Capital = 10,00,000
+
+$W_e$ (Equity) = 5,00,000 / 10,00,000 = 0.5
+
+$W_p$ (Preferred) = 2,00,000 / 10,00,000 = 0.2
+
+$W_d$ (Debt) = 3,00,000 / 10,00,000 = 0.3
+
+
+Step 3: Calculate WACC
+
+WACC = $(K_e \times W_e) + (K_p \times W_p) + (K_d \times W_d)$
+
+WACC = $(11.5 \times 0.5) + (8 \times 0.2) + (6 \times 0.3)$
+
+WACC = $5.75\% + 1.6\% + 1.8\% = 9.15\%$
+
+Answer: 9.15%"
+2019,Finance,Cost of Capital,Rajshahi Board,Board,The market price of each share of Tonni Ltd. is 250 Taka. The company pays a dividend of 16 Taka per share. The dividend growth rate of the company is 6%.,NA,What is retained earnings?,What is meant by capital structure?,Calculate the cost of retained earnings for Tonni Ltd.,"If the personal tax rate is 30%, what will be the impact on the cost of retained earnings for Tonni Ltd.? Analyze.",Retained earnings is the portion of a company's net income that is not distributed to shareholders as dividends but is instead kept by the company to be reinvested in its core business or to pay off debt.,"Capital structure refers to the specific mix of long-term debt and equity (common stock, preferred stock, and retained earnings) that a firm uses to finance its assets and operations. It represents the permanent financing of a company.","Calculation for Cost of Retained Earnings ($K_r$):
+
+Current Market Price ($P_0$) = 250 Taka
+
+Current Dividend ($D_0$) = 16 Taka
+
+Growth Rate ($g$) = 6% or 0.06
+
+Next year's expected dividend ($D_1$) = $D_0(1+g)$ = $16(1+0.06)$ = 16.96 Taka
+
+
+Formula:
+
+$K_r = (\frac{D_1}{P_0} + g) \times 100$
+
+$K_r = (\frac{16.96}{250} + 0.06) \times 100$
+
+$K_r = (0.06784 + 0.06) \times 100$
+
+$K_r = 0.12784 \times 100$
+
+$K_r$ = 12.78%","Impact of Personal Tax on Cost of Retained Earnings:
+
+Personal Tax Rate ($T_p$) = 30% or 0.30
+
+When personal tax is considered, the formula for the cost of retained earnings changes because shareholders only receive the after-tax portion of dividends if they were distributed.
+
+
+Formula:
+
+$K_r = [(\frac{D_1}{P_0} + g)] \times (1 - T_p)$
+
+$K_r = 12.784\% \times (1 - 0.30)$
+
+$K_r = 12.784\% \times 0.70$
+
+$K_r$ = 8.95%
+
+
+Analysis: The cost of retained earnings decreases from 12.78% to 8.95% when a 30% personal tax rate is applied. This is because the opportunity cost to the shareholder is lower; if the earnings were paid out as dividends, the shareholder would have lost 30% to taxes anyway. Therefore, the effective cost to the firm for using these internal funds is reduced."
+2019,Finance,Cost of Capital,Chittagong Board,Board,"Source of Capital and Amount (Taka):
+
+Common Stock: 20,00,000
+
+14% Preferred Stock: 5,00,000
+
+15% Debenture: 15,00,000
+
+The company's Beta value is 2, the Market Portfolio return rate is 15%, and the Risk-free return rate is 7%. Corporate tax rate is 40%. The company's expected rate of return is 25%. The financial manager considers the overall cost of capital for investment.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq5.png""",What is flotation cost?,"""The cost rate of retained earnings fund is not always equal to the cost rate of common stock."" Explain the statement.",Calculate the cost rate of the company's common stock.,Will the company be profitable if it invests using the current capital structure? Comment through mathematical analysis.,"Flotation cost refers to the total costs incurred by a company when issuing new securities, such as underwriting fees, legal fees, and registration fees.","The cost of retained earnings is generally equal to the cost of common stock because both represent equity. however, when new common stock is issued, flotation costs are incurred, making the cost of new common stock higher than retained earnings. Additionally, if personal income tax is considered, the cost of retained earnings becomes lower than the cost of common stock.","Calculation of Cost of Common Stock ($K_e$) using CAPM:
+
+Risk-free rate ($R_f$) = 7% or 0.07
+
+Market return ($R_m$) = 15% or 0.15
+
+Beta ($\beta$) = 2
+
+
+Formula: $K_e = R_f + (R_m - R_f) \times \beta$
+
+$K_e = 7\% + (15\% - 7\%) \times 2$
+
+$K_e = 7\% + (8\%) \times 2$
+
+$K_e = 7\% + 16\% = 23\%$
+
+Answer: 23%","Step 1: Calculate individual costs
+
+1. Cost of Equity ($K_e$) = 23% (from Question C)
+
+2. Cost of Preferred Stock ($K_p$) = 14%
+
+3. After-tax Cost of Debt ($K_d$) = $I(1 - T) = 15\% \times (1 - 0.40) = 9\%$
+
+
+Step 2: Determine Weights ($W$)
+
+Total Capital = 20,00,000 + 5,00,000 + 15,00,000 = 40,00,000
+
+$W_e$ = 20/40 = 0.50
+
+$W_p$ = 5/40 = 0.125
+
+$W_d$ = 15/40 = 0.375
+
+
+Step 3: Calculate WACC
+
+WACC = $(K_e \times W_e) + (K_p \times W_p) + (K_d \times W_d)$
+
+WACC = $(23 \times 0.50) + (14 \times 0.125) + (9 \times 0.375)$
+
+WACC = $11.5\% + 1.75\% + 3.375\% = 16.625\%$
+
+
+Conclusion: The company's expected return is 25%, while the overall cost of capital (WACC) is 16.625%. Since Expected Return (25%) > WACC (16.625%), the company will be profitable and the investment is acceptable."
+2019,Finance,Cost of Capital,Barisal Board,Board,"The capital structure of Rupali Limited is as follows:
+
+Common Stock: 20,00,000 Taka
+
+10% Preferred Stock: 5,00,000 Taka
+
+15% Debenture: 15,00,000 Taka
+
+Total = 40,00,000 Taka.
+
+Each share of the company is currently selling for 20 Taka in the market. The company expects to pay a dividend of 4 Taka per share next year. The dividend growth rate is 5% and the tax rate is 30%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq6.png""",What is capital structure?,What is meant by flotation cost?,Calculate the cost of common stock and the after-tax cost of the debenture.,Calculate the Weighted Average Cost of Capital (WACC) of the company.,Capital structure refers to the specific mix of long-term debt and equity (such as common stock and preferred stock) used by a firm to finance its overall operations and growth.,"Flotation cost refers to the total costs incurred by a company when issuing new securities to the public, including underwriting fees, legal fees, registration fees, and brokerage commissions.","1. Cost of Common Stock ($K_e$):
+
+Current Market Price ($P_0$) = 20 Taka
+
+Expected Dividend ($D_1$) = 4 Taka
+
+Growth Rate ($g$) = 5% or 0.05
+
+Formula: $K_e = (\frac{D_1}{P_0} + g) \times 100$
+
+$K_e = (\frac{4}{20} + 0.05) \times 100$
+
+$K_e = (0.20 + 0.05) \times 100 = 25\%$
+
+
+2. After-tax Cost of Debenture ($K_d$):
+
+Interest Rate ($I$) = 15%
+
+Tax Rate ($T$) = 30% or 0.30
+
+Formula: $K_d = I \times (1 - T)$
+
+$K_d = 15\% \times (1 - 0.30)$
+
+$K_d = 15\% \times 0.70 = 10.5\%$","Step 1: Calculate individual costs
+
+Cost of Equity ($K_e$) = 25%
+
+Cost of Debt ($K_d$) = 10.5%
+
+Cost of Preferred Stock ($K_p$) = 10%
+
+
+Step 2: Determine Weights ($W$)
+
+Total Capital = 40,00,000
+
+$W_e$ (Equity) = 20/40 = 0.50
+
+$W_p$ (Preferred) = 5/40 = 0.125
+
+$W_d$ (Debt) = 15/40 = 0.375
+
+
+Step 3: Calculate WACC
+
+WACC = $(K_e \times W_e) + (K_p \times W_p) + (K_d \times W_d)$
+
+WACC = $(25\% \times 0.50) + (10\% \times 0.125) + (10.5\% \times 0.375)$
+
+WACC = $12.5\% + 1.25\% + 3.9375\%$
+
+WACC = 17.69% (approx)"
+2019,Finance,Cost of Capital,Sylhet Board,Board,"The capital structure of Pragati Co. Ltd. is as follows:
+
+Common Stock: 10,00,000 Taka
+
+12% Preferred Stock: 5,00,000 Taka
+
+14% Debenture: 10,00,000 Taka
+
+Total = 25,00,000 Taka.
+
+The selling price of each common share is 120 Taka. The amount of expected dividend is 10 Taka per share. The dividend growth rate is 6% and the tax rate is 40%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq7.png""",What is preferred stock?,What is meant by retained earnings?,What is the cost of common stock for Pragati Ltd.? Calculate.,From which source of capital mentioned in the stem should funds be collected? Explain.,Preferred stock is a type of stock that grants its holders priority over common stockholders in the payment of dividends and the distribution of assets in the event of company liquidation.,Retained earnings refers to the portion of a company's net profit that is held back and reinvested in the business rather than being distributed to shareholders as dividends.,"Calculation for Cost of Common Stock ($K_e$):
+
+Current Market Price ($P_0$) = 120 Taka
+
+Expected Dividend ($D_1$) = 10 Taka
+
+Growth Rate ($g$) = 6% or 0.06
+
+
+Formula (Dividend Growth Model):
+
+$K_e = (\frac{D_1}{P_0} + g) \times 100$
+
+$K_e = (\frac{10}{120} + 0.06) \times 100$
+
+$K_e = (0.0833 + 0.06) \times 100$
+
+$K_e = 0.1433 \times 100$
+
+$K_e$ = 14.33%","Step 1: Calculate individual costs
+
+1. Cost of Equity ($K_e$) = 14.33% (from Question C)
+
+2. Cost of Preferred Stock ($K_p$) = 12%
+
+3. After-tax Cost of Debt ($K_d$):
+
+$K_d = I(1 - T) = 14\% \times (1 - 0.40) = 8.4\%$
+
+
+Explanation: To determine which source is best for collecting funds, we compare the individual costs of capital.
+
+* Cost of Common Stock: 14.33%
+
+* Cost of Preferred Stock: 12.00%
+
+* Cost of Debt (After-tax): 8.40%
+
+
+Decision: Pragati Co. Ltd. should prioritize collecting funds from Debt (Debenture) because it has the lowest cost (8.40%). This low cost is primarily due to the tax-deductibility of interest payments, which provides a ""tax shield"" for the company."
+2019,Finance,Cost of Capital,Dinajpur Board,Board,"The capital structure of Sadia Ltd. is as follows:
+
+10% Preferred Stock: 4,00,000 Taka
+
+12% Debenture: 6,00,000 Taka
+
+Common Stock: 10,00,000 Taka
+
+Total = 20,00,000 Taka.
+
+The selling price of each common share is 10 Taka and the expected dividend is 2 Taka. The dividend is increasing at a rate of 5% every year. The company's tax rate is 40%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq8.png""",What is opportunity cost?,Is there flotation cost in the case of retained earnings? Explain.,What is the cost of common stock of Sadia Ltd.?,What will be the Weighted Average Cost of Capital (WACC) of Sadia Ltd.?,Opportunity cost is the benefit or value of the next best alternative that is given up when a specific choice is made.,"No, there is no flotation cost for retained earnings because these are internal funds already held by the company. Flotation costs (like underwriting or legal fees) only apply when a company issues new securities to external investors.","Calculation for Cost of Common Stock ($K_e$):
+
+Current Market Price ($P_0$) = 10 Taka
+
+Expected Dividend ($D_1$) = 2 Taka
+
+Growth Rate ($g$) = 5% or 0.05
+
+
+Formula: $K_e = (\frac{D_1}{P_0} + g) \times 100$
+
+$K_e = (\frac{2}{10} + 0.05) \times 100$
+
+$K_e = (0.20 + 0.05) \times 100 = 25\%$
+
+Answer: 25%","Step 1: Calculate individual costs
+
+1. Cost of Equity ($K_e$) = 25%
+
+2. Cost of Preferred Stock ($K_p$) = 10%
+
+3. After-tax Cost of Debt ($K_d$):
+
+$K_d = I(1 - T) = 12\% \times (1 - 0.40) = 7.2\%$
+
+
+Step 2: Determine Weights ($W$)
+
+Total Capital = 20,00,000
+
+$W_e$ (Equity) = 10,00,000 / 20,00,000 = 0.5
+
+$W_p$ (Preferred) = 4,00,000 / 20,00,000 = 0.2
+
+$W_d$ (Debt) = 6,00,000 / 20,00,000 = 0.3
+
+
+Step 3: Calculate WACC
+
+WACC = $(K_e \times W_e) + (K_p \times W_p) + (K_d \times W_d)$
+
+WACC = $(25 \times 0.5) + (10 \times 0.2) + (7.2 \times 0.3)$
+
+WACC = $12.5\% + 2\% + 2.16\% = 16.66\%$
+
+Answer: 16.66%"
+2018,Finance,Cost of Capital,Dhaka Board,Board,"Usha Ltd. is considering raising 10,00,000 Taka of additional capital by selling new shares. Currently, each share of the company is selling for 85 Taka and a dividend of 4 Taka per share was paid last year. The cost of issuing new shares is 2 Taka per share, and the dividend will increase at a rate of 7% per year. On the other hand, the firm has sold 10-year bonds with a face value of 1,000 Taka at 12% interest. However, currently, the bond is being sold at a 5% discount and the flotation cost per bond is 15 Taka. The company's tax rate is 40%.",NA,What is a share?,Why is the cost of retained earnings lower than the cost of common stock? Explain.,Calculate the cost of issuing new shares for Usha Ltd.,"Based on the stem, from which source would it be more profitable for Usha Ltd. to collect capital? Evaluate and give your opinion.",A share is the smallest unit into which the total capital of a company is divided.,"The cost of retained earnings is lower than the cost of common stock primarily because no flotation costs (underwriting, legal, or registration fees) are incurred when using internal funds. Additionally, in some contexts, the impact of personal income tax on dividends can further reduce the relative cost of retained earnings.","Calculation for Cost of New Common Stock ($K_{ns}$):
+
+Current Market Price ($P_0$) = 85 Taka
+
+Last year's dividend ($D_0$) = 4 Taka
+
+Growth Rate ($g$) = 7% or 0.07
+
+Flotation Cost ($FC$) = 2 Taka
+
+Net Sale Value ($NSV$) = $P_0 - FC = 85 - 2 = 83$ Taka
+
+Next year's expected dividend ($D_1$) = $D_0(1+g) = 4(1+0.07) = 4.28$ Taka
+
+
+Formula:
+
+$K_{ns} = (\frac{D_1}{NSV} + g) \times 100$
+
+$K_{ns} = (\frac{4.28}{83} + 0.07) \times 100$
+
+$K_{ns} = (0.05156 + 0.07) \times 100$
+
+$K_{ns}$ = 12.16%","Step 1: Calculate Cost of New Common Stock
+
+$K_{ns} = 12.16\%$ (calculated in Part C).
+
+
+Step 2: Calculate After-tax Cost of Debt ($K_d$)
+
+Face Value ($FV$) = 1,000
+
+Interest ($I$) = $1,000 \times 12\% = 120$
+
+Sale Value ($SV$) = $1,000 - (1,000 \times 5\%) = 950$
+
+Flotation Cost ($FC$) = 15
+
+Net Sale Value ($NSV$) = $950 - 15 = 935$
+
+Maturity Period ($n$) = 10 years
+
+Tax Rate ($T$) = 40% or 0.40
+
+Formula: $K_d = \frac{I(1-T) + \frac{FV - NSV}{n}}{\frac{FV + NSV}{2}} \times 100$
+
+$K_d = \frac{120(1-0.40) + \frac{1,000 - 935}{10}}{\frac{1,000 + 935}{2}} \times 100$
+
+$K_d = \frac{72 + 6.5}{967.5} \times 100 = \frac{78.5}{967.5} \times 100 = 8.11\%$
+
+
+Evaluation:
+
+Cost of New Common Stock = 12.16%
+
+Cost of Debt = 8.11%
+
+
+Opinion: It is more profitable to collect capital from Bonds (Debt) because the cost of debt (8.11%) is significantly lower than the cost of new common stock (12.16%). This is due to the tax shield on interest and the overall lower risk profile associated with debt compared to equity."
+2018,Finance,Cost of Capital,Comilla Board,Board,"The capital structure of Robi Company Ltd. is as follows:
+
+Common Stock: 10,00,000 Taka
+
+10% Preferred Stock: 3,00,000 Taka
+
+13% Debenture: 7,00,000 Taka
+
+Total = 20,00,000 Taka.
+
+The selling price of each common share is 50 Taka. The amount of expected dividend per share is 5 Taka. The dividend growth rate is 5%. The company's tax rate is 30%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq10.png""",What is optimal capital structure?,Explain why the cost of retained earnings is less than the cost of new common stock capital.,What is the cost of common stock of Robi Company Ltd.?,From which source should Robi Company Ltd. collect funds? Analyze.,Optimal capital structure is the specific mix of debt and equity that minimizes a company's cost of capital while maximizing its market value.,"The cost of retained earnings is lower than the cost of new common stock primarily because the company does not have to pay flotation costs (such as underwriting, legal, or brokerage fees) to use internal funds. When issuing new shares, these additional costs reduce the net proceeds, thereby increasing the effective cost of capital.","Calculation for Cost of Common Stock ($K_e$):
+
+Current Market Price ($P_0$) = 50 Taka
+
+Expected Dividend ($D_1$) = 5 Taka
+
+Growth Rate ($g$) = 5% or 0.05
+
+
+Formula:
+
+$K_e = (\frac{D_1}{P_0} + g) \times 100$
+
+$K_e = (\frac{5}{50} + 0.05) \times 100$
+
+$K_e = (0.10 + 0.05) \times 100 = 15\%$
+
+Answer: 15%","Step 1: Calculate individual costs
+
+1. Cost of Equity ($K_e$) = 15% (from Part C)
+
+2. Cost of Preferred Stock ($K_p$) = 10%
+
+3. After-tax Cost of Debt ($K_d$):
+
+$K_d = I(1 - T) = 13\% \times (1 - 0.30) = 9.1\%$
+
+
+Step 2: Comparison
+
+* Cost of Common Stock: 15%
+
+* Cost of Preferred Stock: 10%
+
+* Cost of Debt (After-tax): 9.1%
+
+
+Analysis: To minimize the overall cost of capital and increase profitability, a firm should prioritize the source with the lowest cost. Here, the after-tax cost of debt is the lowest at 9.1% because interest is a tax-deductible expense.
+
+
+Decision: Robi Company Ltd. should collect funds from Debt (Debenture) as it is the most cost-effective source."
+2017,Finance,Cost of Capital,Dhaka Board,Board,"The capital structure of ABC Limited is given in the table below:
+
+Source of Capital: Common Stock (Cost 17%, Amount 40,00,000); Preferred Stock (Cost 10%, Amount 10,00,000); Bond (Cost 14%, Amount 30,00,000). Total Capital = 80,00,000 Taka.
+
+ABC Company needs an additional 20,00,000 Taka in capital. The company's financial manager proposes to collect this additional capital through 14% bonds. The company's tax rate is 40%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq11.png""",What is opportunity cost?,Write the assumptions of the cost of capital.,Calculate the average cost of capital for ABC Limited.,"""The company will be profitable if the financial manager's proposal is accepted""—explain the logic of this comment.",Opportunity cost is the benefit or value of the next best alternative that is sacrificed or given up when making a specific choice.,"Assumptions of cost of capital include:
+
+1. The business risk of the firm remains constant.
+
+2. The financial risk of the firm remains unchanged.
+
+3. The company maintains a target capital structure.
+
+4. The securities are traded in a perfect capital market.","Calculation of Weighted Average Cost of Capital (WACC):
+
+1. Cost of Equity ($K_e$) = 17%
+
+2. Cost of Preferred Stock ($K_p$) = 10%
+
+3. After-tax Cost of Debt ($K_d$) = $I(1 - T) = 14\% \times (1 - 0.40) = 8.4\%$
+
+
+Weights ($W$):
+
+Total Capital = 80,00,000
+
+$W_e = 40,00,000 / 80,00,000 = 0.50$
+
+$W_p = 10,00,000 / 80,00,000 = 0.125$
+
+$W_d = 30,00,000 / 80,00,000 = 0.375$
+
+
+WACC Formula:
+
+WACC = $(K_e \times W_e) + (K_p \times W_p) + (K_d \times W_d)$
+
+WACC = $(17\% \times 0.50) + (10\% \times 0.125) + (8.4\% \times 0.375)$
+
+WACC = $8.5\% + 1.25\% + 3.15\% = 12.9\%$
+
+Answer: 12.9%","Evaluation of the Proposal:
+
+The financial manager proposes to raise 20,00,000 Taka via 14% bonds. We must calculate the new WACC to see if the overall cost decreases.
+
+
+New Total Capital: 80,00,000 + 20,00,000 = 1,00,00,000 Taka.
+
+New Weights:
+
+$W_e = 40/100 = 0.40$
+
+$W_p = 10/100 = 0.10$
+
+$W_d = 50/100 = 0.50$ (Original 30L + New 20L)
+
+
+New WACC:
+
+WACC = $(17 \times 0.40) + (10 \times 0.10) + (8.4 \times 0.50)$
+
+WACC = $6.8\% + 1.0\% + 4.2\% = 12\%$
+
+
+Conclusion: Before the proposal, the WACC was 12.9%. After accepting the proposal, the WACC drops to 12%. Since the overall cost of capital is reduced, the firm's value increases, making the proposal profitable and logical."
+2017,Finance,Cost of Capital,Rajshahi Board,Board,"The capital structure of Super Power Co. Ltd. is given below:
+
+13% Common Stock: 3,50,000 Taka;
+
+12% Preferred Stock: 2,00,000 Taka;
+
+10% Debenture: 3,00,000 Taka.
+
+Total = 8,50,000 Taka.
+
+Next year, the company's expected rate of return on profit is 20%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq12.png""",What is the cost of debt capital?,Is retained earnings cost-free? Explain.,Calculate the Weighted Average Cost of Capital (WACC) for Super Power Company.,"If Super Power Company collected 3,50,000 Taka as a loan at 10% interest from 'Uttorbongo' Bank, how justified do you think that would be? Explain in light of the stem.","Cost of debt capital is the effective rate that a company pays on its borrowed funds, such as bonds, debentures, or loans. It is usually calculated on an after-tax basis because interest expenses are tax-deductible.","No, retained earnings is not cost-free. While there are no explicit costs like dividends or interest paid to external parties, it carries an implicit cost known as opportunity cost. This represents the return shareholders could have earned if the earnings were distributed as dividends and invested elsewhere.","Calculation of WACC:
+
+1. Cost of Equity ($K_e$) = 13%
+
+2. Cost of Preferred Stock ($K_p$) = 12%
+
+3. Cost of Debt ($K_d$) = 10% (Note: No tax rate is provided in the stem, so pre-tax cost is used).
+
+
+Weights ($W$):
+
+Total Capital = 8,50,000
+
+$W_e = 3,50,000 / 8,50,000 \approx 0.4118$
+
+$W_p = 2,00,000 / 8,50,000 \approx 0.2353$
+
+$W_d = 3,00,000 / 8,50,000 \approx 0.3529$
+
+
+WACC Formula:
+
+WACC = $(K_e \times W_e) + (K_p \times W_p) + (K_d \times W_d)$
+
+WACC = $(13\% \times 0.4118) + (12\% \times 0.2353) + (10\% \times 0.3529)$
+
+WACC = $5.353\% + 2.824\% + 3.529\% = 11.706\%$
+
+Answer: 11.71% (approx)","Analysis of the Bank Loan Proposal:
+
+The proposal suggests replacing or adding 3,50,000 Taka of capital with a 10% bank loan.
+
+
+Reasoning:
+
+1. Cost Comparison: The current cost of common stock is 13%. If the company replaces this equity with a 10% bank loan, the specific cost for that portion of capital drops from 13% to 10%.
+
+2. Impact on WACC: Lowering the cost of a major component of the capital structure will result in a lower Weighted Average Cost of Capital (WACC).
+
+3. Profitability: The stem states the expected return (ROI) is 20%. Since the cost of the loan (10%) is significantly lower than the ROI (20%), the company will generate a positive net spread, increasing the wealth of the shareholders.
+
+
+Conclusion: Collecting the funds from the bank is highly justified as it reduces the overall cost of capital and utilizes financial leverage to maximize returns, provided the company can manage the increased financial risk of debt."
+2017,Finance,Introduction to Finance,Dinajpur Board,Board,"AT Limited is a leather processing company. The chemicals and waste used in this work are mixed into the Buriganga River. Considering the river water, soil, and environment, the organization decided to set up a water treatment plant. For this, they need 25 lakh Taka. The company is considering a source of capital from which tax benefits can be obtained and the capital providers cannot be the real owners of the company.",NA,What is financing?,"""There is a direct relationship between profit and liquidity""—Do you agree? Explain.",What type of capital collection is AT Limited considering in the stem?,With which concept of financing is the investment of the project mentioned in the stem related and why? Evaluate.,"Financing is the process of sourcing, collecting, and managing funds for a business or individual to meet specific objectives.","No, I do not agree. There is an inverse (opposite) relationship between liquidity and profitability. If a company keeps more cash on hand (high liquidity) to meet immediate needs, that cash remains idle and does not earn a return, which reduces profitability. Conversely, investing more cash to increase profit reduces the amount of liquid funds available.","In the stem, AT Limited is considering Debt Capital (such as bonds or debentures). This is because the stem mentions two specific characteristics:
+
+1. Tax Benefit: Interest paid on debt is a tax-deductible expense, which reduces the company's tax burden.
+
+2. Ownership: Debt holders (creditors) provide capital but do not receive voting rights or ownership status, meaning they cannot be the ""real owners"" of the company.","The investment in the water treatment plant mentioned in the stem is related to the concept of Social Responsibility (or Social Financing).
+
+
+Reasoning:
+
+1. Environmental Protection: AT Limited is investing 25 lakh Taka not for direct production, but to prevent the pollution of the Buriganga River.
+
+2. Sustainability: By installing a water treatment plant, the company is prioritizing the health of the water, soil, and environment over immediate profit maximization.
+
+3. Social Welfare: In modern finance, an organization is expected to contribute to the well-being of the society in which it operates. This investment reflects the ethical obligation of a business to mitigate its negative externalities (waste) for the greater good of the community."
+2017,Finance,Cost of Capital,Dinajpur Board,Board,"The capital structure of SP Ltd. is given in the table below:
+
+Source of Capital: Common Stock Capital (4,000); 10% Preferred Stock (1,000); 14% Debenture (3,000). Total Capital = 8,000 Taka.
+
+The company's shares are currently selling in the market for 20 Taka. It is expected that the company will pay a dividend of 2 Taka per share next year, which will grow at a rate of 7% constantly. The company's tax rate is 50%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq14.png""",What is meant by cost of capital?,Explain why the cost of retained earnings is less than the cost of new common stock capital.,Calculate the Weighted Average Cost of Capital (WACC) for SP Ltd.,"If the company collects an additional 2,000 Taka through 14% debentures, analyze the impact it will have on the Weighted Average Cost of Capital (WACC).",Cost of capital is the minimum rate of return a company must earn on its investments to maintain the market value of its shares and satisfy its investors (debt holders and shareholders).,"The cost of retained earnings is lower than the cost of new common stock primarily because the company does not incur flotation costs (like underwriting fees, brokerage, and legal expenses) when using internal funds. Furthermore, the net proceeds from new shares are reduced by these costs, which mathematically increases the required rate of return compared to retained earnings.","Calculation of individual costs:
+
+1. Cost of Equity ($K_e$):
+
+Market Price ($P_0$) = 20; Next Dividend ($D_1$) = 2; Growth ($g$) = 7% or 0.07.
+
+$K_e = (\frac{D_1}{P_0} + g) \times 100 = (\frac{2}{20} + 0.07) \times 100 = 17\%$
+
+
+2. Cost of Preferred Stock ($K_p$): 10%
+
+
+3. After-tax Cost of Debt ($K_d$):
+
+Interest ($I$) = 14%; Tax ($T$) = 50% or 0.50.
+
+$K_d = I(1 - T) = 14\% \times (1 - 0.50) = 7\%$
+
+
+Weights ($W$):
+
+Total Capital = 8,000.
+
+$W_e = \frac{4,000}{8,000} = 0.5$; $W_p = \frac{1,000}{8,000} = 0.125$; $W_d = \frac{3,000}{8,000} = 0.375$.
+
+
+WACC Formula:
+
+WACC = $(K_e \times W_e) + (K_p \times W_p) + (K_d \times W_d)$
+
+WACC = $(17\% \times 0.5) + (10\% \times 0.125) + (7\% \times 0.375)$
+
+WACC = $8.5\% + 1.25\% + 2.625\% = 12.375\%$
+
+Answer: 12.38%","Calculation of New WACC:
+
+New Total Capital = 8,000 + 2,000 = 10,000 Taka.
+
+
+New Weights:
+
+$W_e = \frac{4,000}{10,000} = 0.40$
+
+$W_p = \frac{1,000}{10,000} = 0.10$
+
+$W_d = \frac{3,000 + 2,000}{10,000} = 0.50$
+
+
+New WACC calculation:
+
+WACC = $(17\% \times 0.40) + (10\% \times 0.10) + (7\% \times 0.50)$
+
+WACC = $6.8\% + 1.0\% + 3.5\% = 11.3\%$
+
+
+Analysis:
+
+The original WACC was 12.375%. After adding more debt (which has the lowest individual cost of 7% due to the tax shield), the overall WACC decreases to 11.3%.
+
+Impact: The inclusion of more low-cost debt capital reduces the company's average cost of funds, which generally increases the value of the firm and the wealth of shareholders, provided the financial risk remains manageable."
+2017,Finance,Cost of Capital,Comilla Board,Board,"The sources of capital for Beta Limited, along with the cost and weight of each source, are as follows:
+
+- Common Stock: Weight 50%, Cost (-)
+
+- Preferred Stock: Weight 20%, Cost 10%
+
+- Debenture: Weight 25%, Cost 15%
+
+- Retained Earnings: Weight 5%, Cost (-)
+
+- Total: Weight 100%
+
+Other Information: The firm's unavoidable risk (Beta) is 0.50. The risk-free rate of return is 10% and the market rate of return is 15%. The company's corporate tax rate is 37% and personal tax rate is 25%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq15.png""",What is flotation cost?,Why is debt capital considered the cheapest source of fund?,Calculate the cost of common stock for Beta Limited.,Will Beta Limited be able to keep their Weighted Average Cost of Capital (WACC) within 12%? Give your opinion.,"Flotation cost refers to the total cost incurred by a company when issuing new securities (like stocks or bonds) to the public, including underwriting fees, legal fees, and registration charges.","Debt capital is considered the cheapest source of fund primarily because interest payments on debt are tax-deductible, which reduces the company's net tax liability. Additionally, debt is less risky for investors than equity, so they require a lower rate of return.","Calculation for Cost of Common Stock ($K_e$):
+
+We use the Capital Asset Pricing Model (CAPM) since Beta, Risk-free rate, and Market rate are given.
+
+Risk-free rate ($R_f$) = 10%
+
+Market rate ($R_m$) = 15%
+
+Beta ($\beta$) = 0.50
+
+
+Formula:
+
+$K_e = R_f + (R_m - R_f) \times \beta$
+
+$K_e = 10\% + (15\% - 10\%) \times 0.50$
+
+$K_e = 10\% + (5\% \times 0.50)$
+
+$K_e = 10\% + 2.5\% = 12.5\%$
+
+Answer: 12.5%","Step 1: Calculate individual costs
+
+1. Cost of Common Stock ($K_e$) = 12.5% (from Part C).
+
+2. Cost of Preferred Stock ($K_p$) = 10%.
+
+3. After-tax Cost of Debt ($K_d$):
+
+$K_d = I(1 - T) = 15\% \times (1 - 0.37) = 9.45\%$.
+
+4. Cost of Retained Earnings ($K_r$):
+
+Formula: $K_r = K_e(1 - T_p)$
+
+$K_r = 12.5\% \times (1 - 0.25) = 9.375\%$.
+
+
+Step 2: Calculate WACC
+
+WACC = $(K_e \times W_e) + (K_p \times W_p) + (K_d \times W_d) + (K_r \times W_r)$
+
+WACC = $(12.5 \times 0.50) + (10 \times 0.20) + (9.45 \times 0.25) + (9.375 \times 0.05)$
+
+WACC = $6.25\% + 2.0\% + 2.3625\% + 0.46875\% = 11.08125\%$
+
+
+Opinion: Yes, Beta Limited will be able to keep its WACC within 12% because the calculated average cost is approximately 11.08%, which is lower than the target limit."
+2017,Finance,Cost of Capital,Chittagong Board,Board,"Rupsa Company Ltd. has a common stock capital of 50 crore Taka. The market price of common stock is 140 Taka. This year, the company paid a dividend of 14 Taka per share to common stockholders, and historically, dividends paid by the company have increased at a rate of 5%. The tax rate is 40%. The company needs an additional 50 crore Taka for investment in a new project. The company must collect funds from one of the following two options:
+
+Option-1: Issuing 10-year bonds at 15% interest rate where the face value of each bond is 1,000 Taka and the market price is 1,100 Taka.
+
+Option-2: Funds can be collected by issuing 13% perpetual preferred stock. The market price of preferred stock is 100 Taka. Flotation cost is 2 Taka.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq16.png""",What is the cost of capital?,Why is preferred stock called a hybrid security?,Calculate the cost of common stock for Rupsa Company Ltd.,Which option would be profitable for Rupsa Company Ltd. to adopt for collecting funds? Analyze in light of the stem.,Cost of capital is the minimum required rate of return that a company must earn on its investment projects to satisfy its investors and maintain the market value of its shares.,"Preferred stock is called a hybrid security because it possesses characteristics of both common stock and debt. Like debt, it usually pays a fixed rate of return (dividend) and has a higher claim on assets than common stock. Like common stock, the dividend is not a legal obligation and does not have a fixed maturity date.","Calculation for Cost of Common Stock ($K_e$):
+
+Current Market Price ($P_0$) = 140 Taka
+
+Current Dividend ($D_0$) = 14 Taka
+
+Growth Rate ($g$) = 5% or 0.05
+
+Expected Dividend ($D_1$) = $D_0(1 + g) = 14(1 + 0.05) = 14.70$ Taka
+
+
+Formula: $K_e = (\frac{D_1}{P_0} + g) \times 100$
+
+$K_e = (\frac{14.70}{140} + 0.05) \times 100$
+
+$K_e = (0.105 + 0.05) \times 100 = 15.5\%$
+
+Answer: 15.5%","Step 1: Calculate After-tax Cost of Debt ($K_d$) for Option-1
+
+Face Value ($FV$) = 1,000; Market Price ($P_0$) = 1,100; Interest ($I$) = $1,000 \times 15\% = 150$; Years ($n$) = 10; Tax ($T$) = 40%
+
+Formula: $K_d = \frac{I(1-T) + \frac{FV - P_0}{n}}{\frac{FV + P_0}{2}} \times 100$
+
+$K_d = \frac{150(1-0.40) + \frac{1,000 - 1,100}{10}}{\frac{1,000 + 1,100}{2}} \times 100$
+
+$K_d = \frac{90 - 10}{1,050} \times 100 = 7.62\%$
+
+
+Step 2: Calculate Cost of Preferred Stock ($K_p$) for Option-2
+
+Dividend ($D_p$) = $100 \times 13\% = 13$; Market Price ($P_0$) = 100; Flotation Cost ($FC$) = 2
+
+Net Sale Value ($NSV$) = $100 - 2 = 98$
+
+Formula: $K_p = \frac{D_p}{NSV} \times 100 = \frac{13}{98} \times 100 = 13.27\%$
+
+
+Analysis: The cost of Option-1 (7.62%) is significantly lower than the cost of Option-2 (13.27%).
+
+Conclusion: Rupsa Company Ltd. should choose Option-1 (Bonds) as it is the more profitable choice due to the lower cost of capital."
+2017,Finance,Cost of Capital,Sylhet Board,Board,"The current market price of Meghna Company's share is 200 Taka. It pays a dividend of 15 Taka per share. The company's dividends grow at an average rate of 5%. In this case, the company's required rate of return is 20%.",NA,What is the cost of capital?,What is meant by preferred stock?,What is the cost of common stock capital of Meghna Company? Calculate.,"If the market price of the company's common stock decreases by 20 Taka, what will be the impact on the cost of common stock capital? Evaluate.",Cost of capital is the minimum rate of return a company must earn on its investment projects to maintain the market value of its shares and satisfy its investors.,Preferred stock is a type of security that has characteristics of both common stock and debt. It grants shareholders a fixed dividend and priority over common stockholders in the payment of dividends and the distribution of assets during liquidation.,"Calculation of Cost of Common Stock ($K_e$):
+
+Current Market Price ($P_0$) = 200 Taka
+
+Current Dividend ($D_0$) = 15 Taka
+
+Growth Rate ($g$) = 5% or 0.05
+
+Expected Dividend ($D_1$) = $D_0(1+g) = 15(1+0.05) = 15.75$ Taka
+
+
+Formula: $K_e = (\frac{D_1}{P_0} + g) \times 100$
+
+$K_e = (\frac{15.75}{200} + 0.05) \times 100$
+
+$K_e = (0.07875 + 0.05) \times 100 = 12.875\%$
+
+Answer: 12.875%","Calculation with Reduced Market Price:
+
+New Market Price ($P'_0$) = $200 - 20 = 180$ Taka
+
+Expected Dividend ($D_1$) = 15.75 Taka
+
+Growth Rate ($g$) = 0.05
+
+
+New Cost of Equity ($K'_e$):
+
+$K'_e = (\frac{15.75}{180} + 0.05) \times 100$
+
+$K'_e = (0.0875 + 0.05) \times 100 = 13.75\%$
+
+
+Impact Analysis:
+
+1. Initial cost of equity = 12.875%
+
+2. New cost of equity = 13.75%
+
+3. Increase in cost = $13.75\% - 12.875\% = 0.875\%$
+
+
+Evaluation: There is an inverse relationship between market price and the cost of capital. When the market price decreases while dividends remain constant, investors require a higher percentage return on their investment. Therefore, the cost of common stock capital increases."
+2017,Finance,Cost of Capital,Jessore Board,Board,"The capital structure of Sony Company Limited is as follows:
+
+Common Stock: 10,00,000 Taka;
+
+10% Preferred Stock: 2,50,000 Taka;
+
+14% Debenture: 7,50,000 Taka.
+
+Total = 20,00,000 Taka.
+
+The selling price of each common share is 50 Taka. The expected rate of return (dividend) this year is 4 Taka. The dividend growth rate is 5%. The company's tax rate is 40%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq18.png""",What is optimal capital structure?,What is meant by flotation cost?,What is the cost of common stock of the company?,Determine the Weighted Average Cost of Capital (WACC) of the company in the stem. Analyze it.,Optimal capital structure is the specific mix of debt and equity that minimizes a company's cost of capital while maximizing its market value.,"Flotation cost refers to the total costs incurred by a company when issuing new securities (like stocks or bonds) to the public, including underwriting fees, legal fees, registration charges, and printing costs.","Calculation for Cost of Common Stock ($K_e$):
+
+Current Market Price ($P_0$) = 50 Taka
+
+Expected Dividend ($D_1$) = 4 Taka
+
+Growth Rate ($g$) = 5% or 0.05
+
+
+Formula:
+
+$K_e = (\frac{D_1}{P_0} + g) \times 100$
+
+$K_e = (\frac{4}{50} + 0.05) \times 100$
+
+$K_e = (0.08 + 0.05) \times 100 = 13\%$
+
+Answer: 13%","Step 1: Calculate individual costs
+
+1. Cost of Equity ($K_e$) = 13% (calculated in Part C).
+
+2. Cost of Preferred Stock ($K_p$) = 10%.
+
+3. After-tax Cost of Debt ($K_d$):
+
+$K_d = I(1 - T) = 14\% \times (1 - 0.40) = 8.4\%$.
+
+
+Step 2: Determine Weights ($W$)
+
+Total Capital = 20,00,000
+
+$W_e = 10,00,000 / 20,00,000 = 0.50$
+
+$W_p = 2,50,000 / 20,00,000 = 0.125$
+
+$W_d = 7,50,000 / 20,00,000 = 0.375$
+
+
+Step 3: Calculate WACC
+
+WACC = $(K_e \times W_e) + (K_p \times W_p) + (K_d \times W_d)$
+
+WACC = $(13\% \times 0.50) + (10\% \times 0.125) + (8.4\% \times 0.375)$
+
+WACC = $6.5\% + 1.25\% + 3.15\% = 10.9\%$
+
+
+Analysis: The WACC of 10.9% represents the average cost Sony Company Ltd. pays for its 20,00,000 Taka capital. Since the cost of debt (8.4%) is lower than equity (13%), the company benefits from a ""tax shield"" on interest, which helps keep the overall WACC lower than the cost of equity alone."
+2017,Finance,Cost of Capital,Barisal Board,Board,"Magpie Ltd. declared a dividend of 2 Taka per share last year, which will increase at a rate of 6% every year. Currently, each share of the company is selling for 150 Taka. On the other hand, the capital structure of Rainbow Ltd. consists of common stock, preferred stock, and debt capital. The weights and after-tax costs of the company's capital sources are as follows:
+
+- Common Stock: Weight 70%, After-tax cost 14%
+
+- Preferred Stock: Weight 10%, After-tax cost 11%
+
+- Debt Capital: Weight 20%, After-tax cost 6%
+
+Notably, Rainbow Ltd. invests in a project with an expected return of 13%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq19.png""",What is the cost of retained earnings?,What impact does flotation cost have on the cost of common stock capital? Explain.,Calculate the cost of common stock for Magpie Ltd.,Analyze whether the investment decision of Rainbow Ltd. was logical.,The cost of retained earnings is the opportunity cost associated with the earnings that a company keeps rather than distributing to shareholders as dividends. It represents the return shareholders could have earned if they had invested those dividends elsewhere.,"Flotation costs (such as underwriting fees and legal charges) increase the cost of common stock capital. This is because these costs reduce the net proceeds the company receives from selling a share, meaning the company must earn a higher rate of return on the remaining funds to meet investor expectations.","Calculation for Cost of Common Stock ($K_e$):
+
+Current Dividend ($D_0$) = 2 Taka
+
+Growth Rate ($g$) = 6% or 0.06
+
+Market Price ($P_0$) = 150 Taka
+
+Expected Dividend ($D_1$) = $D_0(1+g) = 2(1+0.06) = 2.12$ Taka
+
+
+Formula:
+
+$K_e = (\frac{D_1}{P_0} + g) \times 100$
+
+$K_e = (\frac{2.12}{150} + 0.06) \times 100$
+
+$K_e = (0.01413 + 0.06) \times 100 = 7.413\%$
+
+Answer: 7.41%","Step 1: Calculate Weighted Average Cost of Capital (WACC) for Rainbow Ltd.
+
+Weight of Common Stock ($W_e$) = 0.70; Cost ($K_e$) = 14%
+
+Weight of Preferred Stock ($W_p$) = 0.10; Cost ($K_p$) = 11%
+
+Weight of Debt ($W_d$) = 0.20; Cost ($K_d$) = 6%
+
+
+Formula: WACC = $(W_e \times K_e) + (W_p \times K_p) + (W_d \times K_d)$
+
+WACC = $(0.70 \times 14\%) + (0.10 \times 11\%) + (0.20 \times 6\%)$
+
+WACC = $9.8\% + 1.1\% + 1.2\% = 12.1\%$
+
+
+Step 2: Analysis
+
+- Expected Return on Project = 13%
+
+- Weighted Average Cost of Capital (WACC) = 12.1%
+
+
+Conclusion: The investment decision is logical. Since the expected return (13%) is greater than the cost of capital (12.1%), the project will generate a positive net surplus, thereby increasing the value of the firm and the wealth of the shareholders."
+2026,Finance,Cost of Capital,"Rajuk Uttara Model College, Dhaka",College,"The capital structure of 'United Leasing' company is as follows:
+
+- Common Stock: 5,00,000 Taka
+
+- 13% Preferred Stock: 2,00,000 Taka
+
+- 14% Debenture: 3,00,000 Taka
+
+The current market prices of the company's common stock and preferred stock are 200 Taka and 150 Taka respectively. The amount of dividend for the current year is 20 Taka, which will increase at a rate of 3%, and the flotation cost is 2%. The company's tax rate is 35% and the overall cost of capital is 14%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq20.png""",What is optimal capital structure?,Does retained earnings have flotation cost? Explain.,Calculate the cost of common stock and preferred stock of the company.,Calculate the Weighted Average Cost of Capital (WACC) of 'United Leasing' in light of the stem and evaluate the rationality of the financial manager's decision.,Optimal capital structure is the specific mix of debt and equity that minimizes the company's cost of capital while maximizing the market value of the firm.,"No, retained earnings do not have flotation costs. Flotation costs are expenses incurred when issuing new securities (like stocks or bonds) to the public. Since retained earnings are internal funds already held by the company, no new securities are issued, and thus no flotation costs are involved.","1. Cost of Common Stock ($K_e$):
+
+Current Dividend ($D_0$) = 20 Taka
+
+Growth Rate ($g$) = 3% or 0.03
+
+Expected Dividend ($D_1$) = $D_0(1+g) = 20(1+0.03) = 20.60$ Taka
+
+Market Price ($P_0$) = 200 Taka
+
+Flotation Cost ($FC$) = 2% of 200 = 4 Taka
+
+Net Sale Value ($NSV$) = $200 - 4 = 196$ Taka
+
+Formula: $K_e = (\frac{D_1}{NSV}) + g = (\frac{20.60}{196}) + 0.03 = 0.1051 + 0.03 = 13.51\%$
+
+
+2. Cost of Preferred Stock ($K_p$):
+
+Dividend ($D_p$) = $150 \times 13\% = 19.50$ Taka (Note: Dividend is usually calculated on face value; here, if market price is 150 and rate is 13%, we use current valuation).
+
+Net Sale Value ($NSV$) = $150 - (2\% \text{ of } 150) = 150 - 3 = 147$ Taka
+
+Formula: $K_p = \frac{D_p}{NSV} = \frac{19.50}{147} = 13.27\%$
+
+Answers: $K_e = 13.51\%$, $K_p = 13.27\%$","Step 1: Calculate After-tax Cost of Debt ($K_d$)
+
+$K_d = I(1 - T) = 14\% \times (1 - 0.35) = 9.1\%$
+
+
+Step 2: Determine Weights ($W$)
+
+Total Capital = 5,00,000 + 2,00,000 + 3,00,000 = 10,00,000
+
+$W_e = 0.50$, $W_p = 0.20$, $W_d = 0.30$
+
+
+Step 3: Calculate WACC
+
+WACC = $(K_e \times W_e) + (K_p \times W_p) + (K_d \times W_d)$
+
+WACC = $(13.51\% \times 0.50) + (13.27\% \times 0.20) + (9.1\% \times 0.30)$
+
+WACC = $6.755\% + 2.654\% + 2.73\% = 12.139\%$
+
+
+Evaluation: The calculated WACC is 12.14%, whereas the overall cost mentioned in the stem is 14%. Since the actual weighted cost (12.14%) is lower than the projected or existing threshold (14%), the company is operating efficiently. The financial manager's decision to maintain this structure is rational as it keeps the cost of funding lower than the stated overall cost."
+2026,Finance,Cost of Capital,Notre Dame College,College,"The sources of capital for Sigma Limited, along with the weight and cost of each source, are as follows:
+
+- Common Stock: Weight 50%, Cost (-)
+
+- Preferred Stock: Weight 20%, Cost 10%
+
+- Debenture: Weight 25%, Cost 15%
+
+- Retained Earnings: Weight 5%, Cost (-)
+
+- Total: Weight 100%
+
+Other Information: The firm's unavoidable risk (Beta) is 0.75. The risk-free rate of return is 10% and the market rate of return is 15%. The company's corporate tax rate is 35% and personal tax rate is 25%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq21.png""",What is flotation cost?,Why is debt capital considered the cheapest source of capital?,Calculate the cost of common stock for Sigma Limited.,Will Sigma Limited be able to keep their Weighted Average Cost of Capital (WACC) within 13%? Give your opinion.,"Flotation cost refers to the total expenses incurred by a company when issuing new securities (such as stocks or bonds) to the public, including underwriting fees, legal fees, brokerage, and registration charges.","Debt capital is considered the cheapest source because interest payments on debt are tax-deductible expenses. This tax shield reduces the effective cost to the company. Additionally, debt is less risky for investors compared to equity, so they demand a lower rate of return.","Calculation of Cost of Common Stock ($K_e$):
+
+We use the Capital Asset Pricing Model (CAPM) as Beta and Market rates are provided.
+
+Risk-free rate ($R_f$) = 10%
+
+Market rate ($R_m$) = 15%
+
+Beta ($\beta$) = 0.75
+
+
+Formula:
+
+$K_e = R_f + (R_m - R_f) \times \beta$
+
+$K_e = 10\% + (15\% - 10\%) \times 0.75$
+
+$K_e = 10\% + (5\% \times 0.75)$
+
+$K_e = 10\% + 3.75\% = 13.75\%$
+
+Answer: 13.75%","Step 1: Calculate individual costs
+
+1. Cost of Common Stock ($K_e$) = 13.75% (from Part C).
+
+2. Cost of Preferred Stock ($K_p$) = 10%.
+
+3. After-tax Cost of Debt ($K_d$):
+
+$K_d = I(1 - T) = 15\% \times (1 - 0.35) = 9.75\%$.
+
+4. Cost of Retained Earnings ($K_r$):
+
+$K_r = K_e(1 - T_p) = 13.75\% \times (1 - 0.25) = 10.3125\%$.
+
+
+Step 2: Calculate WACC
+
+WACC = $(K_e \times W_e) + (K_p \times W_p) + (K_d \times W_d) + (K_r \times W_r)$
+
+WACC = $(13.75\% \times 0.50) + (10\% \times 0.20) + (9.75\% \times 0.25) + (10.3125\% \times 0.05)$
+
+WACC = $6.875\% + 2.0\% + 2.4375\% + 0.515625\% = 11.828125\%$
+
+
+Opinion: Yes, Sigma Limited will be able to keep their WACC within 13%. The calculated WACC is approximately 11.83%, which is well below the 13% limit."
+2026,Finance,Cost of Capital,Dhaka Commerce College,College,"The current capital structure of Padma Ltd. is as follows:
+
+- 10% Debenture: 12,00,000 Taka
+
+- 9% Preferred Stock: 8,00,000 Taka
+
+- Common Stock (10 Taka each): 10,00,000 Taka
+
+On the other hand, Meghna Ltd.'s common stock is currently selling at 45 Taka each and the current dividend per share was 4.50 Taka. The company expects the dividend growth rate to be 7.50% indefinitely. The company will incur a 5% cost to issue new shares. The company's tax rate is 40%. Note that the cost of common stock capital is 18.37% and the rate of return of a potential investment project is 12%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq22.png""",What is cost of capital?,Why does the cost of capital increase due to issuing new shares? Explain.,Calculate the cost of debenture for Padma Ltd.,Evaluate the rationality of Meghna Ltd.'s current capital structure formation.,Cost of capital is the minimum required rate of return that a company must earn on its investment projects to maintain the market value of its shares and satisfy its investors.,"The cost of capital increases when issuing new shares primarily due to flotation costs. These include underwriting fees, legal fees, and registration charges that reduce the net proceeds received by the company from the sale of each share. Consequently, the company must earn a higher rate of return on the remaining capital to provide the same expected return to shareholders.","Calculation for Cost of Debenture ($K_d$):
+
+Interest Rate ($I$) = 10%
+
+Tax Rate ($T$) = 40% or 0.40
+
+
+Formula:
+
+$K_d = I \times (1 - T)$
+
+$K_d = 10\% \times (1 - 0.40)$
+
+$K_d = 10\% \times 0.60 = 6\%$
+
+Answer: 6%","Step 1: Verify Meghna Ltd.'s Cost of Common Stock ($K_e$)
+
+Current Dividend ($D_0$) = 4.50 Taka
+
+Growth Rate ($g$) = 7.50% or 0.075
+
+Expected Dividend ($D_1$) = $D_0(1+g) = 4.50(1+0.075) = 4.8375$ Taka
+
+Market Price ($P_0$) = 45 Taka
+
+Flotation Cost ($FC$) = 5% of 45 = 2.25 Taka
+
+Net Sale Value ($NSV$) = $45 - 2.25 = 42.75$ Taka
+
+Formula: $K_e = (\frac{D_1}{NSV} + g) \times 100$
+
+$K_e = (\frac{4.8375}{42.75} + 0.075) \times 100 = (0.11315 + 0.075) \times 100 = 18.815\%$ (approx 18.37% as stated in stem).
+
+
+Step 2: Analysis
+
+- Cost of Common Stock ($K_e$) ≈ 18.37%
+
+- Expected Return on Project = 12%
+
+
+Evaluation: The formation of the current capital structure is not logical if the goal is immediate investment. Since the cost of capital (18.37%) is significantly higher than the potential return on investment (12%), the company would incur a loss of 6.37% for every Taka invested. A rational financial decision requires the return on investment to be greater than or equal to the cost of capital."
+2026,Finance,Cost of Capital,"Adamjee Cantonment College, Dhaka",College,"The capital structure of Mahdia and Cleopatra Joint Venture Ltd. is as follows:
+
+- Common Stock Capital (10 Taka each): 5,00,000 Taka
+
+- 11% Preferred Stock Capital: 3,00,000 Taka
+
+- 14% Debt Capital: 4,00,000 Taka
+
+Total: 12,00,000 Taka.
+
+The company's common stock is currently selling at 110 Taka each. This year, the dividend rate per share was 80% and the expected dividend growth rate is 4%. The company's tax rate is 30%. The expected overall cost of capital is 12%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq23.png""",What is opportunity cost?,What is optimal capital structure? Explain.,Calculate the cost of common stock for the firm described in the stem.,"Based on the information in the stem, will it be possible to keep the firm's overall cost of capital at the expected level? Analyze mathematically.",Opportunity cost is the value of the next best alternative that is foregone when making a choice between two or more mutually exclusive options.,Optimal capital structure is the specific mix of debt and equity that minimizes a company's weighted average cost of capital (WACC) while maximizing the overall market value of the firm. It represents the point where the benefit of low-cost debt (tax shield) is balanced against the financial risk associated with high leverage.,"Calculation of Cost of Common Stock ($K_e$):
+
+Face Value = 10 Taka
+
+Current Dividend Rate = 80%
+
+Current Dividend ($D_0$) = $10 \times 80\% = 8$ Taka
+
+Growth Rate ($g$) = 4% or 0.04
+
+Expected Dividend ($D_1$) = $D_0(1+g) = 8(1+0.04) = 8.32$ Taka
+
+Market Price ($P_0$) = 110 Taka
+
+
+Formula: $K_e = (\frac{D_1}{P_0} + g) \times 100$
+
+$K_e = (\frac{8.32}{110} + 0.04) \times 100$
+
+$K_e = (0.0756 + 0.04) \times 100 = 11.56\%$
+
+Answer: 11.56%","Step 1: Calculate individual costs
+
+1. Cost of Equity ($K_e$) = 11.56%
+
+2. Cost of Preferred Stock ($K_p$) = 11% (as rate is 11% and no other data provided).
+
+3. After-tax Cost of Debt ($K_d$):
+
+$K_d = I(1 - T) = 14\% \times (1 - 0.30) = 9.8\%$.
+
+
+Step 2: Determine Weights ($W$)
+
+Total Capital = 12,00,000
+
+$W_e = 5,00,000 / 12,00,000 = 0.4167$
+
+$W_p = 3,00,000 / 12,00,000 = 0.25$
+
+$W_d = 4,00,000 / 12,00,000 = 0.3333$
+
+
+Step 3: Calculate WACC
+
+WACC = $(11.56\% \times 0.4167) + (11\% \times 0.25) + (9.8\% \times 0.3333)$
+
+WACC = $4.82\% + 2.75\% + 3.27\% = 10.84\%$
+
+
+Analysis: The calculated WACC is 10.84%, whereas the expected overall cost of capital is 12%.
+
+Conclusion: Yes, it is possible to keep the cost at the expected level because the actual calculated cost (10.84%) is lower than the 12% target threshold."
+2026,Finance,Cost of Capital,Holy Cross College,College,"Bangladesh Air Force Ltd. has a total capital consisting of 50 Lakh Taka in 12% Preferred Stock, 40 Lakh Taka in 10% Debt Capital, and 1,00,000 Common Shares at 10 Taka each. In 2017, the company paid a cash dividend of 15 Taka, which will increase at a rate of 7% every year. Currently, each share is selling for 120 Taka and the flotation cost is 2.5%. Notably, the tax rate is 40%.",NA,What is opportunity cost?,Why is it necessary to calculate the cost of capital? Explain.,Calculate the Weighted Average Cost of Capital (WACC) of the firm in the stem.,"If 50% of the debt capital is converted into common stock, evaluate what the impact will be on the cost of capital.",Opportunity cost is the value of the next best alternative that is foregone when a specific choice is made between mutually exclusive options.,"Calculating the cost of capital is essential for several reasons:
+
+1. Investment Decisions: It acts as a hurdle rate to evaluate if a project's return exceeds its cost.
+
+2. Capital Structure: It helps in determining the optimal mix of debt and equity to minimize overall costs.
+
+3. Performance Evaluation: It helps management assess if the company is generating enough value for its investors.","Step 1: Calculate Total Capital
+
+Preferred Stock = 50,00,000 Taka
+
+Debt = 40,00,000 Taka
+
+Common Stock = 1,00,000 shares $\times$ 10 = 10,00,000 Taka
+
+Total Capital = 1,00,00,000 Taka
+
+
+Step 2: Calculate Individual Costs
+
+1. Cost of Debt ($K_d$): $10\% \times (1 - 0.40) = 6\%$
+
+2. Cost of Preferred Stock ($K_p$): $\frac{D_p}{NSV} \times 100 = \frac{12\% \text{ of Face Value}}{NSV}$. (Assuming Face Value is the same as the proportion). If treated as 12% directly: $12\%$.
+
+3. Cost of Equity ($K_e$):
+
+$D_0 = 15, g = 7\%, P_0 = 120, FC = 2.5\% \text{ of } 120 = 3$.
+
+$NSV = 120 - 3 = 117$.
+
+$D_1 = 15(1 + 0.07) = 16.05$.
+
+$K_e = (\frac{16.05}{117} + 0.07) \times 100 = 20.72\%$.
+
+
+Step 3: Calculate WACC
+
+Weights: $W_d = 0.4, W_p = 0.5, W_e = 0.1$.
+
+WACC = $(6\% \times 0.4) + (12\% \times 0.5) + (20.72\% \times 0.1)$
+
+WACC = $2.4\% + 6\% + 2.072\% = 10.472\%$.
+
+Answer: 10.47%","Step 1: New Capital Structure
+
+New Debt = $40,00,000 \times 50\% = 20,00,000$ ($W'_d = 0.2$)
+
+New Common Stock = $10,00,000 + 20,00,000 = 30,00,000$ ($W'_e = 0.3$)
+
+Preferred Stock = 50,00,000 ($W'_p = 0.5$)
+
+
+Step 2: New WACC Calculation
+
+New WACC = $(K_d \times W'_d) + (K_p \times W'_p) + (K_e \times W'_e)$
+
+New WACC = $(6\% \times 0.2) + (12\% \times 0.5) + (20.72\% \times 0.3)$
+
+New WACC = $1.2\% + 6\% + 6.216\% = 13.416\%$.
+
+
+Evaluation: Converting debt to equity increases the WACC from 10.47% to 13.42%. This happens because debt is the cheapest source of capital due to tax benefits, while common stock is the most expensive. By reducing low-cost debt and increasing high-cost equity, the overall burden of capital cost on the company increases."
+2026,Finance,Cost of Capital,Dinajpur Government College,College,"The capital structure of Pragati Co. Ltd. is as follows:
+
+- Common Stock: 10,00,000 Taka
+
+- 12% Preferred Stock: 5,00,000 Taka
+
+- 14% Debenture: 10,00,000 Taka
+
+Total: 25,00,000 Taka.
+
+The selling price of each common share is 120 Taka. The amount of expected dividend is 10 Taka per share. The dividend growth rate is 6% and the tax rate is 40%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq25.png""",What is preferred stock?,What is meant by retained earnings?,What is the cost of common stock for Pragati Ltd.? Calculate it.,From which source of capital mentioned in the stem should the funds be collected? Explain.,Preferred stock is a type of stock that gives shareholders priority over common stockholders in terms of dividend payments and the distribution of assets in the event of company liquidation.,Retained earnings refer to the portion of a company's net profit that is not distributed to shareholders as dividends but is instead kept by the firm to be reinvested in its core business or to pay off debt.,"Calculation for Cost of Common Stock ($K_e$):
+
+Expected Dividend ($D_1$) = 10 Taka
+
+Market Price ($P_0$) = 120 Taka
+
+Growth Rate ($g$) = 6% or 0.06
+
+
+Formula:
+
+$K_e = (\frac{D_1}{P_0} + g) \times 100$
+
+$K_e = (\frac{10}{120} + 0.06) \times 100$
+
+$K_e = (0.0833 + 0.06) \times 100 = 14.33\%$
+
+Answer: 14.33%","Step 1: Calculate individual costs
+
+1. Cost of Equity ($K_e$) = 14.33% (Calculated in Part C).
+
+2. Cost of Preferred Stock ($K_p$) = 12%.
+
+3. After-tax Cost of Debt ($K_d$):
+
+$K_d = I(1 - T) = 14\% \times (1 - 0.40) = 8.4\%$.
+
+
+Analysis: In finance, a company should ideally collect funds from the source that has the lowest cost to minimize the overall Weighted Average Cost of Capital (WACC). Comparing the three sources:
+
+- Common Stock: 14.33%
+
+- Preferred Stock: 12%
+
+- Debenture (Debt): 8.4%
+
+
+Conclusion: The company should prioritize collecting funds through Debentures (Debt). This is because it is the cheapest source of capital (8.4%) due to the tax-deductibility of interest payments, which creates a tax shield and lowers the effective cost to the firm."
+Finance,Cost of Capital,"Cantonment Public School and College, Mymensingh",College,"The capital structure of Meghna Company is as follows:
+
+- 10% Preferred Stock: 4,00,000 Taka
+
+- 12% Debenture: 6,00,000 Taka
+
+- Common Stock: 10,00,000 Taka
+
+The selling price of each common share is 10 Taka and the expected dividend is 2 Taka. The company's tax rate is 40%.",What is opportunity cost?,"""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq26.png""",Is there a flotation cost for retained earnings? Explain.,Calculate the cost of common stock.,Calculate the Weighted Average Cost of Capital (WACC) of Meghna Company.,Opportunity cost is the value or benefit given up by choosing one alternative over another next-best alternative.,"No, there is no flotation cost for retained earnings. Flotation cost is only incurred when a company issues new securities (like shares or bonds) to the public. Since retained earnings are internal funds already held by the company, no new issuance is required, thus no flotation expenses exist.","Calculation of Cost of Common Stock ($K_e$):
+
+Selling Price ($P_0$) = 10 Taka
+
+Expected Dividend ($D_1$) = 2 Taka
+
+Growth Rate ($g$) = 0% (as no growth is mentioned)
+
+
+Formula: $K_e = (\frac{D_1}{P_0}) \times 100$
+
+$K_e = (\frac{2}{10}) \times 100$
+
+$K_e = 20\%$
+
+Answer: 20%","Step 1: Calculate individual costs
+
+1. Cost of Common Stock ($K_e$) = 20%
+
+2. Cost of Preferred Stock ($K_p$) = 10%
+
+3. After-tax Cost of Debt ($K_d$):
+
+$K_d = I(1 - T) = 12\% \times (1 - 0.40) = 7.2\%$
+
+
+Step 2: Determine Weights ($W$)
+
+Total Capital = 4,00,000 + 6,00,000 + 10,00,000 = 20,00,000
+
+$W_e = 10,00,000 / 20,00,000 = 0.50$
+
+$W_p = 4,00,000 / 20,00,000 = 0.20$
+
+$W_d = 6,00,000 / 20,00,000 = 0.30$
+
+
+Step 3: Calculate WACC
+
+Formula: WACC = $(K_e \times W_e) + (K_p \times W_p) + (K_d \times W_d)$
+
+WACC = $(20\% \times 0.50) + (10\% \times 0.20) + (7.2\% \times 0.30)$
+
+WACC = $10\% + 2\% + 2.16\% = 14.16\%$
+
+Answer: 14.16%",
+2026,Finance,Cost of Capital,"Cantonment College, Jashore",College,"Sayma Ltd. has issued irredeemable debentures with a face value of 1,000 Taka and a coupon rate of 15%. The company's tax rate is 40%. The company has decided to sell the debentures at a 10% discount.",NA,What is cost of capital?,What is meant by opportunity cost? Explain.,Calculate the after-tax cost of debt capital for Sayma Ltd. as described in the stem.,"If Sayma Ltd. sells the debentures at a 10% premium, what will be the impact on the cost of debt? Analyze.",Cost of capital is the minimum rate of return that a business must earn on its investments to satisfy its investors (shareholders and debt holders) and maintain its market value.,"Opportunity cost is the value of the next best alternative that is foregone when a choice is made. In finance, if a firm uses its funds for Project A, the return it could have earned from Project B (the next best option) is considered the opportunity cost of Project A.","Calculation of After-tax Cost of Debt ($K_d$):
+
+Face Value ($FV$) = 1,000 Taka
+
+Coupon Rate = 15%
+
+Interest ($I$) = $1,000 \times 15\% = 150$ Taka
+
+Discount = 10% of 1,000 = 100 Taka
+
+Net Sale Value ($NSV$) = $1,000 - 100 = 900$ Taka
+
+Tax Rate ($T$) = 40% or 0.40
+
+
+Formula for Irredeemable Debt:
+
+$K_d = \frac{I(1 - T)}{NSV} \times 100$
+
+$K_d = \frac{150(1 - 0.40)}{900} \times 100$
+
+$K_d = \frac{150 \times 0.60}{900} \times 100$
+
+$K_d = \frac{90}{900} \times 100 = 10\%$
+
+Answer: 10%","Step 1: Calculate $K_d$ at 10% Premium
+
+Interest ($I$) = 150 Taka
+
+Premium = 10% of 1,000 = 100 Taka
+
+New Net Sale Value ($NSV$) = $1,000 + 100 = 1,100$ Taka
+
+$K_d = \frac{150(1 - 0.40)}{1,100} \times 100$
+
+$K_d = \frac{90}{1,100} \times 100 \approx 8.18\%$
+
+
+Step 2: Analysis
+
+- Cost at 10% Discount = 10%
+
+- Cost at 10% Premium = 8.18%
+
+
+Conclusion: If the debentures are sold at a premium, the cost of debt decreases. This is because the company receives more capital ($NSV$ increases) for the same fixed interest payment, thereby spreading the cost over a larger amount of funds and making the financing more economical."
+2026,Finance,Cost of Capital,"Cantonment College, Jashore",College,"The amount of capital is 20,00,000 Taka in Common Stock; 5,00,000 Taka in 14% Preferred Stock; and 15,00,000 Taka in 15% Debenture. Rusha Company's Beta value is 2, the market portfolio rate of return is 15%, and the risk-free rate of return is 7%. The corporate tax rate is 40%. The company's expected rate of return is 25%. The financial manager considers the overall cost of capital for investment.",NA,What is flotation cost?,"""The cost of retained earnings is not always equal to the cost of common stock."" Explain the statement.",Calculate the cost of common stock for the company.,Will the company be profitable if it invests using the current capital structure? Comment through mathematical analysis.,"Flotation cost refers to the total expenses incurred by a company when issuing new securities to the public, such as underwriting fees, legal fees, and brokerage.","The cost of retained earnings is generally equal to the cost of common stock, but they differ if there are personal taxes or flotation costs. When a company issues new common stock, it must pay flotation costs, making the cost of new equity higher than the cost of retained earnings. Additionally, if shareholders pay personal income tax on dividends, the opportunity cost (cost of retained earnings) is adjusted downward.","Calculation of Cost of Common Stock ($K_e$):
+
+We use the Capital Asset Pricing Model (CAPM) as Beta is provided.
+
+Risk-free rate ($R_f$) = 7%
+
+Market rate ($R_m$) = 15%
+
+Beta ($\beta$) = 2
+
+
+Formula:
+
+$K_e = R_f + (R_m - R_f) \times \beta$
+
+$K_e = 7\% + (15\% - 7\%) \times 2$
+
+$K_e = 7\% + (8\% \times 2)$
+
+$K_e = 7\% + 16\% = 23\%$
+
+Answer: 23%","Step 1: Calculate individual costs
+
+1. Cost of Common Stock ($K_e$) = 23%
+
+2. Cost of Preferred Stock ($K_p$) = 14%
+
+3. After-tax Cost of Debt ($K_d$):
+
+$K_d = I(1 - T) = 15\% \times (1 - 0.40) = 9\%$.
+
+
+Step 2: Calculate Weights
+
+Total Capital = 20,00,000 + 5,00,000 + 15,00,000 = 40,00,000
+
+$W_e = 20/40 = 0.50$
+
+$W_p = 5/40 = 0.125$
+
+$W_d = 15/40 = 0.375$
+
+
+Step 3: Calculate WACC
+
+WACC = $(23\% \times 0.50) + (14\% \times 0.125) + (9\% \times 0.375)$
+
+WACC = $11.5\% + 1.75\% + 3.375\% = 16.625\%$
+
+
+Conclusion: The company's expected rate of return (25%) is higher than its Weighted Average Cost of Capital (16.63%). Therefore, the company will be profitable if it invests using this capital structure."
+2026,Finance,Cost of Capital,"Ispahani Public School and College, Cumilla",College,"Mr. Tariq is the finance manager of X Ltd. The current capital structure of the company is: Common Stock: 7,00,000 Taka; 15% Preferred Stock: 3,00,000 Taka; Total: 10,00,000 Taka. The company's Beta is 1.6 and the market return rate is 16%. The risk-free return rate is 6%. The market price of the company's preferred stock is 130 Taka. Mr. Tariq has decided to invest in a new project, which requires an additional 2,00,000 Taka. The finance manager decided to take a loan of 2,00,000 Taka from Sonali Bank at a 17% interest rate. The tax rate is 40%. The return rate of the new project is 15%. The manager considers the cost of capital in evaluating the investment project.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq29.png""",What is flotation cost?,What is meant by opportunity cost? Explain.,Calculate the cost of common stock of the company.,Should the company invest in the new project? Give your answer with mathematical logic.,"Flotation cost refers to the total expenses incurred by a company when issuing new securities (like stocks or bonds) to the public, such as underwriting fees, legal fees, and brokerage commissions.","Opportunity cost is the value or benefit lost by choosing one alternative over another. In finance, if a company invests its funds in a specific project, the return it could have earned by investing that same money in the next best available project is considered the opportunity cost.","Calculation of Cost of Common Stock ($K_e$):
+
+Given,
+
+Risk-free rate ($R_f$) = 6%
+
+Market return rate ($R_m$) = 16%
+
+Beta ($\beta$) = 1.6
+
+
+Formula (CAPM):
+
+$K_e = R_f + (R_m - R_f) \times \beta$
+
+$K_e = 6\% + (16\% - 6\%) \times 1.6$
+
+$K_e = 6\% + (10\% \times 1.6)$
+
+$K_e = 6\% + 16\% = 22\%$
+
+Answer: 22%","Step 1: Calculate individual costs
+
+1. Cost of Common Stock ($K_e$) = 22%
+
+2. Cost of Preferred Stock ($K_p$):
+
+Dividend ($D_p$) = $100 \times 15\% = 15$ Taka
+
+Market Price ($P_p$) = 130 Taka
+
+$K_p = (15 / 130) \times 100 = 11.54\%$
+
+3. After-tax Cost of Debt ($K_d$):
+
+$K_d = I(1 - T) = 17\% \times (1 - 0.40) = 10.2\%$
+
+
+Step 2: Calculate New Total Capital
+
+Total Capital = 7,00,000 + 3,00,000 + 2,00,000 = 12,00,000 Taka.
+
+
+Step 3: Calculate WACC
+
+Weights: $W_e = 7/12 = 0.5833$; $W_p = 3/12 = 0.25$; $W_d = 2/12 = 0.1667$
+
+WACC = $(22\% \times 0.5833) + (11.54\% \times 0.25) + (10.2\% \times 0.1667)$
+
+WACC = $12.83\% + 2.89\% + 1.70\% = 17.42\%$
+
+
+Conclusion: The return rate of the new project is 15%, while the overall cost of capital (WACC) is 17.42%. Since the cost is higher than the return, the company should not invest in the new project as it would result in a net loss."
+2026,Finance,Cost of Capital,"Abdul Kadir Mollah City College, Narsingdi",College,"The capital structure of Nishat Ltd. is as follows:
+
+- Common Stock Capital: 5,00,000 Taka
+
+- 8% Preferred Stock Capital: 2,00,000 Taka
+
+- 10% Bond: 3,00,000 Taka
+
+Total: 10,00,000 Taka.
+
+The market price of each common share is 200 Taka. The company has decided to pay a dividend of 15 Taka per share next year. The dividend growth rate is 4%. The company's tax rate is 40%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq30.png""",What is capital structure?,Common stock capital has a cost' - Explain.,Calculate the cost of common stock capital of the company.,Calculate the Weighted Average Cost of Capital (WACC) of the organization.,Capital structure refers to the specific mix of long-term debt and equity used by a firm to finance its overall operations and growth.,"Common stock capital has a cost because shareholders expect a return on their investment in exchange for the risk they take. This is an opportunity cost for the company, as it represents the rate of return the firm must earn to satisfy its investors and maintain the share price.","Calculation of Cost of Common Stock ($K_e$):
+
+Given,
+
+Market Price ($P_0$) = 200 Taka
+
+Next year's dividend ($D_1$) = 15 Taka
+
+Growth rate ($g$) = 4% or 0.04
+
+
+Formula:
+
+$K_e = (\frac{D_1}{P_0} + g) \times 100$
+
+$K_e = (\frac{15}{200} + 0.04) \times 100$
+
+$K_e = (0.075 + 0.04) \times 100$
+
+$K_e = 0.115 \times 100 = 11.5\%$
+
+Answer: 11.5%","Step 1: Calculate individual costs
+
+1. Cost of Common Stock ($K_e$) = 11.5% (from Part C)
+
+2. Cost of Preferred Stock ($K_p$) = 8%
+
+3. After-tax Cost of Debt ($K_d$):
+
+Interest ($I$) = 10%
+
+Tax Rate ($T$) = 40% or 0.40
+
+$K_d = I(1 - T) = 10\% \times (1 - 0.40) = 6\%$
+
+
+Step 2: Determine Weights ($W$)
+
+Total Capital = 10,00,000 Taka
+
+$W_e = 5,00,000 / 10,00,000 = 0.5$
+
+$W_p = 2,00,000 / 10,00,000 = 0.2$
+
+$W_d = 3,00,000 / 10,00,000 = 0.3$
+
+
+Step 3: Calculate WACC
+
+WACC = $(K_e \times W_e) + (K_p \times W_p) + (K_d \times W_d)$
+
+WACC = $(11.5\% \times 0.5) + (8\% \times 0.2) + (6\% \times 0.3)$
+
+WACC = $5.75\% + 1.6\% + 1.8\% = 9.15\%$
+
+Answer: 9.15%"
+2026,Finance,Cost of Capital,"Abdul Kadir Mollah City College, Narsingdi",College,"Satata Limited needs 10,00,000 Taka of additional capital and is considering selling new shares. Currently, each share of the company is selling for 85 Taka. Last year, the company paid a dividend of 4 Taka per share, which is expected to grow at a rate of 7%. The flotation cost for issuing new shares is 2 Taka per share. On the other hand, the company is selling 10-year bonds with a face value of 1,000 Taka at 12% interest. However, the bond is being sold at a 5% discount, and the flotation cost per bond is 15 Taka. The company's tax rate is 40%.",NA,What is optimal capital structure?,Why is the cost of retained earnings lower than the cost of common stock?,Calculate the cost of issuing new shares for Satata Limited.,"Based on the stem, from which source would it be more profitable for Satata Limited to collect capital? Give your opinion.",Optimal capital structure is the specific mix of debt and equity that minimizes a company's Weighted Average Cost of Capital (WACC) while maximizing the overall market value of the firm.,"The cost of retained earnings is lower than the cost of common stock primarily because of flotation costs. When a company issues new common shares, it must pay underwriting fees, legal fees, and other issuance expenses. Retained earnings are internal funds, so no such flotation costs are incurred, making them a cheaper source of equity.","Calculation of Cost of New Common Stock ($K_e$):
+
+Current Market Price ($P_0$) = 85 Taka
+
+Last year's dividend ($D_0$) = 4 Taka
+
+Growth rate ($g$) = 7% or 0.07
+
+Flotation cost ($f$) = 2 Taka
+
+Net Sale Value ($NSV$) = $P_0 - f = 85 - 2 = 83$ Taka
+
+Next year's expected dividend ($D_1$) = $D_0(1+g) = 4(1+0.07) = 4.28$ Taka
+
+
+Formula:
+
+$K_e = (\frac{D_1}{NSV} + g) \times 100$
+
+$K_e = (\frac{4.28}{83} + 0.07) \times 100$
+
+$K_e = (0.05156 + 0.07) \times 100 = 12.16\%$
+
+Answer: 12.16%","Step 1: Calculate After-tax Cost of Debt ($K_d$)
+
+Face Value ($FV$) = 1,000 Taka
+
+Redemption Value ($RV$) = 1,000 Taka (assumed at par)
+
+Interest ($I$) = $1,000 \times 12\% = 120$ Taka
+
+Discount = $1,000 \times 5\% = 50$ Taka
+
+Net Sale Value ($NSV$) = $1,000 - 50 - 15 = 935$ Taka
+
+Maturity ($n$) = 10 years, Tax ($T$) = 40%
+
+
+Formula for Redeemable Debt:
+
+$K_d = \frac{I(1-T) + \frac{RV-NSV}{n}}{\frac{RV+NSV}{2}} \times 100$
+
+$K_d = \frac{120(1-0.4) + \frac{1000-935}{10}}{\frac{1000+935}{2}} \times 100$
+
+$K_d = \frac{72 + 6.5}{967.5} \times 100 = \frac{78.5}{967.5} \times 100 = 8.11\%$
+
+
+Step 2: Analysis
+
+- Cost of New Equity ($K_e$) = 12.16%
+
+- Cost of Debt ($K_d$) = 8.11%
+
+
+Conclusion: It would be more profitable for Satata Limited to collect capital from Bonds (Debt). This is because the cost of debt (8.11%) is significantly lower than the cost of new common shares (12.16%) due to the tax-deductibility of interest."
+2026,Finance,Cost of Capital,"Safiuddin Sarker Academy and College, Tongi, Gazipur",College,"The capital structure of Alpha Ltd. is as follows: Common Stock (100 Taka each): 20,00,000 Taka; 10% Preferred Stock: 12,00,000 Taka; 16% Debt Capital: 8,00,000 Taka. Total: 40,00,000 Taka. Alpha Ltd. pays a cash dividend of 10 Taka per share and expects it to grow by 5% annually. Currently, each share is selling for 120 Taka and the average cost of capital is 11.8%. The manager is thinking of reducing the average cost of capital. Therefore, he advised the company to convert 50% of the debt capital into common stock. The corporate tax rate is 40%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq32.png""",What is cost of capital?,What impact does flotation cost have on the cost of newly issued shares? Explain.,Calculate the cost of common stock and the cost of debt capital for Alpha Ltd.,Calculate the average cost of capital according to the manager's advice and give your opinion.,Cost of capital is the minimum rate of return a company must earn on its investments to satisfy its investors and maintain its market value.,"Flotation cost increases the cost of newly issued shares. When a company issues new shares, it incurs expenses like underwriting fees and brokerage. These costs reduce the net proceeds received from the sale, which in turn increases the effective percentage cost of that capital for the firm.","1. Cost of Common Stock ($K_e$):
+
+Dividend ($D_0$) = 10 Taka
+
+Growth ($g$) = 5% or 0.05
+
+Price ($P_0$) = 120 Taka
+
+$D_1 = D_0(1+g) = 10(1+0.05) = 10.5$
+
+$K_e = (\frac{D_1}{P_0} + g) \times 100$
+
+$K_e = (\frac{10.5}{120} + 0.05) \times 100 = 13.75\%$
+
+
+2. Cost of Debt ($K_d$):
+
+Interest ($I$) = 16%
+
+Tax ($T$) = 40% or 0.40
+
+$K_d = I(1 - T) = 16(1 - 0.40) = 9.6\%$","Step 1: New Capital Mix
+
+50% of Debt (4,00,000) converted to Common Stock.
+
+New Common Stock = 20,00,000 + 4,00,000 = 24,00,000
+
+Preferred Stock = 12,00,000
+
+Remaining Debt = 4,00,000
+
+Total = 40,00,000
+
+
+Step 2: Weights
+
+$W_e = 24/40 = 0.6$; $W_p = 12/40 = 0.3$; $W_d = 4/40 = 0.1$
+
+
+Step 3: New WACC
+
+WACC = $(13.75 \times 0.6) + (10 \times 0.3) + (9.6 \times 0.1)$
+
+WACC = $8.25 + 3.0 + 0.96 = 12.21\%$
+
+
+Opinion: The manager's advice is not beneficial. The current WACC is 11.8%, but after converting debt to equity, it increases to 12.21%. Debt is cheaper (9.6%) than equity (13.75%); reducing the cheaper source increases the overall cost."
+2026,Finance,Cost of Capital,"Government Commerce College, Chattogram",College,"The capital structure of Alpha Ltd. is as follows:
+
+- Common Stock (100 Taka each): 20,00,000 Taka
+
+- 10% Preferred Stock: 12,00,000 Taka
+
+- 16% Debt Capital: 8,00,000 Taka
+
+Total: 40,00,000 Taka.
+
+Alpha Ltd. pays a cash dividend of 10 Taka per share and expects it to grow by 5% annually. Currently, each share of the company is selling for 120 Taka and the average cost of capital is 11.8%. The manager of the organization is thinking about reducing the average cost of capital. Therefore, he advised the company to convert 50% of the debt capital into common stock. The company's tax rate is 40%.","""C:\Users\BMTF\.antigravity\testpaper\Fin1_Ch7_CQ_Image\cq33.png""",What is cost of capital?,What impact does flotation cost have on the cost of newly issued shares? Explain.,Calculate the cost of common stock and the cost of debt capital for Alpha Ltd.,Calculate the average cost of capital according to the manager's advice and give your opinion.,Cost of capital is the minimum rate of return that a business must earn on its investments to satisfy its investors (stockholders and debt holders) and maintain its market value.,"Flotation cost increases the cost of newly issued shares. When a company issues new shares, it incurs expenses such as underwriting fees, legal fees, and brokerage. These costs reduce the net proceeds ($NSV$) received from the sale, and since $NSV$ is the denominator in the cost of equity formula, the total percentage cost of that capital increases.","1. Calculation of Cost of Common Stock ($K_e$):
+
+Current Dividend ($D_0$) = 10 Taka
+
+Growth Rate ($g$) = 5% or 0.05
+
+Current Market Price ($P_0$) = 120 Taka
+
+Expected Dividend ($D_1$) = $D_0(1 + g) = 10(1 + 0.05) = 10.5$ Taka
+
+Formula: $K_e = (\frac{D_1}{P_0} + g) \times 100$
+
+$K_e = (\frac{10.5}{120} + 0.05) \times 100 = 13.75\%$
+
+
+2. Calculation of Cost of Debt ($K_d$):
+
+Interest Rate ($I$) = 16%
+
+Tax Rate ($T$) = 40% or 0.40
+
+Formula: $K_d = I(1 - T)$
+
+$K_d = 16(1 - 0.40) = 9.6\%$","Step 1: New Capital Mix
+
+50% of Debt (4,00,000 Taka) converted to Common Stock.
+
+New Common Stock = 20,00,000 + 4,00,000 = 24,00,000 Taka
+
+Preferred Stock = 12,00,000 Taka
+
+Remaining Debt = 4,00,000 Taka
+
+Total Capital = 40,00,000 Taka
+
+
+Step 2: Determine Weights ($W$)
+
+$W_e = 24/40 = 0.60$
+
+$W_p = 12/40 = 0.30$
+
+$W_d = 4/40 = 0.10$
+
+
+Step 3: Calculate New WACC
+
+WACC = $(K_e \times W_e) + (K_p \times W_p) + (K_d \times W_d)$
+
+WACC = $(13.75\% \times 0.60) + (10\% \times 0.30) + (9.6\% \times 0.10)$
+
+WACC = $8.25\% + 3.0\% + 0.96\% = 12.21\%$
+
+
+Opinion: The manager's advice is not beneficial. The current WACC is 11.8%, but after following the advice, it increases to 12.21%. This is because debt is a cheaper source of finance due to tax benefits, and replacing it with more expensive equity capital raises the overall cost."

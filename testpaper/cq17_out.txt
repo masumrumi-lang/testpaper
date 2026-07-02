@@ -1,0 +1,11 @@
+{
+        "id": "17",
+        "stem": "<p>Diagram of Management Pyramid: Top Level (A) $$\\rightarrow$$ Mid Level (B) $$\\rightarrow$$ Lower Level (C).</p>",
+        "meta": "Mymensingh Board · 2025",
+        "type": "board",
+        "questions": [
+            {
+                "label": "a",
+                "text": "",
+                "answer": "<p>The Greek philosopher Socrates said \"Management is Universal.\"</p>"
+            }

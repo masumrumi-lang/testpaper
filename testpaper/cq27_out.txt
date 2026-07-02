@@ -1,0 +1,28 @@
+{
+        "id": "27",
+        "stem": "<p>A diagram of the Management Cycle with two missing functions: 'ক' and 'খ'. (Summary of the Management Cycle shown in the Diagram:\nPlanning (পরিকল্পনা): Setting goals and deciding how to achieve them.\nOrganizing ('খ' - সংগঠন): Structuring resources and responsibilities.\nStaffing (কর্মীসংস্থান): Recruiting and training the right people.\nDirecting (নির্দেশনা): Guiding and instructing the workforce.\nMotivating (প্রেষণা): Inspiring employees to work with high morale.\nCoordinating (সমন্বয়): Harmonizing activities across different departments.\nControlling ('ক' - নিয়ন্ত্রণ): Monitoring performance and making corrections.)</p>",
+        "meta": "Chittagong Board · 2023",
+        "type": "board",
+        "questions": [
+            {
+                "label": "a",
+                "text": "What is the management cycle? (1)",
+                "answer": "<p>The management cycle is the continuous and sequential process of interrelated functions (Planning, Organizing, Staffing, Directing, Motivating, Coordinating, and Controlling) performed to achieve organizational goals.</p>"
+            },
+            {
+                "label": "b",
+                "text": "Why is an interview conducted? (2)",
+                "answer": "<p>An interview is conducted during the staffing process to evaluate a candidate's suitability for a specific role. It helps the management assess the candidate's communication skills, personality, and professional knowledge to ensure the right person is selected for the job.</p>"
+            },
+            {
+                "label": "c",
+                "text": "Explain the management function that belongs in position 'ক'. (3)",
+                "answer": "<p>Position 'ক' represents Controlling (নিয়ন্ত্রণ).\n* Definition: It is the final stage of the management cycle where actual performance is compared against planned standards.\n* Process: It involves identifying deviations, analyzing the reasons for failure, and taking corrective actions.\n* Link: In the diagram, 'ক' follows 'Coordination' and leads back to 'Planning', which is the core characteristic of the controlling function.</p>"
+            },
+            {
+                "label": "d",
+                "text": "\"The function in position 'খ' is like an engine\"—Do you agree? Analyze your opinion. (4)",
+                "answer": "<p>I agree. Position 'খ' represents Organizing (সংগঠন).\n* Engine Analogy: Just as an engine integrates various parts to make a machine run, organizing integrates the \"6 Ms\" (Man, Machine, Material, Money, Method, Market) to make the plan operational.\n* Structuring: It involves defining duties, allocating resources, and establishing authority-responsibility relationships.\n* Efficiency: Without organizing, even the best plan remains static; this function provides the \"structure\" or \"engine\" that drives the organization toward its goals.</p>"
+            }
+        ]
+    }

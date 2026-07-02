@@ -1,0 +1,117 @@
+import json
+import re
+
+# 1. Structured CQ Object requested by user
+structured_cq = {
+  "chapter": "Accounting 2nd Paper Chapter 2",
+  "question_id": "acc2_ch2_cq6_college",
+  "stimulus": "On January 1, 2024, Kamal and Jamal started a business with capitals of Tk. 60,000 and Tk. 40,000 respectively. According to the partnership deed, their profit-sharing ratio is 3:2 respectively.<br>1. Kamal will get a salary of Tk. 1,200 per month and Jamal will get Tk. 900 per month.<br>2. They will get interest on capital at 10% per annum.<br>3. Kamal provided Tk. 5,000 as a loan to the business in the middle of the year. Throughout the year, Kamal and Jamal withdrew Tk. 8,000 and Tk. 6,000 in cash respectively. Besides, Kamal withdrew goods worth Tk. 2,000. Interest on drawings is to be charged at 5%. On 01.07.2024, Jamal brought Tk. 12,000 into the business as additional capital. Before making the above adjustments, the profit of the business on December 31, 2024, was Tk. 1,42,000.<br><strong>Milestone College, Dhaka - 2026</strong>",
+  "requirements": {
+    "a": "Prepare the Partners' Capital Account (under Fixed Capital Method).",
+    "b": "Prepare Profit and Loss Appropriation Account.",
+    "c": "Prepare the Partners' Current Account.",
+    "d": ""
+  },
+  "solutions": {
+    "a": "<div class=\"text-center\"><p><strong>Partners' Capital Account<br>Fixed Capital Method</strong></p></div><div class=\"table-responsive overflow-x-auto\"><table><tr><th colspan=\"4\" style=\"text-align: left;\">Debit</th><th colspan=\"4\" style=\"text-align: right;\">Credit</th></tr><tr><th>Date</th><th>Particulars</th><th>Kamal (Tk.)</th><th>Jamal (Tk.)</th><th>Date</th><th>Particulars</th><th>Kamal (Tk.)</th><th>Jamal (Tk.)</th></tr><tr><td>2024<br>Dec. 31</td><td>Balance c/d</td><td>60,000</td><td>52,000</td><td>2024<br>Jan. 1</td><td>Cash Account</td><td>60,000</td><td>40,000</td></tr><tr><td></td><td></td><td></td><td></td><td>July 1</td><td>Cash Account</td><td>-</td><td>12,000</td></tr><tr><td></td><td></td><td><strong><u>60,000</u></strong></td><td><strong><u>52,000</u></strong></td><td></td><td></td><td><strong><u>60,000</u></strong></td><td><strong><u>52,000</u></strong></td></tr><tr><td></td><td></td><td></td><td></td><td>2025<br>Jan. 1</td><td>Balance b/d</td><td>60,000</td><td>52,000</td></tr></table></div>",
+    "b": "<div class=\"text-center\"><p><strong>Kamal and Jamal<br>Profit and Loss Appropriation Account<br>For the year ended December 31, 2024</strong></p></div><div class=\"table-responsive overflow-x-auto\"><table><tr><th colspan=\"3\" style=\"text-align: left;\">Debit</th><th colspan=\"3\" style=\"text-align: right;\">Credit</th></tr><tr><th>Particulars</th><th>Tk.</th><th>Tk.</th><th>Particulars</th><th>Tk.</th><th>Tk.</th></tr><tr><td><strong>Partners' Current Account: (Interest on Capital)</strong><br>Kamal (60,000 &times; 10%)<br>Jamal {(40,000 &times; 10%) + (12,000 &times; 10% &times; 6/12)}</td><td style=\"vertical-align: bottom;\">6,000<br><u>4,600</u></td><td style=\"vertical-align: bottom;\">10,600</td><td><strong>Income Statement:</strong><br>(Net Profit)</td><td></td><td style=\"vertical-align: top;\">1,42,000</td></tr><tr><td><strong>Kamal's Current Account:</strong><br>(Interest on Loan) (5,000 &times; 6% &times; 6/12)</td><td></td><td style=\"vertical-align: bottom;\">150</td><td><strong>Partners' Current Account: (Interest on Drawings)</strong><br>Kamal (8,000 &times; 5% &times; 6/12)<br>Jamal (6,000 &times; 5% &times; 6/12)</td><td style=\"vertical-align: bottom;\">200<br><u>150</u></td><td style=\"vertical-align: bottom;\">350</td></tr><tr><td><strong>Partners' Current Account: (Salary)</strong><br>Kamal (1,200 &times; 12)<br>Jamal (900 &times; 12)</td><td style=\"vertical-align: bottom;\">14,400<br><u>10,800</u></td><td style=\"vertical-align: bottom;\">25,200</td><td><strong>Kamal's Current Account:</strong><br>(Drawings of Goods)</td><td></td><td style=\"vertical-align: bottom;\">2,000</td></tr><tr><td><strong>Partners' Current Account: (Share of Profit)</strong><br>Kamal (1,08,400 &times; 3/5)<br>Jamal (1,08,400 &times; 2/5)</td><td style=\"vertical-align: bottom;\">65,040<br><u>43,360</u></td><td style=\"vertical-align: bottom;\">1,08,400</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td><strong><u>1,44,350</u></strong></td><td></td><td></td><td><strong><u>1,44,350</u></strong></td></tr></table></div>",
+    "c": "<div class=\"text-center\"><p><strong>Kamal and Jamal<br>Current Account</strong></p></div><div class=\"table-responsive overflow-x-auto\"><table><tr><th colspan=\"4\" style=\"text-align: left;\">Debit</th><th colspan=\"4\" style=\"text-align: right;\">Credit</th></tr><tr><th>Date</th><th>Particulars</th><th>Kamal (Tk.)</th><th>Jamal (Tk.)</th><th>Date</th><th>Particulars</th><th>Kamal (Tk.)</th><th>Jamal (Tk.)</th></tr><tr><td>2024<br>Dec. 31</td><td>Drawings Account</td><td>8,000</td><td>6,000</td><td>2024<br>Dec. 31</td><td><strong>Profit &amp; Loss App. A/c:</strong><br>Salary</td><td>14,400</td><td>10,800</td></tr><tr><td>Dec. 31</td><td><strong>Profit &amp; Loss App. A/c:</strong><br>Drawings of Goods</td><td>2,000</td><td></td><td></td><td>Interest on Capital</td><td>6,000</td><td>4,600</td></tr><tr><td></td><td>Interest on Drawings</td><td>200</td><td>150</td><td></td><td>Interest on Loan</td><td>150</td><td></td></tr><tr><td>Dec. 31</td><td>Balance c/d</td><td>75,390</td><td>52,610</td><td></td><td>Share of Profit</td><td>65,040</td><td>43,360</td></tr><tr><td></td><td></td><td><strong><u>85,590</u></strong></td><td><strong><u>58,760</u></strong></td><td></td><td></td><td><strong><u>85,590</u></strong></td><td><strong><u>58,760</u></strong></td></tr><tr><td></td><td></td><td></td><td></td><td>2025<br>Jan. 1</td><td>Balance b/d</td><td>75,390</td><td>52,610</td></tr></table></div>",
+    "d": ""
+  },
+  "tables": []
+}
+
+with open('extracted_cq6.json', 'w', encoding='utf-8') as f:
+    json.dump(structured_cq, f, indent=2, ensure_ascii=False)
+
+# 2. Convert to application schema and inject into data.js
+new_cq_app_schema = {
+    "id": "acc2_ch2_cq6_college",
+    "stem": "<p>On January 1, 2024, Kamal and Jamal started a business with capitals of Tk. 60,000 and Tk. 40,000 respectively. According to the partnership deed, their profit-sharing ratio is 3:2 respectively.</p><p>1. Kamal will get a salary of Tk. 1,200 per month and Jamal will get Tk. 900 per month.<br>2. They will get interest on capital at 10% per annum.<br>3. Kamal provided Tk. 5,000 as a loan to the business in the middle of the year. Throughout the year, Kamal and Jamal withdrew Tk. 8,000 and Tk. 6,000 in cash respectively. Besides, Kamal withdrew goods worth Tk. 2,000. Interest on drawings is to be charged at 5%. On 01.07.2024, Jamal brought Tk. 12,000 into the business as additional capital. Before making the above adjustments, the profit of the business on December 31, 2024, was Tk. 1,42,000.</p><p>Milestone College, Dhaka · 2026</p>",
+    "meta": "Milestone College, Dhaka · 2026",
+    "type": "college",
+    "questions": [
+        {
+            "label": "a",
+            "text": "Prepare the Partners' Capital Account (under Fixed Capital Method).",
+            "answer": structured_cq["solutions"]["a"]
+        },
+        {
+            "label": "b",
+            "text": "Prepare Profit and Loss Appropriation Account.",
+            "answer": structured_cq["solutions"]["b"]
+        },
+        {
+            "label": "c",
+            "text": "Prepare the Partners' Current Account.",
+            "answer": structured_cq["solutions"]["c"]
+        }
+    ]
+}
+
+with open('data.js', 'r', encoding='utf-8') as f:
+    content = f.read()
+
+# Find the chapter
+target_chapter = '"chapterName": "Chapter 2 : Partnership Business Accounts",'
+idx = content.find(target_chapter)
+
+if idx == -1:
+    print("Error: Chapter not found")
+else:
+    cq_idx = content.find('"fullCQData": [', idx)
+    if cq_idx == -1:
+        print("Error: fullCQData not found")
+    else:
+        # Find the end of the fullCQData array for this chapter
+        bracket_count = 0
+        in_string = False
+        escape = False
+        start_search = cq_idx + len('"fullCQData": [')
+        
+        close_idx = -1
+        for i in range(start_search, len(content)):
+            char = content[i]
+            if in_string:
+                if escape:
+                    escape = False
+                elif char == '\\':
+                    escape = True
+                elif char == '"':
+                    in_string = False
+            else:
+                if char == '"':
+                    in_string = True
+                elif char == '[' or char == '{':
+                    bracket_count += 1
+                elif char == ']' or char == '}':
+                    bracket_count -= 1
+                    if bracket_count < 0: # This means we hit the closing bracket of the array
+                        close_idx = i
+                        break
+        
+        if close_idx == -1:
+            print("Error: Closing bracket for fullCQData not found")
+        else:
+            inner_content = content[start_search:close_idx].strip()
+            
+            json_str = json.dumps(new_cq_app_schema, indent=4, ensure_ascii=False)
+            lines = json_str.split('\n')
+            indented_lines = ['                ' + line for line in lines]
+            formatted_json = '\n'.join(indented_lines)
+            
+            if inner_content == "":
+                new_val = '\n' + formatted_json + '\n            '
+                new_content = content[:start_search] + new_val + content[close_idx:]
+            else:
+                last_brace_idx = content.rfind('}', start_search, close_idx)
+                if last_brace_idx != -1:
+                    new_val = ',\n' + formatted_json
+                    new_content = content[:last_brace_idx+1] + new_val + content[last_brace_idx+1:]
+                else:
+                    new_val = formatted_json
+                    new_content = content[:close_idx] + new_val + content[close_idx:]
+            
+            with open('data.js', 'w', encoding='utf-8') as f:
+                f.write(new_content)
+            print("Successfully injected into data.js")
